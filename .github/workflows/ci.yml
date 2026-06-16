@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  bootstrap-check:
+    name: Repository bootstrap check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify governance docs exist
+        run: |
+          test -f AGENTS.md
+          test -f docs/vision.md
+          test -f docs/roadmap.md
+          test -f docs/architecture.md
+          test -f docs/adr/0001-stack-selection.md
+
+      - name: CI placeholder
+        run: echo "Application CI begins at m01 project setup."

@@ -1,0 +1,17 @@
+name: Lint
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  lint-placeholder:
+    name: Lint placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint placeholder
+        run: echo "Lint workflows begin at m01 project setup."

@@ -1,0 +1,51 @@
+# Dependencies
+/node_modules
+/vendor/bundle
+/.bundle
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+*.log
+
+# Rails
+/storage/*
+!/storage/.keep
+/public/assets
+.byebug_history
+/config/master.key
+/config/credentials/*.key
+
+# Database
+*.sqlite3
+*.sqlite3-*
+
+# Test artifacts
+/coverage
+/spec/tmp
+
+# Frontend build
+/client/dist
+/client/build
+/client/node_modules
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
