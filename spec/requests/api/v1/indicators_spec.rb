@@ -25,6 +25,20 @@ RSpec.describe "Indicators API", type: :request do
     end
   end
 
+  describe "GET /api/v1/indicators/:id/versions" do
+    it "returns version metadata ordered by version number" do
+      indicator.create_version!("//@version=6\nindicator(\"V1\")")
+      indicator.create_version!("//@version=6\nindicator(\"V2\")", prompt_delta: "Add RSI")
+
+      get "/api/v1/indicators/#{indicator.id}/versions"
+
+      expect(response).to have_http_status(:ok)
+      expect(response.parsed_body.length).to eq(2)
+      expect(response.parsed_body.first["version_number"]).to eq(2)
+      expect(response.parsed_body.first["prompt_delta"]).to eq("Add RSI")
+    end
+  end
+
   describe "POST /api/v1/indicators/:id/restore_version" do
     it "restores a previous version" do
       indicator.create_version!("//@version=6\nindicator(\"V1\")")

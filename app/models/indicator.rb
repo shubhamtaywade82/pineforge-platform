@@ -14,13 +14,15 @@ class Indicator < ApplicationRecord
   before_validation :set_default_name, on: :create
 
   def create_version!(code, prompt_delta: nil)
-    next_version = versions.maximum(:version_number).to_i + 1
-    versions.create!(
-      version_number: next_version,
-      code: code,
-      prompt_delta: prompt_delta,
-      metadata: metadata
-    )
+    with_lock do
+      next_version = versions.maximum(:version_number).to_i + 1
+      versions.create!(
+        version_number: next_version,
+        code: code,
+        prompt_delta: prompt_delta,
+        metadata: metadata
+      )
+    end
   end
 
   private

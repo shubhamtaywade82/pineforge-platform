@@ -22,13 +22,24 @@ RSpec.describe Indicator, type: :model do
   end
 
   describe "#create_version!" do
+    it "creates the first version" do
+      indicator.save!
+
+      expect {
+        indicator.create_version!("//@version=6\nindicator(\"A\")")
+      }.to change { indicator.versions.count }.by(1)
+
+      expect(indicator.versions.first.version_number).to eq(1)
+    end
+
     it "increments version numbers" do
       indicator.save!
       first = indicator.create_version!("//@version=6\nindicator(\"A\")")
-      second = indicator.create_version!("//@version=6\nindicator(\"B\")")
+      second = indicator.create_version!("//@version=6\nindicator(\"B\")", prompt_delta: "Add RSI filter")
 
       expect(first.version_number).to eq(1)
       expect(second.version_number).to eq(2)
+      expect(second.prompt_delta).to eq("Add RSI filter")
     end
   end
 end
