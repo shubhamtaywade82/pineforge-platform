@@ -1,20 +1,28 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { editor } from "monaco-editor";
 import Editor, { DiffEditor } from "@monaco-editor/react";
-import type { ScriptType, ValidationResult } from "../../types";
+import type { IndicatorVersion, ScriptType, ValidationResult } from "../../types";
 import { registerPineLanguage } from "../../editor/pine-language";
 import { applyValidationDecorations } from "../../editor/pine-diagnostics";
 import { registerPineInlineCompletions } from "../../editor/pine-inline-completions";
 
 export type PineEditorProps = {
   code: string;
-  previousCode?: string;
+  leftCode?: string;
+  rightCode?: string;
   readOnly?: boolean;
   onChange?: (value: string | undefined) => void;
   validation?: ValidationResult;
   onSave?: (code: string) => void;
   completeUrl?: string;
   scriptType?: ScriptType;
+  showDiff?: boolean;
+  onToggleDiff?: () => void;
+  versions?: IndicatorVersion[];
+  leftVersion?: IndicatorVersion;
+  rightVersion?: IndicatorVersion;
+  onSelectLeftVersion?: (version: IndicatorVersion) => void;
+  onSelectRightVersion?: (version: IndicatorVersion) => void;
 };
 
 const DEFAULT_COMPLETE_URL = "/api/v1/generators/complete";
@@ -22,24 +30,25 @@ const TRADINGVIEW_PINE_EDITOR_URL = "https://www.tradingview.com/pine-editor/";
 
 export function PineEditor({
   code,
-  previousCode,
+  leftCode,
+  rightCode,
   readOnly = false,
   onChange,
   validation,
   onSave,
   completeUrl = DEFAULT_COMPLETE_URL,
   scriptType = "indicator",
+  showDiff = false,
+  onToggleDiff,
+  versions = [],
+  leftVersion,
+  rightVersion,
+  onSelectLeftVersion,
+  onSelectRightVersion,
 }: PineEditorProps) {
   const editorRef = useRef<editor.IStandaloneCodeEditor | null>(null);
   const monacoRef = useRef<typeof import("monaco-editor") | null>(null);
-  const [showDiff, setShowDiff] = useState(false);
   const [copied, setCopied] = useState(false);
-
-  useEffect(() => {
-    if (!previousCode) {
-      setShowDiff(false);
-    }
-  }, [previousCode]);
 
   useEffect(() => {
     if (editorRef.current && monacoRef.current) {
@@ -63,19 +72,10 @@ export function PineEditor({
         onSave?.(editorInstance.getValue());
       });
 
-      editorInstance.addCommand(
-        monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyD,
-        () => {
-          if (previousCode) {
-            setShowDiff((previous) => !previous);
-          }
-        }
-      );
-
       editorInstance.updateOptions({ readOnly });
       applyValidationDecorations(editorInstance, monaco, validation);
     },
-    [completeUrl, onSave, previousCode, readOnly, scriptType, validation]
+    [completeUrl, onSave, readOnly, scriptType, validation]
   );
 
   const copyToClipboard = async () => {
@@ -89,7 +89,24 @@ export function PineEditor({
     window.open(TRADINGVIEW_PINE_EDITOR_URL, "_blank", "noopener,noreferrer");
   };
 
-  const diffAvailable = Boolean(previousCode);
+  const diffAvailable = Boolean(leftCode && rightCode);
+
+  const handleLeftVersionChange = (versionId: string) => {
+    const version = versions.find((entry) => entry.id === versionId);
+    if (version) {
+      onSelectLeftVersion?.(version);
+    }
+  };
+
+  const handleRightVersionChange = (versionId: string) => {
+    const version = versions.find((entry) => entry.id === versionId);
+    if (version) {
+      onSelectRightVersion?.(version);
+    }
+  };
+
+  const leftVersionId = leftVersion?.id ?? "";
+  const rightVersionId = rightVersion?.id ?? "";
 
   return (
     <div className="relative flex h-full flex-col">
@@ -103,13 +120,42 @@ export function PineEditor({
                 : `${validation.errors.length} error${validation.errors.length === 1 ? "" : "s"}`}
             </span>
           )}
+          {showDiff && versions.length >= 2 ? (
+            <div className="flex items-center gap-2">
+              <select
+                aria-label="Left version"
+                value={leftVersionId}
+                onChange={(event) => handleLeftVersionChange(event.target.value)}
+                className="rounded border border-gray-700 bg-[#0d1117] px-1 py-0.5 text-[10px] text-gray-300"
+              >
+                {versions.map((version) => (
+                  <option key={`left-${version.id}`} value={version.id}>
+                    V{version.version_number}
+                  </option>
+                ))}
+              </select>
+              <span className="text-gray-600">vs</span>
+              <select
+                aria-label="Right version"
+                value={rightVersionId}
+                onChange={(event) => handleRightVersionChange(event.target.value)}
+                className="rounded border border-gray-700 bg-[#0d1117] px-1 py-0.5 text-[10px] text-gray-300"
+              >
+                {versions.map((version) => (
+                  <option key={`right-${version.id}`} value={version.id}>
+                    V{version.version_number}
+                  </option>
+                ))}
+              </select>
+            </div>
+          ) : null}
         </div>
 
         <div className="flex items-center gap-2">
-          {diffAvailable && (
+          {diffAvailable && onToggleDiff ? (
             <button
               type="button"
-              onClick={() => setShowDiff((previous) => !previous)}
+              onClick={onToggleDiff}
               className={`rounded border px-2 py-1 text-xs transition-colors ${
                 showDiff
                   ? "border-blue-500 bg-blue-950/30 text-blue-400"
@@ -118,7 +164,7 @@ export function PineEditor({
             >
               {showDiff ? "Editor" : "Diff"}
             </button>
-          )}
+          ) : null}
           <button
             type="button"
             onClick={() => void copyToClipboard()}
@@ -137,12 +183,12 @@ export function PineEditor({
       </div>
 
       <div className="min-h-0 flex-1">
-        {showDiff && previousCode ? (
+        {showDiff && leftCode && rightCode ? (
           <DiffEditor
             height="100%"
             language="pine"
-            original={previousCode}
-            modified={code}
+            original={leftCode}
+            modified={rightCode}
             theme="pine-dark"
             beforeMount={handleBeforeMount}
             options={{
@@ -151,6 +197,7 @@ export function PineEditor({
               ignoreTrimWhitespace: false,
               minimap: { enabled: false },
               fontSize: 13,
+              automaticLayout: true,
             }}
           />
         ) : (

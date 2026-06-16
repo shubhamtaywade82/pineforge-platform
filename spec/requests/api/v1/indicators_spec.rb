@@ -26,7 +26,7 @@ RSpec.describe "Indicators API", type: :request do
   end
 
   describe "GET /api/v1/indicators/:id/versions" do
-    it "returns version metadata ordered by version number" do
+    it "returns versions ascending with code and prompt_delta" do
       indicator.create_version!("//@version=6\nindicator(\"V1\")")
       indicator.create_version!("//@version=6\nindicator(\"V2\")", prompt_delta: "Add RSI")
 
@@ -34,8 +34,11 @@ RSpec.describe "Indicators API", type: :request do
 
       expect(response).to have_http_status(:ok)
       expect(response.parsed_body.length).to eq(2)
-      expect(response.parsed_body.first["version_number"]).to eq(2)
-      expect(response.parsed_body.first["prompt_delta"]).to eq("Add RSI")
+      expect(response.parsed_body.first["version_number"]).to eq(1)
+      expect(response.parsed_body.first["code"]).to include("V1")
+      expect(response.parsed_body.last["version_number"]).to eq(2)
+      expect(response.parsed_body.last["prompt_delta"]).to eq("Add RSI")
+      expect(response.parsed_body.last["code"]).to include("V2")
     end
   end
 

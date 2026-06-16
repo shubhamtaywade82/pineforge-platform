@@ -5,8 +5,8 @@
     "semantic_hash": ""
   },
   "app/controllers/api/v1/indicators_controller.rb": {
-    "mtime": 1781586908.935335,
-    "ast_hash": "45975977cf22564df4f102913d2933f4",
+    "mtime": 1781590096.5460525,
+    "ast_hash": "dd455e9ddbec448a828846e70aa33ceb",
     "semantic_hash": ""
   },
   "app/controllers/application_controller.rb": {
@@ -205,18 +205,18 @@
     "semantic_hash": ""
   },
   "client/src/App.tsx": {
-    "mtime": 1781588908.7338588,
-    "ast_hash": "6ffe43fa2693a397409377bfbb54ddbf",
+    "mtime": 1781590193.1965907,
+    "ast_hash": "dd33127e9e83ad9ce5b57c500f765a7d",
     "semantic_hash": ""
   },
   "client/src/PineEditor.test.tsx": {
-    "mtime": 1781587087.7236686,
-    "ast_hash": "258ca1af8308786c34cac3664c81ca38",
+    "mtime": 1781590225.8426347,
+    "ast_hash": "f042059f068a8b51307f90a6f0f7b154",
     "semantic_hash": ""
   },
   "client/src/components/editor/PineEditor.tsx": {
-    "mtime": 1781587040.5160637,
-    "ast_hash": "0184c8ceefa6011cfafcf4555bda38e1",
+    "mtime": 1781590178.4474807,
+    "ast_hash": "4d36e2192149acf9adfe7ff01798c246",
     "semantic_hash": ""
   },
   "client/src/components/editor/ValidationPanel.tsx": {
@@ -294,11 +294,6 @@
     "ast_hash": "746b3431bc0cc949b1e3aedd52bb438c",
     "semantic_hash": ""
   },
-  "client/src/hooks/useVersionDiff.ts": {
-    "mtime": 1781587043.2520638,
-    "ast_hash": "3ec2b8f41591a2cbf579edaaa232f139",
-    "semantic_hash": ""
-  },
   "client/src/main.tsx": {
     "mtime": 1781589277.566949,
     "ast_hash": "d3572d9110f2e3e53c5c45189085599f",
@@ -310,8 +305,8 @@
     "semantic_hash": ""
   },
   "client/src/types.ts": {
-    "mtime": 1781588033.4552844,
-    "ast_hash": "5f5449b49cde8d2ccc618bdab52ca406",
+    "mtime": 1781590107.8393426,
+    "ast_hash": "281cc315673b937bffda30a907780df2",
     "semantic_hash": ""
   },
   "client/tailwind.config.js": {
@@ -510,8 +505,8 @@
     "semantic_hash": ""
   },
   "spec/requests/api/v1/indicators_spec.rb": {
-    "mtime": 1781589222.2568297,
-    "ast_hash": "c43e50b3ef81aedfab9819159aea92cb",
+    "mtime": 1781590098.5168781,
+    "ast_hash": "964f6206fd4ebb9bed8b4e0260b9db62",
     "semantic_hash": ""
   },
   "spec/requests/health_spec.rb": {
@@ -850,8 +845,8 @@
     "semantic_hash": ""
   },
   "client/src/data/timelinePhases.ts": {
-    "mtime": 1781589863.4584422,
-    "ast_hash": "69d7c6ffa8688ecba1a5e5e5d4add356",
+    "mtime": 1781590218.5093293,
+    "ast_hash": "e8bcbce2c7b12dc2159840b8209b29d8",
     "semantic_hash": ""
   },
   "app/services/indicator_version_creator.rb": {
@@ -862,6 +857,26 @@
   "spec/services/indicator_version_creator_spec.rb": {
     "mtime": 1781589911.037305,
     "ast_hash": "2d70657b6c391da6bb8afaea747a7f9e",
+    "semantic_hash": ""
+  },
+  "client/src/components/editor/VersionHistoryPanel.test.tsx": {
+    "mtime": 1781590211.6068559,
+    "ast_hash": "6ee01a5fc5ab15acad8f62b3b130bec4",
+    "semantic_hash": ""
+  },
+  "client/src/components/editor/VersionHistoryPanel.tsx": {
+    "mtime": 1781590134.7774332,
+    "ast_hash": "f4e4a3ae45c6235ee6f56dda55e3089c",
+    "semantic_hash": ""
+  },
+  "client/src/hooks/useIndicatorVersions.test.ts": {
+    "mtime": 1781590208.7468667,
+    "ast_hash": "cf117ee8119cb0bbbe8b6126c04a641f",
+    "semantic_hash": ""
+  },
+  "client/src/hooks/useIndicatorVersions.ts": {
+    "mtime": 1781590117.134307,
+    "ast_hash": "4075e443a699612ec53fec67c06ff186",
     "semantic_hash": ""
   }
 }

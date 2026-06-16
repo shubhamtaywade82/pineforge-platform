@@ -25,7 +25,7 @@ module Api
       end
 
       def versions
-        render json: @indicator.versions.order(version_number: :desc).map { |version| version_json(version) }
+        render json: @indicator.versions.order(version_number: :asc).map { |version| version_json(version) }
       end
 
       def restore_version
@@ -89,6 +89,7 @@ module Api
         {
           id: version.id,
           version_number: version.version_number,
+          code: version.code,
           prompt_delta: version.prompt_delta,
           metadata: version.metadata,
           created_at: version.created_at

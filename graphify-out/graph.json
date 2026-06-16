@@ -4,174 +4,304 @@
   "graph": {},
   "nodes": [
     {
-      "label": "refine_service.rb",
+      "label": "indicators_controller.rb",
       "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "generators_refine_service",
-      "community": 6,
-      "norm_label": "refine_service.rb"
+      "id": "v1_indicators_controller",
+      "community": 5,
+      "norm_label": "indicators_controller.rb"
     },
     {
-      "label": "RefineService",
+      "label": "IndicatorsController",
       "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "generators_refine_service_refineservice",
-      "community": 6,
-      "norm_label": "refineservice"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "generators_refine_service_refineservice_initialize",
-      "community": 6,
-      "norm_label": ".initialize()"
+      "id": "v1_indicators_controller_indicatorscontroller",
+      "community": 5,
+      "norm_label": "indicatorscontroller"
     },
     {
-      "label": ".call()",
+      "label": ".index()",
       "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "generators_refine_service_refineservice_call",
-      "community": 6,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".generate_code()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "generators_refine_service_refineservice_generate_code",
-      "community": 6,
-      "norm_label": ".generate_code()"
-    },
-    {
-      "label": ".emit()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L78",
-      "_origin": "ast",
-      "id": "generators_refine_service_refineservice_emit",
-      "community": 6,
-      "norm_label": ".emit()"
-    },
-    {
-      "label": "stream_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "generators_stream_service",
-      "community": 6,
-      "norm_label": "stream_service.rb"
-    },
-    {
-      "label": "StreamService",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice",
-      "community": 6,
-      "norm_label": "streamservice"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice_initialize",
-      "community": 6,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice_call",
-      "community": 6,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".create_indicator!()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L66",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice_create_indicator",
-      "community": 6,
-      "norm_label": ".create_indicator!()"
-    },
-    {
-      "label": ".generate_code()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice_generate_code",
-      "community": 6,
-      "norm_label": ".generate_code()"
-    },
-    {
-      "label": ".emit()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L85",
-      "_origin": "ast",
-      "id": "generators_stream_service_streamservice_emit",
-      "community": 6,
-      "norm_label": ".emit()"
-    },
-    {
-      "label": "indicator_version_creator.rb",
-      "file_type": "code",
-      "source_file": "app/services/indicator_version_creator.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "services_indicator_version_creator",
-      "community": 106,
-      "norm_label": "indicator_version_creator.rb"
-    },
-    {
-      "label": "IndicatorVersionCreator",
-      "file_type": "code",
-      "source_file": "app/services/indicator_version_creator.rb",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "services_indicator_version_creator_indicatorversioncreator",
-      "community": 106,
-      "norm_label": "indicatorversioncreator"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/indicator_version_creator.rb",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "services_indicator_version_creator_indicatorversioncreator_call",
-      "community": 106,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/indicator_version_creator.rb",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "services_indicator_version_creator_indicatorversioncreator_initialize",
-      "community": 106,
-      "norm_label": ".initialize()"
+      "id": "v1_indicators_controller_indicatorscontroller_index",
+      "community": 5,
+      "norm_label": ".index()"
+    },
+    {
+      "label": ".show()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_show",
+      "community": 5,
+      "norm_label": ".show()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_update",
+      "community": 5,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".destroy()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_destroy",
+      "community": 5,
+      "norm_label": ".destroy()"
+    },
+    {
+      "label": ".versions()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_versions",
+      "community": 5,
+      "norm_label": ".versions()"
+    },
+    {
+      "label": ".restore_version()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_restore_version",
+      "community": 5,
+      "norm_label": ".restore_version()"
+    },
+    {
+      "label": ".export()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_export",
+      "community": 5,
+      "norm_label": ".export()"
+    },
+    {
+      "label": ".version_diff()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_version_diff",
+      "community": 5,
+      "norm_label": ".version_diff()"
+    },
+    {
+      "label": ".set_indicator()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_set_indicator",
+      "community": 5,
+      "norm_label": ".set_indicator()"
+    },
+    {
+      "label": ".indicator_params()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_indicator_params",
+      "community": 5,
+      "norm_label": ".indicator_params()"
+    },
+    {
+      "label": ".indicator_summary()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_indicator_summary",
+      "community": 5,
+      "norm_label": ".indicator_summary()"
+    },
+    {
+      "label": ".indicator_detail()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_indicator_detail",
+      "community": 5,
+      "norm_label": ".indicator_detail()"
+    },
+    {
+      "label": ".version_json()",
+      "file_type": "code",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "v1_indicators_controller_indicatorscontroller_version_json",
+      "community": 5,
+      "norm_label": ".version_json()"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "PineEditor",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_app_pineeditor",
+      "community": 0,
+      "norm_label": "pineeditor"
+    },
+    {
+      "label": "AppView",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_app_appview",
+      "community": 0,
+      "norm_label": "appview"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "PineEditor.test.tsx",
+      "file_type": "code",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_pineeditor_test",
+      "community": 2,
+      "norm_label": "pineeditor.test.tsx"
+    },
+    {
+      "label": "setModelMarkers",
+      "file_type": "code",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_pineeditor_test_setmodelmarkers",
+      "community": 2,
+      "norm_label": "setmodelmarkers"
+    },
+    {
+      "label": "registerInlineCompletionsProvider",
+      "file_type": "code",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_pineeditor_test_registerinlinecompletionsprovider",
+      "community": 2,
+      "norm_label": "registerinlinecompletionsprovider"
+    },
+    {
+      "label": "PineEditor.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_pineeditor",
+      "community": 2,
+      "norm_label": "pineeditor.tsx"
+    },
+    {
+      "label": "PineEditorProps",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "editor_pineeditor_pineeditorprops",
+      "community": 2,
+      "norm_label": "pineeditorprops"
+    },
+    {
+      "label": "PineEditor()",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "editor_pineeditor_pineeditor",
+      "community": 2,
+      "norm_label": "pineeditor()"
+    },
+    {
+      "label": "VersionHistoryPanel.test.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_test",
+      "community": 0,
+      "norm_label": "versionhistorypanel.test.tsx"
+    },
+    {
+      "label": "versions",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_test_versions",
+      "community": 0,
+      "norm_label": "versions"
+    },
+    {
+      "label": "VersionHistoryPanel.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel",
+      "community": 0,
+      "norm_label": "versionhistorypanel.tsx"
+    },
+    {
+      "label": "VersionHistoryPanelProps",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_versionhistorypanelprops",
+      "community": 0,
+      "norm_label": "versionhistorypanelprops"
+    },
+    {
+      "label": "VersionHistoryPanel()",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_versionhistorypanel",
+      "community": 0,
+      "norm_label": "versionhistorypanel()"
     },
     {
       "label": "timelinePhases.ts",
@@ -254,14 +384,324 @@
       "norm_label": "timelinetotals()"
     },
     {
+      "label": "useIndicatorVersions.test.ts",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_useindicatorversions_test",
+      "community": 0,
+      "norm_label": "useindicatorversions.test.ts"
+    },
+    {
+      "label": "sampleVersions",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "hooks_useindicatorversions_test_sampleversions",
+      "community": 0,
+      "norm_label": "sampleversions"
+    },
+    {
+      "label": "useIndicatorVersions.ts",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_useindicatorversions",
+      "community": 0,
+      "norm_label": "useindicatorversions.ts"
+    },
+    {
+      "label": "defaultPair()",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "hooks_useindicatorversions_defaultpair",
+      "community": 0,
+      "norm_label": "defaultpair()"
+    },
+    {
+      "label": "useIndicatorVersions()",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "hooks_useindicatorversions_useindicatorversions",
+      "community": 0,
+      "norm_label": "useindicatorversions()"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_types",
+      "community": 0,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "StreamStatus",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_types_streamstatus",
+      "community": 0,
+      "norm_label": "streamstatus"
+    },
+    {
+      "label": "StreamEvent",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_types_streamevent",
+      "community": 0,
+      "norm_label": "streamevent"
+    },
+    {
+      "label": "ValidationResult",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_types_validationresult",
+      "community": 0,
+      "norm_label": "validationresult"
+    },
+    {
+      "label": "ScriptType",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_types_scripttype",
+      "community": 0,
+      "norm_label": "scripttype"
+    },
+    {
+      "label": "ChatMessage",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_types_chatmessage",
+      "community": 0,
+      "norm_label": "chatmessage"
+    },
+    {
+      "label": "IndicatorSummary",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_types_indicatorsummary",
+      "community": 0,
+      "norm_label": "indicatorsummary"
+    },
+    {
+      "label": "IndicatorVersion",
+      "file_type": "code",
+      "source_file": "client/src/types.ts",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_types_indicatorversion",
+      "community": 0,
+      "norm_label": "indicatorversion"
+    },
+    {
+      "label": "indicators_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/requests/api/v1/indicators_spec.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "v1_indicators_spec",
+      "community": 101,
+      "norm_label": "indicators_spec.rb"
+    },
+    {
+      "label": "refine_service.rb",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "refine_service.rb",
+      "id": "generators_refine_service"
+    },
+    {
+      "label": "RefineService",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "refineservice",
+      "id": "generators_refine_service_refineservice"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".initialize()",
+      "id": "generators_refine_service_refineservice_initialize"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".call()",
+      "id": "generators_refine_service_refineservice_call"
+    },
+    {
+      "label": ".generate_code()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L69",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".generate_code()",
+      "id": "generators_refine_service_refineservice_generate_code"
+    },
+    {
+      "label": ".emit()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L78",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".emit()",
+      "id": "generators_refine_service_refineservice_emit"
+    },
+    {
+      "label": "stream_service.rb",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "stream_service.rb",
+      "id": "generators_stream_service"
+    },
+    {
+      "label": "StreamService",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "streamservice",
+      "id": "generators_stream_service_streamservice"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".initialize()",
+      "id": "generators_stream_service_streamservice_initialize"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".call()",
+      "id": "generators_stream_service_streamservice_call"
+    },
+    {
+      "label": ".create_indicator!()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L66",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".create_indicator!()",
+      "id": "generators_stream_service_streamservice_create_indicator"
+    },
+    {
+      "label": ".generate_code()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L76",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".generate_code()",
+      "id": "generators_stream_service_streamservice_generate_code"
+    },
+    {
+      "label": ".emit()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L85",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".emit()",
+      "id": "generators_stream_service_streamservice_emit"
+    },
+    {
+      "label": "indicator_version_creator.rb",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 106,
+      "norm_label": "indicator_version_creator.rb",
+      "id": "services_indicator_version_creator"
+    },
+    {
+      "label": "IndicatorVersionCreator",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 106,
+      "norm_label": "indicatorversioncreator",
+      "id": "services_indicator_version_creator_indicatorversioncreator"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 106,
+      "norm_label": ".call()",
+      "id": "services_indicator_version_creator_indicatorversioncreator_call"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 106,
+      "norm_label": ".initialize()",
+      "id": "services_indicator_version_creator_indicatorversioncreator_initialize"
+    },
+    {
       "label": "indicator_version_creator_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/indicator_version_creator_spec.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_indicator_version_creator_spec",
       "community": 107,
-      "norm_label": "indicator_version_creator_spec.rb"
+      "norm_label": "indicator_version_creator_spec.rb",
+      "id": "services_indicator_version_creator_spec"
     },
     {
       "label": "indicator.rb",
@@ -522,56 +962,6 @@
       "community": 83,
       "norm_label": "indicator_spec.rb",
       "id": "models_indicator_spec"
-    },
-    {
-      "label": "indicators_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/api/v1/indicators_spec.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 101,
-      "norm_label": "indicators_spec.rb",
-      "id": "v1_indicators_spec"
-    },
-    {
-      "label": "App.tsx",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app.tsx",
-      "id": "src_app"
-    },
-    {
-      "label": "PineEditor",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "pineeditor",
-      "id": "src_app_pineeditor"
-    },
-    {
-      "label": "AppView",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "appview",
-      "id": "src_app_appview"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app()",
-      "id": "src_app_app"
     },
     {
       "label": "PineForgeTimeline.test.tsx",
@@ -1414,156 +1804,6 @@
       "id": "v1_generators_controller_generatorscontroller_indicator_json"
     },
     {
-      "label": "indicators_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "indicators_controller.rb",
-      "id": "v1_indicators_controller"
-    },
-    {
-      "label": "IndicatorsController",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "indicatorscontroller",
-      "id": "v1_indicators_controller_indicatorscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".index()",
-      "id": "v1_indicators_controller_indicatorscontroller_index"
-    },
-    {
-      "label": ".show()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".show()",
-      "id": "v1_indicators_controller_indicatorscontroller_show"
-    },
-    {
-      "label": ".update()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".update()",
-      "id": "v1_indicators_controller_indicatorscontroller_update"
-    },
-    {
-      "label": ".destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".destroy()",
-      "id": "v1_indicators_controller_indicatorscontroller_destroy"
-    },
-    {
-      "label": ".versions()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".versions()",
-      "id": "v1_indicators_controller_indicatorscontroller_versions"
-    },
-    {
-      "label": ".restore_version()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".restore_version()",
-      "id": "v1_indicators_controller_indicatorscontroller_restore_version"
-    },
-    {
-      "label": ".export()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L39",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".export()",
-      "id": "v1_indicators_controller_indicatorscontroller_export"
-    },
-    {
-      "label": ".version_diff()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".version_diff()",
-      "id": "v1_indicators_controller_indicatorscontroller_version_diff"
-    },
-    {
-      "label": ".set_indicator()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L61",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".set_indicator()",
-      "id": "v1_indicators_controller_indicatorscontroller_set_indicator"
-    },
-    {
-      "label": ".indicator_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L65",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".indicator_params()",
-      "id": "v1_indicators_controller_indicatorscontroller_indicator_params"
-    },
-    {
-      "label": ".indicator_summary()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L69",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".indicator_summary()",
-      "id": "v1_indicators_controller_indicatorscontroller_indicator_summary"
-    },
-    {
-      "label": ".indicator_detail()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L79",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".indicator_detail()",
-      "id": "v1_indicators_controller_indicatorscontroller_indicator_detail"
-    },
-    {
-      "label": ".version_json()",
-      "file_type": "code",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L88",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": ".version_json()",
-      "id": "v1_indicators_controller_indicatorscontroller_version_json"
-    },
-    {
       "label": "application_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/application_controller.rb",
@@ -1769,7 +2009,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "complete_service.rb",
       "id": "generators_complete_service"
     },
@@ -1779,7 +2019,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "completeservice",
       "id": "generators_complete_service_completeservice"
     },
@@ -1789,7 +2029,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".initialize()",
       "id": "generators_complete_service_completeservice_initialize"
     },
@@ -1799,7 +2039,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".call()",
       "id": "generators_complete_service_completeservice_call"
     },
@@ -1849,7 +2089,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "repair_service.rb",
       "id": "generators_repair_service"
     },
@@ -1859,7 +2099,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "repairservice",
       "id": "generators_repair_service_repairservice"
     },
@@ -1869,7 +2109,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".initialize()",
       "id": "generators_repair_service_repairservice_initialize"
     },
@@ -1879,7 +2119,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".call()",
       "id": "generators_repair_service_repairservice_call"
     },
@@ -1889,7 +2129,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".validate()",
       "id": "generators_repair_service_repairservice_validate"
     },
@@ -2269,7 +2509,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "builder.rb",
       "id": "prompts_builder"
     },
@@ -2279,7 +2519,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "builder",
       "id": "prompts_builder_builder"
     },
@@ -2289,7 +2529,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".initialize()",
       "id": "prompts_builder_builder_initialize"
     },
@@ -2299,7 +2539,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".system_prompt()",
       "id": "prompts_builder_builder_system_prompt"
     },
@@ -2319,7 +2559,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".repair_messages()",
       "id": "prompts_builder_builder_repair_messages"
     },
@@ -2339,7 +2579,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".completion_messages()",
       "id": "prompts_builder_builder_completion_messages"
     },
@@ -2349,7 +2589,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".completion_system_prompt()",
       "id": "prompts_builder_builder_completion_system_prompt"
     },
@@ -2359,7 +2599,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": ".normalized_context()",
       "id": "prompts_builder_builder_normalized_context"
     },
@@ -2662,66 +2902,6 @@
       "community": 0,
       "norm_label": "app.test.tsx",
       "id": "src_app_test"
-    },
-    {
-      "label": "PineEditor.test.tsx",
-      "file_type": "code",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "pineeditor.test.tsx",
-      "id": "src_pineeditor_test"
-    },
-    {
-      "label": "setModelMarkers",
-      "file_type": "code",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "setmodelmarkers",
-      "id": "src_pineeditor_test_setmodelmarkers"
-    },
-    {
-      "label": "registerInlineCompletionsProvider",
-      "file_type": "code",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "registerinlinecompletionsprovider",
-      "id": "src_pineeditor_test_registerinlinecompletionsprovider"
-    },
-    {
-      "label": "PineEditor.tsx",
-      "file_type": "code",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "pineeditor.tsx",
-      "id": "editor_pineeditor"
-    },
-    {
-      "label": "PineEditorProps",
-      "file_type": "code",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "pineeditorprops",
-      "id": "editor_pineeditor_pineeditorprops"
-    },
-    {
-      "label": "PineEditor()",
-      "file_type": "code",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "pineeditor()",
-      "id": "editor_pineeditor_pineeditor"
     },
     {
       "label": "ValidationPanel.tsx",
@@ -3164,36 +3344,6 @@
       "id": "hooks_usessestream_usessestream"
     },
     {
-      "label": "useVersionDiff.ts",
-      "file_type": "code",
-      "source_file": "client/src/hooks/useVersionDiff.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "useversiondiff.ts",
-      "id": "hooks_useversiondiff"
-    },
-    {
-      "label": "VersionDiffResult",
-      "file_type": "code",
-      "source_file": "client/src/hooks/useVersionDiff.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "versiondiffresult",
-      "id": "hooks_useversiondiff_versiondiffresult"
-    },
-    {
-      "label": "useVersionDiff()",
-      "file_type": "code",
-      "source_file": "client/src/hooks/useVersionDiff.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "useversiondiff()",
-      "id": "hooks_useversiondiff_useversiondiff"
-    },
-    {
       "label": "setup.ts",
       "file_type": "code",
       "source_file": "client/src/test/setup.ts",
@@ -3202,76 +3352,6 @@
       "community": 98,
       "norm_label": "setup.ts",
       "id": "test_setup"
-    },
-    {
-      "label": "types.ts",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "types.ts",
-      "id": "src_types"
-    },
-    {
-      "label": "StreamStatus",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "streamstatus",
-      "id": "src_types_streamstatus"
-    },
-    {
-      "label": "StreamEvent",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "streamevent",
-      "id": "src_types_streamevent"
-    },
-    {
-      "label": "ValidationResult",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "validationresult",
-      "id": "src_types_validationresult"
-    },
-    {
-      "label": "ScriptType",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "scripttype",
-      "id": "src_types_scripttype"
-    },
-    {
-      "label": "ChatMessage",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "chatmessage",
-      "id": "src_types_chatmessage"
-    },
-    {
-      "label": "IndicatorSummary",
-      "file_type": "code",
-      "source_file": "client/src/types.ts",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "indicatorsummary",
-      "id": "src_types_indicatorsummary"
     },
     {
       "label": "tailwind.config.js",
@@ -5008,6 +5088,1538 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller",
+      "target": "v1_indicators_controller_indicatorscontroller"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_destroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_export"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_index"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_params"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_restore_version"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_set_indicator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_show"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_update"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_version_diff"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_version_json"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller",
+      "target": "v1_indicators_controller_indicatorscontroller_versions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_index",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_show",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_update",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/indicators/restore_version_service.rb",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "indicators_restore_version_service_restoreversionservice_call",
+      "target": "v1_indicators_controller_indicatorscontroller_versions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_version_diff",
+      "target": "v1_indicators_controller_indicatorscontroller_versions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_versions",
+      "target": "v1_indicators_controller_indicatorscontroller_version_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_restore_version",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_indicator_detail",
+      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_indicator_detail",
+      "target": "v1_generators_controller_generatorscontroller_metadata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/controllers/api/v1/indicators_controller.rb",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "v1_indicators_controller_indicatorscontroller_version_json",
+      "target": "v1_generators_controller_generatorscontroller_metadata"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel_validationpanel"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_versionhistorypanel_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory_contexthistory"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel_promptpanel"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs_scripttypetabs"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator_usegenerator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicators"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicators_useindicators"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicatorversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicatorversions_useindicatorversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell_appshell"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar_sidebar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "shared_streamstatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "shared_streamstatus_streamstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_appview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_pineeditor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "timeline_pineforgetimeline"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "timeline_pineforgetimeline_pineforgetimeline"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_usegenerator_usegenerator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_useindicators_useindicators"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_useindicatorversions_useindicatorversions"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_pineeditor_test",
+      "target": "editor_pineeditor"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_pineeditor_test",
+      "target": "editor_pineeditor_pineeditor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_pineeditor_test",
+      "target": "src_pineeditor_test_registerinlinecompletionsprovider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineEditor.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_pineeditor_test",
+      "target": "src_pineeditor_test_setmodelmarkers"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_diagnostics"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_diagnostics_applyvalidationdecorations"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_inline_completions"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_inline_completions_registerpineinlinecompletions"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_language"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pine_language_registerpinelanguage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pineeditor_pineeditor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pineeditor_pineeditorprops"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "editor_pineeditor",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "src_types_scripttype"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pineeditor",
+      "target": "src_types_validationresult"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel_test",
+      "target": "editor_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel_test",
+      "target": "editor_versionhistorypanel_test_versions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel_test",
+      "target": "editor_versionhistorypanel_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel_test",
+      "target": "src_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.test.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel_test",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "editor_versionhistorypanel_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "editor_versionhistorypanel_versionhistorypanelprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "src_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_phasestatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_progressfrommilestones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinemilestone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinephase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_withprogress"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_phasestatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinephase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_withprogress",
+      "target": "data_timelinephases_progressfrommilestones"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions_test",
+      "target": "hooks_useindicatorversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions_test",
+      "target": "hooks_useindicatorversions_test_sampleversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions_test",
+      "target": "hooks_useindicatorversions_useindicatorversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions_test",
+      "target": "src_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.test.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions_test",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions",
+      "target": "hooks_useindicatorversions_defaultpair",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions",
+      "target": "hooks_useindicatorversions_useindicatorversions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions",
+      "target": "src_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicatorVersions.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hooks_useindicatorversions",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/editor/pine-diagnostics.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pine_diagnostics",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/editor/pine-inline-completions.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pine_inline_completions",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_validationpanel",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_contexthistory",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_promptpanel",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_scripttypetabs",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicators.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useindicators",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usessestream",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/shared/StreamStatus.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "shared_streamstatus",
+      "target": "src_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_chatmessage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_indicatorsummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_types",
+      "target": "src_types_indicatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_scripttype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_streamevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_streamstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/types.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types",
+      "target": "src_types_validationresult"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_promptpanel",
+      "target": "src_types_streamstatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usessestream",
+      "target": "src_types_streamstatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/shared/StreamStatus.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "shared_streamstatus",
+      "target": "src_types_streamstatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usessestream",
+      "target": "src_types_streamevent"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/editor/pine-diagnostics.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pine_diagnostics",
+      "target": "src_types_validationresult"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_validationpanel",
+      "target": "src_types_validationresult"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usessestream",
+      "target": "src_types_validationresult"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/editor/pine-inline-completions.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_pine_inline_completions",
+      "target": "src_types_scripttype"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_scripttypetabs",
+      "target": "src_types_scripttype"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "src_types_scripttype"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generator_contexthistory",
+      "target": "src_types_chatmessage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "src_types_chatmessage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useIndicators.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useindicators",
+      "target": "src_types_indicatorsummary"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "src_types_indicatorsummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/services/generators/refine_service.rb",
       "source_location": "L4",
       "weight": 1.0,
@@ -5264,9 +6876,9 @@
       "source_file": "app/services/indicator_version_creator.rb",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_indicator_version_creator",
-      "target": "services_indicator_version_creator_indicatorversioncreator",
-      "confidence_score": 1.0
+      "target": "services_indicator_version_creator_indicatorversioncreator"
     },
     {
       "relation": "method",
@@ -5274,9 +6886,9 @@
       "source_file": "app/services/indicator_version_creator.rb",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_indicator_version_creator_indicatorversioncreator",
-      "target": "services_indicator_version_creator_indicatorversioncreator_call",
-      "confidence_score": 1.0
+      "target": "services_indicator_version_creator_indicatorversioncreator_call"
     },
     {
       "relation": "method",
@@ -5284,189 +6896,9 @@
       "source_file": "app/services/indicator_version_creator.rb",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_indicator_version_creator_indicatorversioncreator",
-      "target": "services_indicator_version_creator_indicatorversioncreator_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_phasestatus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_progressfrommilestones"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timeline_phases"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinemilestone"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinephase"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L144",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinetotals"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_withprogress"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_phasestatus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinephase"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases_withprogress",
-      "target": "data_timelinephases_progressfrommilestones"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases_timeline_phases"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timeline_phases"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases_timelinetotals"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinetotals"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L224",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinetotals"
+      "target": "services_indicator_version_creator_indicatorversioncreator_initialize"
     },
     {
       "relation": "contains",
@@ -5497,28 +6929,6 @@
       "confidence_score": 1.0,
       "source": "models_indicator_indicator",
       "target": "models_indicator_indicator_set_default_name"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -5714,333 +7124,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "editor_validationpanel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "editor_validationpanel_validationpanel"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_contexthistory"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_contexthistory_contexthistory"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_promptpanel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_promptpanel_promptpanel"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_scripttypetabs"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_scripttypetabs_scripttypetabs"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_usegenerator"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_usegenerator_usegenerator"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useindicators"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useindicators_useindicators"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useversiondiff"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useversiondiff_useversiondiff"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_appshell"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_appshell_appshell"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_sidebar"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_sidebar_sidebar"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "shared_streamstatus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "shared_streamstatus_streamstatus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_appview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_pineeditor"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "timeline_pineforgetimeline"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "timeline_pineforgetimeline_pineforgetimeline"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_test",
-      "target": "src_app"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_usegenerator_usegenerator"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_useindicators_useindicators"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_useversiondiff_useversiondiff"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_test",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "client/src/PineForgeTimeline.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
@@ -6078,28 +7161,6 @@
       "confidence_score": 1.0,
       "source": "layout_sidebar",
       "target": "layout_sidebar_sidebarprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "src_types_indicatorsummary"
     },
     {
       "relation": "contains",
@@ -6891,256 +7952,6 @@
       "confidence_score": 1.0,
       "source": "v1_generators_controller_generatorscontroller_indicator_json",
       "target": "v1_generators_controller_generatorscontroller_metadata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_indicator_detail",
-      "target": "v1_generators_controller_generatorscontroller_metadata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_version_json",
-      "target": "v1_generators_controller_generatorscontroller_metadata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller",
-      "target": "v1_indicators_controller_indicatorscontroller"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_destroy"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_export"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_index"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_params"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_restore_version"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_set_indicator"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_show"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_update"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_version_diff"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L88",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_version_json"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller",
-      "target": "v1_indicators_controller_indicatorscontroller_versions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_index",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_show",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_update",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/indicators/restore_version_service.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "indicators_restore_version_service_restoreversionservice_call",
-      "target": "v1_indicators_controller_indicatorscontroller_versions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_version_diff",
-      "target": "v1_indicators_controller_indicatorscontroller_versions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_versions",
-      "target": "v1_indicators_controller_indicatorscontroller_version_json"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_restore_version",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_detail"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/api/v1/indicators_controller.rb",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "v1_indicators_controller_indicatorscontroller_indicator_detail",
-      "target": "v1_indicators_controller_indicatorscontroller_indicator_summary"
     },
     {
       "relation": "contains",
@@ -8167,167 +8978,6 @@
       "target": "client_package_devdependencies_vitest"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_pineeditor_test",
-      "target": "editor_pineeditor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_pineeditor_test",
-      "target": "editor_pineeditor_pineeditor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_pineeditor_test",
-      "target": "src_pineeditor_test_registerinlinecompletionsprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/PineEditor.test.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_pineeditor_test",
-      "target": "src_pineeditor_test_setmodelmarkers"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_diagnostics"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_diagnostics_applyvalidationdecorations"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_inline_completions"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_inline_completions_registerpineinlinecompletions"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_language"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pine_language_registerpinelanguage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pineeditor_pineeditor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "editor_pineeditor_pineeditorprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "src_types_scripttype"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/PineEditor.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pineeditor",
-      "target": "src_types_validationresult"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "client/src/components/editor/ValidationPanel.tsx",
@@ -8346,28 +8996,6 @@
       "confidence_score": 1.0,
       "source": "editor_validationpanel",
       "target": "editor_validationpanel_validationpanelprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/ValidationPanel.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_validationpanel",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/editor/ValidationPanel.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_validationpanel",
-      "target": "src_types_validationresult"
     },
     {
       "relation": "contains",
@@ -8390,28 +9018,6 @@
       "target": "generator_contexthistory_contexthistoryprops"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/ContextHistory.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_contexthistory",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/ContextHistory.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_contexthistory",
-      "target": "src_types_chatmessage"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "client/src/components/generator/PromptPanel.tsx",
@@ -8430,28 +9036,6 @@
       "confidence_score": 1.0,
       "source": "generator_promptpanel",
       "target": "generator_promptpanel_promptpanelprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/PromptPanel.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_promptpanel",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/PromptPanel.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_promptpanel",
-      "target": "src_types_streamstatus"
     },
     {
       "relation": "contains",
@@ -8482,28 +9066,6 @@
       "confidence_score": 1.0,
       "source": "generator_scripttypetabs",
       "target": "generator_scripttypetabs_scripttypetabsprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_scripttypetabs",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generator_scripttypetabs",
-      "target": "src_types_scripttype"
     },
     {
       "relation": "contains",
@@ -8544,28 +9106,6 @@
       "confidence_score": 1.0,
       "source": "shared_streamstatus",
       "target": "shared_streamstatus_streamstatusprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/shared/StreamStatus.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "shared_streamstatus",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/shared/StreamStatus.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "shared_streamstatus",
-      "target": "src_types_streamstatus"
     },
     {
       "relation": "imports_from",
@@ -8641,28 +9181,6 @@
       "target": "editor_pine_diagnostics_validationmarker"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/editor/pine-diagnostics.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pine_diagnostics",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/editor/pine-diagnostics.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pine_diagnostics",
-      "target": "src_types_validationresult"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -8736,28 +9254,6 @@
       "confidence_score": 1.0,
       "source": "editor_pine_inline_completions",
       "target": "editor_pine_inline_completions_resetinlinecompletionsregistration"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/editor/pine-inline-completions.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pine_inline_completions",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/editor/pine-inline-completions.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_pine_inline_completions",
-      "target": "src_types_scripttype"
     },
     {
       "relation": "contains",
@@ -8862,39 +9358,6 @@
       "target": "hooks_usessestream_usessestream"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useGenerator.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usegenerator",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useGenerator.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usegenerator",
-      "target": "src_types_chatmessage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useGenerator.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usegenerator",
-      "target": "src_types_scripttype"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -8916,28 +9379,6 @@
       "target": "hooks_useindicators_useindicators"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useIndicators.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useindicators",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useIndicators.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useindicators",
-      "target": "src_types_indicatorsummary"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "client/src/hooks/useSSEStream.ts",
@@ -8956,130 +9397,6 @@
       "confidence_score": 1.0,
       "source": "hooks_usessestream",
       "target": "hooks_usessestream_usessestream"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useSSEStream.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usessestream",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useSSEStream.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usessestream",
-      "target": "src_types_streamevent"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useSSEStream.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usessestream",
-      "target": "src_types_streamstatus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useSSEStream.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_usessestream",
-      "target": "src_types_validationresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useVersionDiff.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useversiondiff",
-      "target": "hooks_useversiondiff_useversiondiff"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/hooks/useVersionDiff.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useversiondiff",
-      "target": "hooks_useversiondiff_versiondiffresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_chatmessage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_indicatorsummary"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_scripttype"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_streamevent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_streamstatus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/types.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types",
-      "target": "src_types_validationresult"
     },
     {
       "relation": "contains",
@@ -10123,5 +10440,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "10dc4891caf9288b0db281559406e08451089b0d"
+  "built_at_commit": "adf9c927ec69b8128d9f504a2674a662b0ffc220"
 }

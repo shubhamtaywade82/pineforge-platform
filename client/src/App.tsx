@@ -1,7 +1,8 @@
-import { Suspense, lazy, useState } from "react";
+import { Suspense, lazy, useCallback, useEffect, useState } from "react";
 import { ScriptTypeTabs } from "./components/generator/ScriptTypeTabs";
 import { PromptPanel } from "./components/generator/PromptPanel";
 import { ContextHistory } from "./components/generator/ContextHistory";
+import { VersionHistoryPanel } from "./components/editor/VersionHistoryPanel";
 import { ValidationPanel } from "./components/editor/ValidationPanel";
 import { StreamStatus } from "./components/shared/StreamStatus";
 import { AppShell } from "./components/layout/AppShell";
@@ -9,7 +10,8 @@ import { Sidebar } from "./components/layout/Sidebar";
 import { PineForgeTimeline } from "./components/timeline/PineForgeTimeline";
 import { useGenerator } from "./hooks/useGenerator";
 import { useIndicators } from "./hooks/useIndicators";
-import { useVersionDiff } from "./hooks/useVersionDiff";
+import { useIndicatorVersions } from "./hooks/useIndicatorVersions";
+import type { IndicatorVersion } from "./types";
 
 const PineEditor = lazy(() =>
   import("./components/editor/PineEditor").then((module) => ({ default: module.PineEditor }))
@@ -19,10 +21,71 @@ type AppView = "editor" | "timeline";
 
 export default function App() {
   const [view, setView] = useState<AppView>("editor");
+  const [showDiff, setShowDiff] = useState(false);
   const generator = useGenerator();
   const indicators = useIndicators();
-  const versionDiff = useVersionDiff(generator.indicatorId, generator.metadata.version);
-  const previousCode = versionDiff.beforeCode ?? generator.previousCode;
+  const {
+    versions,
+    leftVersion,
+    rightVersion,
+    setLeftVersion,
+    setRightVersion,
+    loading: versionsLoading,
+    error: versionsError,
+    refetch: refetchVersions,
+  } = useIndicatorVersions(generator.indicatorId, generator.metadata.version);
+
+  const diffAvailable = Boolean(leftVersion?.code && rightVersion?.code);
+
+  const toggleDiff = useCallback(() => {
+    if (!diffAvailable) {
+      return;
+    }
+
+    setShowDiff((previous) => !previous);
+  }, [diffAvailable]);
+
+  useEffect(() => {
+    if (generator.status === "done" && generator.metadata.version) {
+      refetchVersions();
+    }
+  }, [generator.metadata.version, generator.status, refetchVersions]);
+
+  useEffect(() => {
+    if (!diffAvailable) {
+      setShowDiff(false);
+    }
+  }, [diffAvailable]);
+
+  useEffect(() => {
+    const handler = (event: KeyboardEvent) => {
+      const modifier = event.metaKey || event.ctrlKey;
+
+      if (modifier && event.shiftKey && event.key.toLowerCase() === "d") {
+        event.preventDefault();
+        toggleDiff();
+      }
+    };
+
+    window.addEventListener("keydown", handler);
+
+    return () => window.removeEventListener("keydown", handler);
+  }, [toggleDiff]);
+
+  const handleSelectVersion = useCallback(
+    (version: IndicatorVersion) => {
+      setRightVersion(version);
+
+      const previousVersion = versions.find(
+        (entry) => entry.version_number === version.version_number - 1
+      );
+
+      if (previousVersion) {
+        setLeftVersion(previousVersion);
+      }
+    },
+    [setLeftVersion, setRightVersion, versions]
+  );
 
   if (view === "timeline") {
     return <PineForgeTimeline onBack={() => setView("editor")} />;
@@ -51,6 +114,15 @@ export default function App() {
             hasExisting={generator.code.length > 0}
           />
           <ContextHistory messages={generator.chatHistory} />
+          <VersionHistoryPanel
+            versions={versions}
+            leftVersion={leftVersion}
+            rightVersion={rightVersion}
+            loading={versionsLoading}
+            error={versionsError}
+            onSelectVersion={handleSelectVersion}
+            onCompare={() => setShowDiff(true)}
+          />
         </>
       }
       statusBar={<StreamStatus status={generator.status} metadata={generator.metadata} />}
@@ -64,10 +136,18 @@ export default function App() {
         >
           <PineEditor
             code={generator.code}
-            previousCode={previousCode}
+            leftCode={leftVersion?.code}
+            rightCode={rightVersion?.code}
             readOnly={generator.status === "streaming"}
             validation={generator.metadata.validation}
             scriptType={generator.scriptType}
+            showDiff={showDiff}
+            onToggleDiff={toggleDiff}
+            versions={versions}
+            leftVersion={leftVersion}
+            rightVersion={rightVersion}
+            onSelectLeftVersion={setLeftVersion}
+            onSelectRightVersion={setRightVersion}
           />
         </Suspense>
       }

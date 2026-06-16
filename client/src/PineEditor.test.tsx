@@ -1,4 +1,4 @@
-import { render, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { PineEditor } from "./components/editor/PineEditor";
 
@@ -98,5 +98,75 @@ describe("PineEditor", () => {
     await waitFor(() => {
       expect(applyValidationDecorations).toHaveBeenCalled();
     });
+  });
+
+  it("renders DiffEditor when showDiff is enabled", () => {
+    const versions = [
+      {
+        id: "v1",
+        version_number: 1,
+        code: "left",
+        prompt_delta: null,
+        created_at: "2025-06-16T00:00:00Z",
+      },
+      {
+        id: "v2",
+        version_number: 2,
+        code: "right",
+        prompt_delta: "Add RSI",
+        created_at: "2025-06-16T01:00:00Z",
+      },
+    ];
+
+    const { getByTestId } = render(
+      <PineEditor
+        code="right"
+        leftCode="left"
+        rightCode="right"
+        showDiff
+        versions={versions}
+        leftVersion={versions[0]}
+        rightVersion={versions[1]}
+        onToggleDiff={vi.fn()}
+      />
+    );
+
+    expect(getByTestId("pine-diff-editor")).toBeInTheDocument();
+  });
+
+  it("toggles diff mode from the toolbar button", () => {
+    const onToggleDiff = vi.fn();
+    const versions = [
+      {
+        id: "v1",
+        version_number: 1,
+        code: "left",
+        prompt_delta: null,
+        created_at: "2025-06-16T00:00:00Z",
+      },
+      {
+        id: "v2",
+        version_number: 2,
+        code: "right",
+        prompt_delta: null,
+        created_at: "2025-06-16T01:00:00Z",
+      },
+    ];
+
+    render(
+      <PineEditor
+        code="right"
+        leftCode="left"
+        rightCode="right"
+        versions={versions}
+        leftVersion={versions[0]}
+        rightVersion={versions[1]}
+        onToggleDiff={onToggleDiff}
+      />
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "Diff" }));
+
+    expect(onToggleDiff).toHaveBeenCalled();
   });
 });

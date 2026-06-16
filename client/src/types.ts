@@ -31,3 +31,11 @@ export type IndicatorSummary = {
   status: string;
   updated_at: string;
 };
+
+export type IndicatorVersion = {
+  id: string;
+  version_number: number;
+  code: string;
+  prompt_delta: string | null;
+  created_at: string;
+};
