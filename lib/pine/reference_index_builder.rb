@@ -24,7 +24,7 @@ module Pine
 
       {
         version: 1,
-        generated_at: Time.now.utc.iso8601,
+        generated_at: Time.now.utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
         source: "docs/pine_v6_reference/sources/*.md",
         symbols: symbols,
         aliases: aliases.sort.to_h
@@ -46,7 +46,7 @@ module Pine
 
       path.read.each_line do |line|
         if (match = line.match(HEADING_PATTERN))
-          store_symbol(symbols, current_symbol, sections, preamble) if current_symbol.present?
+          store_symbol(symbols, current_symbol, sections, preamble) if current_symbol && !current_symbol.empty?
           current_symbol = normalize_symbol(match[1])
           current_section = nil
           buffer = []
@@ -77,8 +77,14 @@ module Pine
     def store_symbol(symbols, symbol, sections, preamble)
       return if symbol.nil? || symbol.empty?
 
-      sections["Summary"] = preamble.join.strip if preamble.join.strip.present?
+      preamble_text = preamble.join.strip
+      sections["Summary"] = preamble_text unless preamble_text.empty?
       symbols[symbol] = entry_for(symbol, sections)
+    end
+
+    def truncate(text, length)
+      value = text.to_s.strip
+      value.length > length ? value[0, length] : value
     end
 
     def entry_for(symbol, sections)
@@ -86,14 +92,16 @@ module Pine
         symbol: symbol,
         namespace: symbol.include?(".") ? symbol.split(".").first : "core",
         signature: "#{symbol}()",
-        summary: sections["Returns"].presence || sections["Summary"].presence || sections.values.first.to_s.strip.first(400),
-        remarks: sections["Remarks"].to_s.strip.first(400),
+        summary: sections["Returns"].to_s.strip.then { |s| s.empty? ? nil : s } ||
+          sections["Summary"].to_s.strip.then { |s| s.empty? ? nil : s } ||
+          truncate(sections.values.map(&:to_s).map(&:strip).reject(&:empty?).first.to_s, 400),
+        remarks: truncate(sections["Remarks"], 400),
         example: extract_example(sections["Code Example"].to_s)
       }
     end
 
     def extract_example(text)
-      return "" if text.blank?
+      return "" if text.nil? || text.empty?
 
       if text.include?("```")
         text[/```(?:pine)?\n(.*?)```/m, 1].to_s.strip.lines.first(8).join
@@ -103,7 +111,7 @@ module Pine
     end
 
     def flush_section(sections, name, buffer)
-      return if name.blank?
+      return if name.nil? || name.empty?
 
       sections[name] = buffer.join.strip
     end

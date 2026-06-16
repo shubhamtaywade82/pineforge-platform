@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 176 files · ~32,874 words
+- 176 files · ~32,916 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 802 nodes · 841 edges · 168 communities (144 shown, 24 thin omitted)
+- 803 nodes · 843 edges · 168 communities (144 shown, 24 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1ba1b556`
+- Built from commit: `4cb19244`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -129,7 +129,7 @@
 3. `IndicatorsController` - 14 edges
 4. `Builder` - 13 edges
 5. `GeneratorsController` - 13 edges
-6. `ReferenceIndexBuilder` - 11 edges
+6. `ReferenceIndexBuilder` - 12 edges
 7. `ReferenceLookup` - 9 edges
 8. `Graphify Development Guide` - 9 edges
 9. `Pine Script v6 Rules (Distilled)` - 9 edges
@@ -153,8 +153,8 @@
 ## Communities (168 total, 24 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.05
-Nodes (45): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), PineEditor(), PineEditorProps (+37 more)
+Cohesion: 0.07
+Nodes (35): ValidationPanel(), ValidationPanelProps, versions, VersionHistoryPanel(), VersionHistoryPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel() (+27 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
@@ -165,8 +165,8 @@ Cohesion: 0.10
 Nodes (10): Application, CompleteService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated(), local_client() (+2 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.25
-Nodes (6): CompletionSpec, PINE_DECLARATIONS, PINE_KEYWORDS, PINE_NAMESPACES, PINE_OPERATORS, registerPineLanguage()
+Cohesion: 0.12
+Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.05
@@ -454,7 +454,7 @@ Nodes (3): Remarks, Returns, ta.median()
 
 ### Community 156 - "Community 156"
 Cohesion: 0.67
-Nodes (3): Remarks, Returns, ta.mom()
+Nodes (3): Remarks, Returns, ta.highestbars()
 
 ### Community 157 - "Community 157"
 Cohesion: 0.67
@@ -501,7 +501,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `Source`, `Files`, `Refresh` to the rest of the system?**
   _346 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.05257312106627175 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06654567453115548 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
