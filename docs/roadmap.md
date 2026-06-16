@@ -38,7 +38,7 @@ m22 Validation insights
 m23 Explainability
 m24 Quality scoring
 
-Note: Graphify RAG (m19–m21, m27) landed early — see [`docs/adr/0003-graphify-rag-layer.md`](adr/0003-graphify-rag-layer.md).
+Note: Graphify RAG (m19–m21, m27) and Monaco upgrades (m40, m43) landed early — see [`docs/adr/0003-graphify-rag-layer.md`](adr/0003-graphify-rag-layer.md). Live progress: dashboard **Timeline** view (`client/src/components/timeline/PineForgeTimeline.tsx`).
 
 ---
 

@@ -1,4 +1,4 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import { ScriptTypeTabs } from "./components/generator/ScriptTypeTabs";
 import { PromptPanel } from "./components/generator/PromptPanel";
 import { ContextHistory } from "./components/generator/ContextHistory";
@@ -6,6 +6,7 @@ import { ValidationPanel } from "./components/editor/ValidationPanel";
 import { StreamStatus } from "./components/shared/StreamStatus";
 import { AppShell } from "./components/layout/AppShell";
 import { Sidebar } from "./components/layout/Sidebar";
+import { PineForgeTimeline } from "./components/timeline/PineForgeTimeline";
 import { useGenerator } from "./hooks/useGenerator";
 import { useIndicators } from "./hooks/useIndicators";
 import { useVersionDiff } from "./hooks/useVersionDiff";
@@ -14,11 +15,18 @@ const PineEditor = lazy(() =>
   import("./components/editor/PineEditor").then((module) => ({ default: module.PineEditor }))
 );
 
+type AppView = "editor" | "timeline";
+
 export default function App() {
+  const [view, setView] = useState<AppView>("editor");
   const generator = useGenerator();
   const indicators = useIndicators();
   const versionDiff = useVersionDiff(generator.indicatorId, generator.metadata.version);
   const previousCode = versionDiff.beforeCode ?? generator.previousCode;
+
+  if (view === "timeline") {
+    return <PineForgeTimeline onBack={() => setView("editor")} />;
+  }
 
   return (
     <AppShell
@@ -27,6 +35,7 @@ export default function App() {
           indicators={indicators.indicators}
           loading={indicators.loading}
           error={indicators.error}
+          onOpenTimeline={() => setView("timeline")}
         />
       }
       promptPanel={
