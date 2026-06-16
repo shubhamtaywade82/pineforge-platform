@@ -1,6 +1,6 @@
 # ADR-0001: Technology Stack
 
-Status: Accepted
+Status: Superseded by ADR-0002
 
 Decision:
 

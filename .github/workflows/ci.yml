@@ -1,25 +1,54 @@
 name: CI
 
 on:
-  push:
-    branches: [master, main]
   pull_request:
-    branches: [master, main]
+  push:
+    branches: [main]
 
 jobs:
-  bootstrap-check:
-    name: Repository bootstrap check
+  backend:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: pineforge_platform_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      RAILS_ENV: test
+      DATABASE_URL: postgres://postgres:postgres@localhost:5432/pineforge_platform_test
     steps:
       - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4.2"
+          bundler-cache: true
+      - name: Prepare database
+        run: bin/rails db:prepare
+      - name: Run RSpec
+        run: bundle exec rspec
 
-      - name: Verify governance docs exist
-        run: |
-          test -f AGENTS.md
-          test -f docs/vision.md
-          test -f docs/roadmap.md
-          test -f docs/architecture.md
-          test -f docs/adr/0001-stack-selection.md
-
-      - name: CI placeholder
-        run: echo "Application CI begins at m01 project setup."
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+      - name: Install dependencies
+        run: npm install
+      - name: Run Vitest
+        run: npm test

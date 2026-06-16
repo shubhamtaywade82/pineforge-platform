@@ -41,7 +41,8 @@ See:
 ## Technology Stack
 
 Backend:
-- Ruby on Rails 7
+- Ruby 3.4.2
+- Ruby on Rails 8 API
 - PostgreSQL
 - Redis
 - Sidekiq
@@ -49,6 +50,8 @@ Backend:
 Frontend:
 - React 18
 - TypeScript
+- Vite
+- Tailwind CSS
 - Monaco Editor
 
 AI:
@@ -64,7 +67,28 @@ Infrastructure:
 
 ## Local Development
 
-Coming soon.
+### Backend
+
+```bash
+cp .env.example .env
+bundle install
+bin/rails db:create db:migrate
+bin/rails server
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Background jobs
+
+```bash
+bundle exec sidekiq
+```
 
 ---
 
