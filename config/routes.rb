@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :generators, only: %i[create show] do
+        collection do
+          post :complete
+        end
         member do
           post :refine
           post :metadata

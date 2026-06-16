@@ -49,6 +49,7 @@ RSpec.describe "Indicators API", type: :request do
 
       expect(response).to have_http_status(:ok)
       expect(response.parsed_body["diff"]).to be_an(Array)
+      expect(response.parsed_body).to include("before_code", "after_code")
     end
   end
 end

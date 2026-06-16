@@ -1,2 +1,70 @@
 #!/usr/bin/env ruby
-exec "./bin/rails", "server", *ARGV
+# frozen_string_literal: true
+
+require "fileutils"
+require "socket"
+
+APP_ROOT = File.expand_path("..", __dir__)
+
+def find_free_port(start_port, exclude = [])
+  port = start_port
+  loop do
+    if exclude.include?(port)
+      port += 1
+      next
+    end
+    begin
+      server = TCPServer.new("127.0.0.1", port)
+      server.close
+      return port
+    rescue Errno::EADDRINUSE, Errno::EACCES
+      port += 1
+    end
+  end
+end
+
+Dir.chdir(APP_ROOT) do
+  # Dynamically find unused ports
+  rails_port = find_free_port(3000)
+  client_port = find_free_port(5173, [rails_port])
+
+  puts "Selected ports: Rails = #{rails_port}, Client = #{client_port}"
+
+  # Expose them to the processes
+  ENV["RAILS_PORT"] = rails_port.to_s
+  ENV["PORT"] = client_port.to_s
+
+  # Check if foreman is available on the system
+  has_foreman = system("which foreman > /dev/null 2>&1")
+
+  if has_foreman
+    exec "foreman start -f Procfile.dev"
+  else
+    puts "Foreman not found. Starting processes manually..."
+    pids = []
+    
+    # Handle clean exit on Ctrl+C or kill
+    trap("INT") do
+      puts "\nStopping processes..."
+      pids.each { |pid| Process.kill("TERM", pid) rescue nil }
+      exit
+    end
+    
+    trap("TERM") do
+      pids.each { |pid| Process.kill("TERM", pid) rescue nil }
+      exit
+    end
+
+    begin
+      pids << spawn("bin/rails server -p #{rails_port}")
+      pids << spawn("npm run dev --prefix client")
+      
+      # Wait for all processes to finish
+      Process.waitall
+    rescue Interrupt
+      # Handled by INT trap
+    ensure
+      pids.each { |pid| Process.kill("TERM", pid) rescue nil }
+    end
+  end
+end

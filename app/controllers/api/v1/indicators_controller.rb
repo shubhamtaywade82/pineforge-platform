@@ -48,7 +48,12 @@ module Api
           before_code: previous&.code.to_s,
           after_code: version.code
         ).call
-        render json: { version: version.version_number, diff: diff }
+        render json: {
+          version: version.version_number,
+          before_code: previous&.code.to_s,
+          after_code: version.code,
+          diff: diff
+        }
       end
 
       private

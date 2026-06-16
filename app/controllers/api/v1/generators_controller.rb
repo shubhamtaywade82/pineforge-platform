@@ -37,6 +37,16 @@ module Api
         render json: result
       end
 
+      def complete
+        result = Generators::CompleteService.new(
+          prefix: complete_params[:prefix],
+          script_type: complete_params[:script_type] || "indicator"
+        ).call
+        render json: result
+      rescue ArgumentError => e
+        render json: { error: e.message }, status: :unprocessable_entity
+      end
+
       private
 
       def stream_response
@@ -62,6 +72,10 @@ module Api
 
       def generator_params
         params.permit(:prompt, :script_type, :name)
+      end
+
+      def complete_params
+        params.permit(:prefix, :script_type, :mode)
       end
 
       def indicator_json(indicator)

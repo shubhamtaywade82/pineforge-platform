@@ -1,0 +1,2 @@
+web: bin/rails server -p $RAILS_PORT
+client: npm run dev --prefix client

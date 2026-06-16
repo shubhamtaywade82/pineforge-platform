@@ -47,6 +47,17 @@ module Prompts
       PROMPT
     end
 
+    def completion_messages
+      [
+        { role: "system", content: completion_system_prompt },
+        { role: "user", content: "Complete this Pine Script v6 code from the cursor:\n\n#{@prompt}" }
+      ]
+    end
+
+    def completion_system_prompt
+      File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/completion_system.txt"))
+    end
+
     attr_writer :existing_code
 
     private

@@ -1,17 +1,24 @@
+import { Suspense, lazy } from "react";
 import { ScriptTypeTabs } from "./components/generator/ScriptTypeTabs";
 import { PromptPanel } from "./components/generator/PromptPanel";
 import { ContextHistory } from "./components/generator/ContextHistory";
-import { PineEditor } from "./components/editor/PineEditor";
 import { ValidationPanel } from "./components/editor/ValidationPanel";
 import { StreamStatus } from "./components/shared/StreamStatus";
 import { AppShell } from "./components/layout/AppShell";
 import { Sidebar } from "./components/layout/Sidebar";
 import { useGenerator } from "./hooks/useGenerator";
 import { useIndicators } from "./hooks/useIndicators";
+import { useVersionDiff } from "./hooks/useVersionDiff";
+
+const PineEditor = lazy(() =>
+  import("./components/editor/PineEditor").then((module) => ({ default: module.PineEditor }))
+);
 
 export default function App() {
   const generator = useGenerator();
   const indicators = useIndicators();
+  const versionDiff = useVersionDiff(generator.indicatorId, generator.metadata.version);
+  const previousCode = versionDiff.beforeCode ?? generator.previousCode;
 
   return (
     <AppShell
@@ -39,7 +46,21 @@ export default function App() {
       }
       statusBar={<StreamStatus status={generator.status} metadata={generator.metadata} />}
       editor={
-        <PineEditor code={generator.code} readOnly={generator.status === "streaming"} />
+        <Suspense
+          fallback={
+            <div className="flex h-full items-center justify-center text-sm text-gray-500">
+              Loading editor...
+            </div>
+          }
+        >
+          <PineEditor
+            code={generator.code}
+            previousCode={previousCode}
+            readOnly={generator.status === "streaming"}
+            validation={generator.metadata.validation}
+            scriptType={generator.scriptType}
+          />
+        </Suspense>
       }
       validationPanel={<ValidationPanel validation={generator.metadata.validation} />}
     />

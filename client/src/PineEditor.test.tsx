@@ -1,6 +1,21 @@
-import { render } from "@testing-library/react";
+import { render, waitFor } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { PineEditor } from "./components/editor/PineEditor";
+
+const setModelMarkers = vi.fn();
+const registerInlineCompletionsProvider = vi.fn();
+
+vi.mock("./editor/pine-language", () => ({
+  registerPineLanguage: vi.fn(),
+}));
+
+vi.mock("./editor/pine-inline-completions", () => ({
+  registerPineInlineCompletions: vi.fn(),
+}));
+
+vi.mock("./editor/pine-diagnostics", () => ({
+  applyValidationDecorations: vi.fn(),
+}));
 
 vi.mock("@monaco-editor/react", () => ({
   default: ({
@@ -9,7 +24,12 @@ vi.mock("@monaco-editor/react", () => ({
   }: {
     beforeMount?: (monaco: typeof import("monaco-editor")) => void;
     onMount?: (
-      editor: { updateOptions: (options: { readOnly: boolean }) => void },
+      editor: {
+        updateOptions: (options: { readOnly: boolean }) => void;
+        addCommand: ReturnType<typeof vi.fn>;
+        getModel: () => null;
+        getValue: () => string;
+      },
       monaco: typeof import("monaco-editor")
     ) => void;
   }) => {
@@ -20,20 +40,63 @@ vi.mock("@monaco-editor/react", () => ({
         setMonarchTokensProvider: vi.fn(),
         setLanguageConfiguration: vi.fn(),
         registerCompletionItemProvider: vi.fn(),
+        registerInlineCompletionsProvider,
         CompletionItemKind: { Function: 1 },
+        CompletionItemInsertTextRule: { InsertAsSnippet: 4 },
       },
+      editor: {
+        defineTheme: vi.fn(),
+        setModelMarkers,
+      },
+      KeyMod: { CtrlCmd: 1, Shift: 2 },
+      KeyCode: { KeyS: 3, KeyD: 4 },
+      MarkerSeverity: { Error: 8, Warning: 4 },
     } as unknown as typeof import("monaco-editor");
 
     beforeMount?.(monaco);
-    onMount?.({ updateOptions: vi.fn() }, monaco);
+    onMount?.(
+      {
+        updateOptions: vi.fn(),
+        addCommand: vi.fn(),
+        getModel: () => null,
+        getValue: () => "//@version=6",
+      },
+      monaco
+    );
 
     return <div data-testid="pine-editor" />;
   },
+  DiffEditor: () => <div data-testid="pine-diff-editor" />,
 }));
 
 describe("PineEditor", () => {
-  it("registers the pine language on mount", () => {
+  it("registers pine language and inline completions on mount", async () => {
+    const { registerPineLanguage } = await import("./editor/pine-language");
+    const { registerPineInlineCompletions } = await import("./editor/pine-inline-completions");
+
     const { getByTestId } = render(<PineEditor code={"//@version=6"} />);
     expect(getByTestId("pine-editor")).toBeInTheDocument();
+    expect(registerPineLanguage).toHaveBeenCalled();
+    expect(registerPineInlineCompletions).toHaveBeenCalled();
+  });
+
+  it("applies validation decorations when validation changes", async () => {
+    const { applyValidationDecorations } = await import("./editor/pine-diagnostics");
+
+    const validation = {
+      passed: false,
+      errors: ["Line 2: Use request.security() not bare security()"],
+      warnings: [],
+    };
+
+    const { rerender } = render(<PineEditor code={"//@version=6\nsecurity(close)"} />);
+
+    rerender(
+      <PineEditor code={"//@version=6\nsecurity(close)"} validation={validation} />
+    );
+
+    await waitFor(() => {
+      expect(applyValidationDecorations).toHaveBeenCalled();
+    });
   });
 });

@@ -6,9 +6,11 @@ export function useGenerator() {
   const [scriptType, setScriptType] = useState<ScriptType>("indicator");
   const [prompt, setPrompt] = useState("");
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
+  const [previousCode, setPreviousCode] = useState<string | undefined>();
   const { stream, cancel, status, code, error, metadata } = useSSEStream();
 
   const generate = useCallback(async () => {
+    setPreviousCode(undefined);
     setChatHistory((previous) => [...previous, { role: "user", content: prompt }]);
     await stream("/api/v1/generators", { prompt, script_type: scriptType });
   }, [prompt, scriptType, stream]);
@@ -19,12 +21,13 @@ export function useGenerator() {
         return;
       }
 
+      setPreviousCode(code);
       setChatHistory((previous) => [...previous, { role: "user", content: refinementPrompt }]);
       await stream(`/api/v1/generators/${metadata.indicatorId}/refine`, {
         prompt: refinementPrompt,
       });
     },
-    [metadata.indicatorId, stream]
+    [code, metadata.indicatorId, stream]
   );
 
   useEffect(() => {
@@ -47,5 +50,6 @@ export function useGenerator() {
     metadata,
     chatHistory,
     indicatorId: metadata.indicatorId,
+    previousCode,
   };
 }
