@@ -120,8 +120,8 @@
     "semantic_hash": ""
   },
   "app/services/prompts/builder.rb": {
-    "mtime": 1781591365.8613706,
-    "ast_hash": "dd81d55a9888f40a91cd41cd3f269abb",
+    "mtime": 1781591979.3452883,
+    "ast_hash": "e5d1e30276bd5127ca0d7150b3e555f8",
     "semantic_hash": ""
   },
   "bin/brakeman": {
@@ -932,6 +932,56 @@
   "docs/pine_v6_primer/next-steps.md": {
     "mtime": 1781591649.8996885,
     "ast_hash": "3835e5a1b573b4210e88184732308bb4",
+    "semantic_hash": ""
+  },
+  "app/services/pine/reference_lookup.rb": {
+    "mtime": 1781591938.002919,
+    "ast_hash": "2ea2b78ca3c54b8e8336df5c363ccf57",
+    "semantic_hash": ""
+  },
+  "bin/pine-reference-build": {
+    "mtime": 1781591962.848288,
+    "ast_hash": "2dcb8617d213cff3041faabcd4a78478",
+    "semantic_hash": ""
+  },
+  "lib/pine/reference_index_builder.rb": {
+    "mtime": 1781592017.6809297,
+    "ast_hash": "c2df7638c5a3a4d5411648378c0160e8",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/README.md": {
+    "mtime": 1781591965.548288,
+    "ast_hash": "157421e7eb58956a990ed9410325005d",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/collections.md": {
+    "mtime": 1781592010.4989295,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/drawing.md": {
+    "mtime": 1781592009.9139295,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/general.md": {
+    "mtime": 1781592010.2019296,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/request.md": {
+    "mtime": 1781592009.3199296,
+    "ast_hash": "b7a2dc8804ff687fc79627860956ab88",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/strategy.md": {
+    "mtime": 1781592009.6079295,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/sources/ta.md": {
+    "mtime": 1781592008.9419296,
+    "ast_hash": "b6adb82934f8d781b0e8648675e17a8f",
     "semantic_hash": ""
   }
 }

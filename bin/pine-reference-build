@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+SOURCE_DIR="$ROOT/docs/pine_v6_reference/sources"
+OUTPUT="$ROOT/docs/pine_v6_reference/symbols.json"
+BASE_URL="https://raw.githubusercontent.com/codenamedevan/pinescriptv6/main/reference/functions"
+
+mkdir -p "$SOURCE_DIR"
+
+for file in ta.md request.md strategy.md drawing.md general.md collections.md; do
+  curl -fsSL "$BASE_URL/$file" -o "$SOURCE_DIR/$file"
+done
+
+cd "$ROOT"
+bundle exec ruby -e '
+require_relative "lib/pine/reference_index_builder"
+require "json"
+
+payload = Pine::ReferenceIndexBuilder.new(source_dir: "docs/pine_v6_reference/sources").build
+File.write("docs/pine_v6_reference/symbols.json", JSON.pretty_generate(payload))
+puts "Wrote #{payload[:symbols].size} symbols to docs/pine_v6_reference/symbols.json"
+'

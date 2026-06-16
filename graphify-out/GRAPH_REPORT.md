@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 166 files · ~24,175 words
+- 176 files · ~32,874 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 556 nodes · 589 edges · 111 communities (89 shown, 22 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.8)
+- 802 nodes · 841 edges · 168 communities (144 shown, 24 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3437603f`
+- Built from commit: `1ba1b556`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,18 +70,70 @@
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
 - [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 112|Community 112]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
+- [[_COMMUNITY_Community 116|Community 116]]
+- [[_COMMUNITY_Community 117|Community 117]]
+- [[_COMMUNITY_Community 118|Community 118]]
+- [[_COMMUNITY_Community 119|Community 119]]
+- [[_COMMUNITY_Community 120|Community 120]]
+- [[_COMMUNITY_Community 121|Community 121]]
+- [[_COMMUNITY_Community 122|Community 122]]
+- [[_COMMUNITY_Community 123|Community 123]]
+- [[_COMMUNITY_Community 124|Community 124]]
+- [[_COMMUNITY_Community 125|Community 125]]
+- [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
+- [[_COMMUNITY_Community 128|Community 128]]
+- [[_COMMUNITY_Community 129|Community 129]]
+- [[_COMMUNITY_Community 130|Community 130]]
+- [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
+- [[_COMMUNITY_Community 135|Community 135]]
+- [[_COMMUNITY_Community 136|Community 136]]
+- [[_COMMUNITY_Community 137|Community 137]]
+- [[_COMMUNITY_Community 138|Community 138]]
+- [[_COMMUNITY_Community 139|Community 139]]
+- [[_COMMUNITY_Community 140|Community 140]]
+- [[_COMMUNITY_Community 141|Community 141]]
+- [[_COMMUNITY_Community 142|Community 142]]
+- [[_COMMUNITY_Community 143|Community 143]]
+- [[_COMMUNITY_Community 144|Community 144]]
+- [[_COMMUNITY_Community 145|Community 145]]
+- [[_COMMUNITY_Community 146|Community 146]]
+- [[_COMMUNITY_Community 147|Community 147]]
+- [[_COMMUNITY_Community 148|Community 148]]
+- [[_COMMUNITY_Community 149|Community 149]]
+- [[_COMMUNITY_Community 150|Community 150]]
+- [[_COMMUNITY_Community 151|Community 151]]
+- [[_COMMUNITY_Community 152|Community 152]]
+- [[_COMMUNITY_Community 153|Community 153]]
+- [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 155|Community 155]]
+- [[_COMMUNITY_Community 156|Community 156]]
+- [[_COMMUNITY_Community 157|Community 157]]
+- [[_COMMUNITY_Community 158|Community 158]]
+- [[_COMMUNITY_Community 159|Community 159]]
+- [[_COMMUNITY_Community 160|Community 160]]
+- [[_COMMUNITY_Community 161|Community 161]]
+- [[_COMMUNITY_Community 162|Community 162]]
+- [[_COMMUNITY_Community 163|Community 163]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `compilerOptions` - 17 edges
-2. `IndicatorsController` - 14 edges
-3. `GeneratorsController` - 13 edges
-4. `Builder` - 12 edges
-5. `Graphify Development Guide` - 9 edges
-6. `Pine Script v6 Rules (Distilled)` - 9 edges
-7. `resolve()` - 8 edges
-8. `Primer: Next Steps` - 7 edges
-9. `fetch()` - 7 edges
-10. `IndicatorVersion` - 7 edges
+1. `Functions - Technical Analysis All ta.* functions (RSI, SMA, etc.)` - 60 edges
+2. `compilerOptions` - 17 edges
+3. `IndicatorsController` - 14 edges
+4. `Builder` - 13 edges
+5. `GeneratorsController` - 13 edges
+6. `ReferenceIndexBuilder` - 11 edges
+7. `ReferenceLookup` - 9 edges
+8. `Graphify Development Guide` - 9 edges
+9. `Pine Script v6 Rules (Distilled)` - 9 edges
+10. `resolve()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `build_ollama_client()` --calls--> `fetch()`  [INFERRED]
@@ -98,43 +150,39 @@
 ## Import Cycles
 - None detected.
 
-## Communities (111 total, 22 thin omitted)
+## Communities (168 total, 24 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.07
-Nodes (35): ValidationPanel(), ValidationPanelProps, versions, VersionHistoryPanel(), VersionHistoryPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel() (+27 more)
+Cohesion: 0.05
+Nodes (45): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), PineEditor(), PineEditorProps (+37 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
 Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencies, autoprefixer, jsdom, postcss (+19 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.11
-Nodes (10): Application, MetadataService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated(), local_client() (+2 more)
+Cohesion: 0.10
+Nodes (10): Application, CompleteService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated(), local_client() (+2 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.12
-Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
+Cohesion: 0.25
+Nodes (6): CompletionSpec, PINE_DECLARATIONS, PINE_KEYWORDS, PINE_NAMESPACES, PINE_OPERATORS, registerPineLanguage()
 
 ### Community 4 - "Community 4"
-Cohesion: 0.12
-Nodes (3): RephraseService, ExtractMetadataJob, GeneratorsController
+Cohesion: 0.05
+Nodes (9): MetadataService, RefineService, RephraseService, StreamService, ExtractMetadataJob, Indicator, Builder, IndicatorVersionCreator (+1 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.15
 Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMilestone, TimelinePhase, timelineTotals(), withProgress(), MilestoneCardProps (+4 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.14
-Nodes (4): RefineService, StreamService, Indicator, IndicatorVersionCreator
+Cohesion: 0.08
+Nodes (24): Functions - Technical Analysis All ta.* functions (RSI, SMA, etc.), Remarks, Remarks, Remarks, Remarks, Remarks, Returns, Returns (+16 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
-
-### Community 9 - "Community 9"
-Cohesion: 0.13
-Nodes (3): CompleteService, RepairService, Builder
 
 ### Community 10 - "Community 10"
 Cohesion: 0.13
@@ -232,25 +280,229 @@ Nodes (4): Pine Script Skill, Rules, Scope, Source of Truth
 Cohesion: 0.40
 Nodes (4): React UI Skill, Rules, Source of Truth, Stack
 
+### Community 111 - "Community 111"
+Cohesion: 0.17
+Nodes (4): call(), enabled?(), index(), ReferenceLookup
+
+### Community 114 - "Community 114"
+Cohesion: 0.33
+Nodes (5): Files, Pine Script v6 Symbol Reference, Refresh, Runtime, Source
+
+### Community 115 - "Community 115"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.alma()
+
+### Community 116 - "Community 116"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.swma()
+
+### Community 117 - "Community 117"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.vwap()
+
+### Community 118 - "Community 118"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.vwma()
+
+### Community 119 - "Community 119"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.wma()
+
+### Community 120 - "Community 120"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.wpr()
+
+### Community 121 - "Community 121"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.bbw()
+
+### Community 122 - "Community 122"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.change()
+
+### Community 123 - "Community 123"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.cmo()
+
+### Community 124 - "Community 124"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.cog()
+
+### Community 125 - "Community 125"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.dev()
+
+### Community 126 - "Community 126"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.ema()
+
+### Community 127 - "Community 127"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.hma()
+
+### Community 128 - "Community 128"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.kc()
+
+### Community 129 - "Community 129"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.atr()
+
+### Community 130 - "Community 130"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.kcw()
+
+### Community 131 - "Community 131"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.macd()
+
+### Community 132 - "Community 132"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.mfi()
+
+### Community 133 - "Community 133"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.pivot_point_levels()
+
+### Community 134 - "Community 134"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.pivothigh()
+
+### Community 135 - "Community 135"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.pivotlow()
+
+### Community 136 - "Community 136"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.barssince()
+
+### Community 137 - "Community 137"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.rma()
+
+### Community 138 - "Community 138"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.rsi()
+
+### Community 139 - "Community 139"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.sma()
+
+### Community 140 - "Community 140"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.bb()
+
+### Community 141 - "Community 141"
+Cohesion: 0.50
+Nodes (4): Code Example, Remarks, Returns, ta.stdev()
+
+### Community 142 - "Community 142"
+Cohesion: 0.67
+Nodes (3): Code Example, Returns, ta.supertrend()
+
+### Community 143 - "Community 143"
+Cohesion: 0.67
+Nodes (3): Code Example, Remarks, ta.valuewhen()
+
+### Community 144 - "Community 144"
+Cohesion: 0.67
+Nodes (3): Code Example, Returns, ta.dmi()
+
+### Community 145 - "Community 145"
+Cohesion: 0.67
+Nodes (3): Code Example, Returns, ta.sar()
+
+### Community 146 - "Community 146"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.tr()
+
+### Community 147 - "Community 147"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.tsi()
+
+### Community 148 - "Community 148"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.variance()
+
+### Community 149 - "Community 149"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.cci()
+
+### Community 150 - "Community 150"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.correlation()
+
+### Community 151 - "Community 151"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.highest()
+
+### Community 152 - "Community 152"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.linreg()
+
+### Community 153 - "Community 153"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.lowest()
+
+### Community 154 - "Community 154"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.lowestbars()
+
+### Community 155 - "Community 155"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.median()
+
+### Community 156 - "Community 156"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.mom()
+
+### Community 157 - "Community 157"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.percentile_linear_interpolation()
+
+### Community 158 - "Community 158"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.percentile_nearest_rank()
+
+### Community 159 - "Community 159"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.percentrank()
+
+### Community 160 - "Community 160"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.range()
+
+### Community 161 - "Community 161"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.rising()
+
+### Community 162 - "Community 162"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.roc()
+
+### Community 163 - "Community 163"
+Cohesion: 0.67
+Nodes (3): Remarks, Returns, ta.stoch()
+
 ## Knowledge Gaps
-- **204 isolated node(s):** `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge`, `Query Commands`, `PR Triage` (+199 more)
+- **346 isolated node(s):** `Source`, `Files`, `Refresh`, `Runtime`, `Returns` (+341 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **22 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Community 9` to `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `fetch()` connect `Community 11` to `Community 9`, `Community 2`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge` to the rest of the system?**
-  _204 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Functions - Technical Analysis All ta.* functions (RSI, SMA, etc.)` connect `Community 6` to `Community 128`, `Community 129`, `Community 130`, `Community 131`, `Community 132`, `Community 133`, `Community 134`, `Community 135`, `Community 136`, `Community 137`, `Community 138`, `Community 139`, `Community 140`, `Community 141`, `Community 142`, `Community 143`, `Community 144`, `Community 145`, `Community 146`, `Community 147`, `Community 148`, `Community 149`, `Community 150`, `Community 151`, `Community 152`, `Community 153`, `Community 154`, `Community 155`, `Community 156`, `Community 157`, `Community 158`, `Community 159`, `Community 160`, `Community 161`, `Community 162`, `Community 163`, `Community 115`, `Community 116`, `Community 117`, `Community 118`, `Community 119`, `Community 120`, `Community 121`, `Community 122`, `Community 123`, `Community 124`, `Community 125`, `Community 126`, `Community 127`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `Builder` connect `Community 4` to `Community 9`, `Community 2`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `fetch()` connect `Community 11` to `Community 2`, `Community 4`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **What connects `Source`, `Files`, `Refresh` to the rest of the system?**
+  _346 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.06654567453115548 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05257312106627175 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.10666666666666667 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.11956521739130435 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
