@@ -17,7 +17,7 @@ graphify hook install
 bin/graphify-update
 
 # Full semantic extraction (requires Ollama)
-OLLAMA_BASE_URL=$OLLAMA_CLOUD_URL OLLAMA_MODEL=qwen2.5-coder:7b \
+OLLAMA_BASE_URL=https://ollama.com OLLAMA_MODEL=qwen2.5-coder:7b \
   graphify extract . --backend ollama
 ```
 

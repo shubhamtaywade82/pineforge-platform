@@ -38,7 +38,11 @@ module Llm
       private
 
       def cloud_configured?
-        ENV["OLLAMA_CLOUD_URL"].present?
+        true
+      end
+
+      def cloud_base_url
+        OLLAMA_CLOUD_BASE_URL
       end
 
       def cloud_api_keys
@@ -78,7 +82,7 @@ module Llm
       end
 
       def cloud_reachable?(api_key = nil)
-        uri = URI.parse("#{ENV.fetch('OLLAMA_CLOUD_URL')}/api/tags")
+        uri = URI.parse("#{cloud_base_url}/api/tags")
         req = Net::HTTP::Get.new(uri.request_uri)
         req["Authorization"] = "Bearer #{api_key}" if api_key.present?
 
@@ -95,7 +99,7 @@ module Llm
 
       def build_cloud_client(api_key)
         config = Ollama::Config.new
-        config.base_url = ENV.fetch("OLLAMA_CLOUD_URL")
+        config.base_url = cloud_base_url
         config.timeout = ENV.fetch("OLLAMA_TIMEOUT", 180).to_i
         config.model = ENV.fetch("OLLAMA_PRIMARY_MODEL", "qwen2.5-coder:7b")
         config.api_key = api_key if api_key.present?

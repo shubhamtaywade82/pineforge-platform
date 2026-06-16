@@ -13,7 +13,7 @@ Apply when implementing AI integrations (m04, m21, m28, m34+).
 
 ## Models (v1.0)
 
-- Ollama Cloud (primary) — `OLLAMA_CLOUD_URL`
+- Ollama Cloud (primary) — `OLLAMA_CLOUD_BASE_URL` (`https://ollama.com`, hardcoded)
 - Ollama Local (fallback) — `OLLAMA_URL` + `OLLAMA_LOCAL_FALLBACK_MODEL`
 - Qwen 2.5 Coder (primary model)
 - DeepSeek-R1 (model-level fallback)

@@ -2,6 +2,8 @@
 
 require "ollama-client"
 
+OLLAMA_CLOUD_BASE_URL = "https://ollama.com"
+
 def build_ollama_client(base_url)
   config = Ollama::Config.new
   config.base_url = base_url
@@ -10,20 +12,19 @@ def build_ollama_client(base_url)
   Ollama::Client.new(config: config)
 end
 
-cloud_url = ENV["OLLAMA_CLOUD_URL"].presence
 local_url = if Rails.env.test?
   ENV.fetch("OLLAMA_URL", "http://ollama.test")
 else
   ENV.fetch("OLLAMA_URL", "http://localhost:11434")
 end
 
-Rails.application.config.x.ollama_cloud_client = cloud_url ? build_ollama_client(cloud_url) : nil
+Rails.application.config.x.ollama_cloud_client = build_ollama_client(OLLAMA_CLOUD_BASE_URL)
 Rails.application.config.x.ollama_local_client = build_ollama_client(local_url)
 
 default_client = if Rails.env.test?
-  build_ollama_client(ENV.fetch("OLLAMA_CLOUD_URL", ENV.fetch("OLLAMA_URL", "http://ollama.test")))
+  build_ollama_client(ENV.fetch("OLLAMA_URL", "http://ollama.test"))
 else
-  Rails.application.config.x.ollama_cloud_client || Rails.application.config.x.ollama_local_client
+  Rails.application.config.x.ollama_cloud_client
 end
 
 Rails.application.config.x.ollama_client = default_client

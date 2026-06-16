@@ -60,18 +60,18 @@
     "semantic_hash": ""
   },
   "app/services/generators/complete_service.rb": {
-    "mtime": 1781586905.4703336,
-    "ast_hash": "c6746ba9f924cb0b0c736cd4c0dc12ed",
+    "mtime": 1781587965.022362,
+    "ast_hash": "75c38cb2e327e92aaabb17a7fdc66d9d",
     "semantic_hash": ""
   },
   "app/services/generators/metadata_service.rb": {
-    "mtime": 1781585236.4297197,
-    "ast_hash": "43c2536c541065c10b826bce1e2a24ee",
+    "mtime": 1781587993.7890804,
+    "ast_hash": "9349c6121c523f9d3882605b8e3afacd",
     "semantic_hash": ""
   },
   "app/services/generators/refine_service.rb": {
-    "mtime": 1781585236.4297197,
-    "ast_hash": "6b6c3bd9a560507ff73d04a4825d308a",
+    "mtime": 1781587951.7023618,
+    "ast_hash": "d0e4ff31d0294b3c146e76b94760a32e",
     "semantic_hash": ""
   },
   "app/services/generators/repair_service.rb": {
@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "app/services/generators/stream_service.rb": {
-    "mtime": 1781585234.2480521,
-    "ast_hash": "57cf31f5ae4edf44bba6e74bdd91080d",
+    "mtime": 1781587947.283362,
+    "ast_hash": "993ce56e0f07891a91e0b8ba0cd68a6d",
     "semantic_hash": ""
   },
   "app/services/graphify/context_service.rb": {
@@ -110,8 +110,8 @@
     "semantic_hash": ""
   },
   "app/services/llm/router.rb": {
-    "mtime": 1781585230.5630507,
-    "ast_hash": "35a491701d67cc716f25802feb2a5ebb",
+    "mtime": 1781587945.4293618,
+    "ast_hash": "8015ac8f8720558c9ec829fdcf45c059",
     "semantic_hash": ""
   },
   "app/services/pine/validator.rb": {
@@ -120,8 +120,8 @@
     "semantic_hash": ""
   },
   "app/services/prompts/builder.rb": {
-    "mtime": 1781586906.5703342,
-    "ast_hash": "9ee3fa51aecc92ff1e8d4801dacf0e81",
+    "mtime": 1781587911.562187,
+    "ast_hash": "de701243aceb4d69fe35b52efd4e81e0",
     "semantic_hash": ""
   },
   "bin/brakeman": {
@@ -250,8 +250,8 @@
     "semantic_hash": ""
   },
   "client/src/components/shared/StreamStatus.tsx": {
-    "mtime": 1781585578.4833283,
-    "ast_hash": "436dbee354a330e1d0f459a2055b03f7",
+    "mtime": 1781588036.6232843,
+    "ast_hash": "5b0d6961e20a41f9bf66072bbcacc18f",
     "semantic_hash": ""
   },
   "client/src/editor/pine-diagnostics.test.ts": {
@@ -290,8 +290,8 @@
     "semantic_hash": ""
   },
   "client/src/hooks/useSSEStream.ts": {
-    "mtime": 1781585527.7440243,
-    "ast_hash": "9d12723d83f1288e50cdf38460c75254",
+    "mtime": 1781588045.4162846,
+    "ast_hash": "746b3431bc0cc949b1e3aedd52bb438c",
     "semantic_hash": ""
   },
   "client/src/hooks/useVersionDiff.ts": {
@@ -310,8 +310,8 @@
     "semantic_hash": ""
   },
   "client/src/types.ts": {
-    "mtime": 1781585524.4531896,
-    "ast_hash": "28d0bc598ea65c89cdc28e3c5b194286",
+    "mtime": 1781588033.4552844,
+    "ast_hash": "5f5449b49cde8d2ccc618bdab52ca406",
     "semantic_hash": ""
   },
   "client/tailwind.config.js": {
@@ -380,8 +380,8 @@
     "semantic_hash": ""
   },
   "config/initializers/ollama.rb": {
-    "mtime": 1781586243.9900534,
-    "ast_hash": "4ac1e6ea4fa549ba2690a4c52b22ed45",
+    "mtime": 1781587926.880187,
+    "ast_hash": "7efa88412cfe0c1a53354a792111d6f3",
     "semantic_hash": ""
   },
   "config/initializers/sidekiq.rb": {
@@ -565,8 +565,8 @@
     "semantic_hash": ""
   },
   "spec/support/ollama_helpers.rb": {
-    "mtime": 1781586296.5257387,
-    "ast_hash": "fae71085d23d080b73d3cf654405698c",
+    "mtime": 1781588239.8143997,
+    "ast_hash": "c3506d1ca1bb154e7558f47f7809359b",
     "semantic_hash": ""
   },
   "spec/support/request_helpers.rb": {
@@ -625,8 +625,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1781585580.3349955,
-    "ast_hash": "69d518eda789913e3d85426753430de9",
+    "mtime": 1781588089.9295523,
+    "ast_hash": "576681727b8f7716f876a450458907ca",
     "semantic_hash": ""
   },
   ".github/workflows/lint.yml": {
@@ -645,8 +645,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1781584185.924303,
-    "ast_hash": "edfb624a21a16d257f442a348f92b9f9",
+    "mtime": 1781588079.0714188,
+    "ast_hash": "149bc3e14c64fd6db4a8622260062cd8",
     "semantic_hash": ""
   },
   "CONTRIBUTING.md": {
@@ -745,8 +745,8 @@
     "semantic_hash": ""
   },
   "docs/roadmap.md": {
-    "mtime": 1781584188.5276375,
-    "ast_hash": "42da31f684851c2b37956166f0a7f799",
+    "mtime": 1781588171.0084822,
+    "ast_hash": "f6ea94aa7db5dd0d9c687839c823c048",
     "semantic_hash": ""
   },
   "docs/vision.md": {
@@ -760,8 +760,8 @@
     "semantic_hash": ""
   },
   "skills/llm-routing.md": {
-    "mtime": 1781584220.6427898,
-    "ast_hash": "054784c486723dac21dea06216374b7c",
+    "mtime": 1781588086.9235523,
+    "ast_hash": "293f42879c584cc75fdcc2c613a859df",
     "semantic_hash": ""
   },
   "skills/pine-script.md": {
@@ -792,6 +792,46 @@
   "spec/cassettes/ollama/metadata_extraction.yml": {
     "mtime": 1781586257.7125587,
     "ast_hash": "5e26b243d4b400a08a34bc4098dfc2f2",
+    "semantic_hash": ""
+  },
+  "app/services/llm/endpoint_resolver.rb": {
+    "mtime": 1781588114.9225526,
+    "ast_hash": "69aadede0fa55313785c328ce331935b",
+    "semantic_hash": ""
+  },
+  "spec/services/graphify/context_service_spec.rb": {
+    "mtime": 1781588246.1413996,
+    "ast_hash": "432bcb64a4dd8816667987b03fa7c047",
+    "semantic_hash": ""
+  },
+  "spec/services/llm/endpoint_resolver_spec.rb": {
+    "mtime": 1781588245.5023997,
+    "ast_hash": "cd073d1386eae523603878f3c46b2c70",
+    "semantic_hash": ""
+  },
+  "spec/services/prompts/builder_spec.rb": {
+    "mtime": 1781588246.8523998,
+    "ast_hash": "94cee92d339c2f345c80d301c719c649",
+    "semantic_hash": ""
+  },
+  ".github/workflows/graphify-impact.yml": {
+    "mtime": 1781588088.0845523,
+    "ast_hash": "01a422a7867529669c35405b1c3acf0b",
+    "semantic_hash": ""
+  },
+  "docs/adr/0003-graphify-rag-layer.md": {
+    "mtime": 1781588075.7684188,
+    "ast_hash": "c36faf449df7d51c12610dfe80adc926",
+    "semantic_hash": ""
+  },
+  "docs/dev/graphify-mcp.md": {
+    "mtime": 1781588065.3644187,
+    "ast_hash": "d4c836a13fdddcf28076ca36f48bf035",
+    "semantic_hash": ""
+  },
+  "docs/dev/graphify.md": {
+    "mtime": 1781588062.8444185,
+    "ast_hash": "839eceac2380d10a0274f910962b8b51",
     "semantic_hash": ""
   }
 }

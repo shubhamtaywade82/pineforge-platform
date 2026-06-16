@@ -34,4 +34,4 @@ Use Graphify as the v1 RAG layer:
 
 ## Ollama Endpoint Policy
 
-Cloud Ollama (`OLLAMA_CLOUD_URL`) is primary with health check. Local Ollama (`OLLAMA_URL`) serves degraded mode with `OLLAMA_LOCAL_FALLBACK_MODEL`.
+Cloud Ollama (`OLLAMA_CLOUD_BASE_URL` → `https://ollama.com`) is primary with health check. Local Ollama (`OLLAMA_URL`) serves degraded mode with `OLLAMA_LOCAL_FALLBACK_MODEL`.

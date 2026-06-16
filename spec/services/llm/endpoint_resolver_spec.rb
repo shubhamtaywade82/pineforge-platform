@@ -47,21 +47,8 @@ RSpec.describe Llm::EndpointResolver do
       end
     end
 
-    context "when cloud is not configured" do
+    context "when cloud is unreachable or unauthorized" do
       before do
-        stub_env("OLLAMA_CLOUD_URL" => nil)
-      end
-
-      it "uses local client" do
-        endpoint = described_class.resolve
-        expect(endpoint.client).to eq(local_client)
-        expect(endpoint.source).to eq("local")
-      end
-    end
-
-    context "when cloud is configured but unreachable/unauthorized" do
-      before do
-        stub_env("OLLAMA_CLOUD_URL" => "http://cloud.ollama.test")
         mock_http_request(success: false)
       end
 
@@ -73,10 +60,9 @@ RSpec.describe Llm::EndpointResolver do
       end
     end
 
-    context "when cloud is configured and reachable without keys" do
+    context "when cloud is reachable without keys" do
       before do
         stub_env(
-          "OLLAMA_CLOUD_URL" => "http://cloud.ollama.test",
           "OLLAMA_API_KEY" => nil,
           "OLLAMA_API_KEY_ONE" => nil,
           "OLLAMA_API_KEY_TWO" => nil,
@@ -97,7 +83,6 @@ RSpec.describe Llm::EndpointResolver do
     context "when multiple keys are configured" do
       before do
         stub_env(
-          "OLLAMA_CLOUD_URL" => "http://cloud.ollama.test",
           "OLLAMA_API_KEY" => nil,
           "OLLAMA_API_KEY_ONE" => "key_one",
           "OLLAMA_API_KEY_TWO" => "key_two",
