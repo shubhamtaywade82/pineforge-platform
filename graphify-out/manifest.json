@@ -825,8 +825,8 @@
     "semantic_hash": ""
   },
   "docs/dev/graphify.md": {
-    "mtime": 1781592622.0151637,
-    "ast_hash": "7dc6449c61e62925a29291f325bf53bd",
+    "mtime": 1781593435.5756507,
+    "ast_hash": "89dc8a5b695d60a24452d76e3685ba5f",
     "semantic_hash": ""
   },
   "client/src/PineForgeTimeline.test.tsx": {
@@ -1000,8 +1000,8 @@
     "semantic_hash": ""
   },
   "docs/pine_v6_language/SOURCE.md": {
-    "mtime": 1781592549.9261148,
-    "ast_hash": "0f5cab87fb71e4d5c5781d2623fbb9a7",
+    "mtime": 1781593281.5385363,
+    "ast_hash": "e2c14667502becd65dd4c3ec62ab5fa2",
     "semantic_hash": ""
   },
   "docs/pine_v6_language/conditional-structures.md": {
@@ -1042,6 +1042,111 @@
   "docs/pine_v6_language/variable-declarations.md": {
     "mtime": 1781592589.4428246,
     "ast_hash": "7dc9ac65bf54f334cc649151eab2df39",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/arrays.md": {
+    "mtime": 1781593262.3264337,
+    "ast_hash": "44f6c1b34d09b62ff91d4f6c4ac8cc72",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/built-ins.md": {
+    "mtime": 1781593220.6829107,
+    "ast_hash": "350161535811b9e9c86c9d0224d37736",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/enums.md": {
+    "mtime": 1781593250.3834336,
+    "ast_hash": "d9a52514a70f60f39773b105d65cd729",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/loops.md": {
+    "mtime": 1781593209.9909105,
+    "ast_hash": "2887b876477dd1bfbb817f9c398d0c4f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/maps.md": {
+    "mtime": 1781593277.452536,
+    "ast_hash": "65cdff20c68af226c62733695c157458",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/matrices.md": {
+    "mtime": 1781593267.9154336,
+    "ast_hash": "ac71de450a406352594fc91e77002897",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/methods.md": {
+    "mtime": 1781593255.9454336,
+    "ast_hash": "2b57317c60f9a577016e842d68fd0793",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/objects.md": {
+    "mtime": 1781593244.2544334,
+    "ast_hash": "bc50632db09568779122681974081743",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/user-defined-functions.md": {
+    "mtime": 1781593231.356911,
+    "ast_hash": "15a8a9d2ce438997a2ce96ad91c27131",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/SOURCE.md": {
+    "mtime": 1781593359.4331646,
+    "ast_hash": "28eee5616679050ae9c37d1c3687bcc9",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/backgrounds.md": {
+    "mtime": 1781593371.3401647,
+    "ast_hash": "ce3c3191a2e903e2af0ea34a9627ee0b",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/bar-coloring.md": {
+    "mtime": 1781593373.8871646,
+    "ast_hash": "c349a4e9817bee9aca91cfb18d396e6f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/bar-plotting.md": {
+    "mtime": 1781593379.7911649,
+    "ast_hash": "3acc95640739e022d38a8eca1bfd77a0",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/colors.md": {
+    "mtime": 1781593390.2985454,
+    "ast_hash": "32a248669a81ad019d56a0ababf256be",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/fills.md": {
+    "mtime": 1781593400.6305456,
+    "ast_hash": "5db7d485a75cfb6ad253b8294aad9903",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/levels.md": {
+    "mtime": 1781593406.4985456,
+    "ast_hash": "1b24891cb26575d3f6d1a7cec7a7489f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/lines-and-boxes.md": {
+    "mtime": 1781593413.1225457,
+    "ast_hash": "533b8ae34dc06a8ec05635b12b416c2a",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/overview.md": {
+    "mtime": 1781593364.9321647,
+    "ast_hash": "b0cc093c9e91452b48830c4042ce6143",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/plots.md": {
+    "mtime": 1781593422.9666505,
+    "ast_hash": "d37f18e4772241ec4dabc593ae61ee8f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/tables.md": {
+    "mtime": 1781593427.1336505,
+    "ast_hash": "7b54ae7a863b49bdc03a462afd808246",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_visuals/text-and-shapes.md": {
+    "mtime": 1781593434.0096505,
+    "ast_hash": "47f4bf789cd68c693bced1a874195d6e",
     "semantic_hash": ""
   }
 }
