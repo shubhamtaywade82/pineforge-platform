@@ -32,3 +32,6 @@
 /config/*.key
 
 client/node_modules
+
+/coverage
+/spec/examples.txt

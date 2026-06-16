@@ -6,11 +6,12 @@ RSpec.describe "Indicators API", type: :request do
   let!(:indicator) { create(:indicator) }
 
   describe "GET /api/v1/indicators" do
-    it "lists indicators" do
-      get "/api/v1/indicators"
+    it "lists indicators matching the summary schema" do
+      get "/api/v1/indicators", headers: json_headers
 
       expect(response).to have_http_status(:ok)
-      expect(response.parsed_body.first["id"]).to eq(indicator.id)
+      expect(json_response.first["id"]).to eq(indicator.id)
+      expect(json_response.first).to match_json_schema("indicator_summary")
     end
   end
 

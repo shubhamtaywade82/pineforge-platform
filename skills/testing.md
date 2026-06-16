@@ -4,11 +4,23 @@ Apply to every milestone; tests are mandatory before marking work complete.
 
 ## Backend (RSpec)
 
-- Unit tests for models and utilities
-- Service specs for business logic
-- Request specs for API endpoints
-- WebMock blocks outbound HTTP by default
-- VCR replays Ollama interactions from `spec/cassettes/`
+| Gem | Role |
+|-----|------|
+| `rspec-rails` | Request, model, service, job specs |
+| `factory_bot_rails` | Test data factories with traits |
+| `faker` | Realistic factory attributes |
+| `shoulda-matchers` | Model validations and associations |
+| `webmock` | Block and stub outbound HTTP |
+| `vcr` | Record/replay Ollama API cassettes |
+| `json_matchers` | JSON schema assertions for API responses |
+| `rspec-sidekiq` | Sidekiq job test helpers |
+| `simplecov` | Coverage reports (`COVERAGE=true`) |
+
+## Factories
+
+- Defined in `spec/factories/`
+- Use traits (`:complete`, `:strategy`, `:with_metadata`, etc.)
+- Lint factories: `FACTORY_BOT_LINT=true bundle exec rspec`
 
 ## Frontend (Vitest)
 
@@ -19,7 +31,10 @@ Apply to every milestone; tests are mandatory before marking work complete.
 
 ```bash
 bundle exec rspec
+COVERAGE=true bundle exec rspec
+FACTORY_BOT_LINT=true bundle exec rspec
 VCR_RECORD=all bundle exec rspec spec/services/generators/metadata_service_spec.rb
+cd client && npm test
 ```
 
 ## CI
@@ -31,4 +46,3 @@ All tests must pass in `.github/workflows/ci.yml` before merge.
 - No feature without tests.
 - Cover edge cases and failure paths.
 - Never mark work complete without test evidence in PRs.
-
