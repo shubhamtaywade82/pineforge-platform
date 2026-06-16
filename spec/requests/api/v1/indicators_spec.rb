@@ -57,6 +57,15 @@ RSpec.describe "Indicators API", type: :request do
     end
   end
 
+  describe "DELETE /api/v1/indicators/:id" do
+    it "destroys the indicator" do
+      delete "/api/v1/indicators/#{indicator.id}"
+
+      expect(response).to have_http_status(:no_content)
+      expect(Indicator.find_by(id: indicator.id)).to be_nil
+    end
+  end
+
   describe "GET /api/v1/indicators/:id/versions/:version_number/diff" do
     it "returns a diff payload" do
       indicator.create_version!("//@version=6\nindicator(\"V1\")")

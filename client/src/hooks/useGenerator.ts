@@ -7,7 +7,15 @@ export function useGenerator() {
   const [prompt, setPrompt] = useState("");
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
   const [previousCode, setPreviousCode] = useState<string | undefined>();
-  const { stream, cancel, status, code, error, metadata } = useSSEStream();
+  const {
+    stream,
+    cancel,
+    reset: resetStream,
+    status,
+    code,
+    error,
+    metadata,
+  } = useSSEStream();
 
   const generate = useCallback(async () => {
     setPreviousCode(undefined);
@@ -36,6 +44,13 @@ export function useGenerator() {
     }
   }, [status, code]);
 
+  const reset = useCallback(() => {
+    setPrompt("");
+    setChatHistory([]);
+    setPreviousCode(undefined);
+    resetStream();
+  }, [resetStream]);
+
   return {
     scriptType,
     setScriptType,
@@ -44,6 +59,7 @@ export function useGenerator() {
     generate,
     refine,
     cancel,
+    reset,
     status,
     code,
     error,

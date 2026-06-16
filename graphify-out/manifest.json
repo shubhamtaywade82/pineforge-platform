@@ -110,8 +110,8 @@
     "semantic_hash": ""
   },
   "app/services/llm/router.rb": {
-    "mtime": 1781587945.4293618,
-    "ast_hash": "8015ac8f8720558c9ec829fdcf45c059",
+    "mtime": 1781590776.8257751,
+    "ast_hash": "4c673f1c36a02d9edac96986cfd6799e",
     "semantic_hash": ""
   },
   "app/services/pine/validator.rb": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "client/src/App.tsx": {
-    "mtime": 1781590193.1965907,
-    "ast_hash": "dd33127e9e83ad9ce5b57c500f765a7d",
+    "mtime": 1781590930.9152794,
+    "ast_hash": "d2b091d065d53f7ed4382023fd3e436b",
     "semantic_hash": ""
   },
   "client/src/PineEditor.test.tsx": {
@@ -245,8 +245,8 @@
     "semantic_hash": ""
   },
   "client/src/components/layout/Sidebar.tsx": {
-    "mtime": 1781588901.5838575,
-    "ast_hash": "7859add569532270ad24d5e1e469ee29",
+    "mtime": 1781590853.7718854,
+    "ast_hash": "ce2f4e498124ce1710b74f424242e4c6",
     "semantic_hash": ""
   },
   "client/src/components/shared/StreamStatus.tsx": {
@@ -280,18 +280,18 @@
     "semantic_hash": ""
   },
   "client/src/hooks/useGenerator.ts": {
-    "mtime": 1781587064.2415962,
-    "ast_hash": "cc479dcf119ee27eefbc1b7366f5f115",
+    "mtime": 1781590940.0232794,
+    "ast_hash": "1efba09583fc68b16c53c0c79f57ff2a",
     "semantic_hash": ""
   },
   "client/src/hooks/useIndicators.ts": {
-    "mtime": 1781585529.7973585,
-    "ast_hash": "9ad8f0c454c9fae070336f2c21669804",
+    "mtime": 1781590846.8148854,
+    "ast_hash": "1c42963b9cb24b3b5f2331ef0a742bad",
     "semantic_hash": ""
   },
   "client/src/hooks/useSSEStream.ts": {
-    "mtime": 1781588045.4162846,
-    "ast_hash": "746b3431bc0cc949b1e3aedd52bb438c",
+    "mtime": 1781590840.4968853,
+    "ast_hash": "312cf0a2ce02abedc0885cce4a8516ca",
     "semantic_hash": ""
   },
   "client/src/main.tsx": {
@@ -505,8 +505,8 @@
     "semantic_hash": ""
   },
   "spec/requests/api/v1/indicators_spec.rb": {
-    "mtime": 1781590098.5168781,
-    "ast_hash": "964f6206fd4ebb9bed8b4e0260b9db62",
+    "mtime": 1781590886.802488,
+    "ast_hash": "5b5523dd8c04985ae5bb34a05f00e7fd",
     "semantic_hash": ""
   },
   "spec/requests/health_spec.rb": {
@@ -535,8 +535,8 @@
     "semantic_hash": ""
   },
   "spec/services/llm/router_spec.rb": {
-    "mtime": 1781586255.173391,
-    "ast_hash": "74543290266e531368e1e473a4cbf414",
+    "mtime": 1781590791.4777753,
+    "ast_hash": "6032998d7dffd95e2c282e7d96e691ab",
     "semantic_hash": ""
   },
   "spec/services/pine/validator_spec.rb": {
@@ -877,6 +877,16 @@
   "client/src/hooks/useIndicatorVersions.ts": {
     "mtime": 1781590117.134307,
     "ast_hash": "4075e443a699612ec53fec67c06ff186",
+    "semantic_hash": ""
+  },
+  "client/src/components/layout/Sidebar.test.tsx": {
+    "mtime": 1781590888.7824879,
+    "ast_hash": "a946b286543ea9fa3075c2893cee094d",
+    "semantic_hash": ""
+  },
+  "client/src/hooks/useIndicators.test.ts": {
+    "mtime": 1781590892.850488,
+    "ast_hash": "70d8269d40042d61fed4dbbf2bc8d84c",
     "semantic_hash": ""
   }
 }

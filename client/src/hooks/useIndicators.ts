@@ -28,5 +28,22 @@ export function useIndicators() {
     void refresh();
   }, [refresh]);
 
-  return { indicators, loading, error, refresh };
+  const deleteIndicator = useCallback(async (id: string) => {
+    setError(null);
+
+    try {
+      const response = await fetch(`/api/v1/indicators/${id}`, { method: "DELETE" });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      setIndicators((previous) => previous.filter((indicator) => indicator.id !== id));
+    } catch (deleteError) {
+      setError(deleteError instanceof Error ? deleteError.message : "Failed to delete indicator");
+      throw deleteError;
+    }
+  }, []);
+
+  return { indicators, loading, error, refresh, deleteIndicator };
 }

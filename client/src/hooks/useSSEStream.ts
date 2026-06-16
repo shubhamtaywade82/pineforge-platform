@@ -100,5 +100,13 @@ export function useSSEStream() {
     setStatus("idle");
   }, []);
 
-  return { stream, cancel, status, code, error, metadata };
+  const reset = useCallback(() => {
+    readerRef.current?.cancel();
+    setStatus("idle");
+    setCode("");
+    setError(null);
+    setMetadata({});
+  }, []);
+
+  return { stream, cancel, reset, status, code, error, metadata };
 }

@@ -22,6 +22,7 @@ type AppView = "editor" | "timeline";
 export default function App() {
   const [view, setView] = useState<AppView>("editor");
   const [showDiff, setShowDiff] = useState(false);
+  const [deletingIndicatorId, setDeletingIndicatorId] = useState<string | null>(null);
   const generator = useGenerator();
   const indicators = useIndicators();
   const {
@@ -87,6 +88,31 @@ export default function App() {
     [setLeftVersion, setRightVersion, versions]
   );
 
+  const handleDeleteIndicator = useCallback(
+    async (id: string) => {
+      const indicator = indicators.indicators.find((entry) => entry.id === id);
+      const label = indicator?.name ?? "this indicator";
+
+      if (!window.confirm(`Delete "${label}"? This cannot be undone.`)) {
+        return;
+      }
+
+      setDeletingIndicatorId(id);
+
+      try {
+        await indicators.deleteIndicator(id);
+
+        if (generator.indicatorId === id) {
+          generator.reset();
+          setShowDiff(false);
+        }
+      } finally {
+        setDeletingIndicatorId(null);
+      }
+    },
+    [generator.indicatorId, generator.reset, indicators.deleteIndicator, indicators.indicators]
+  );
+
   if (view === "timeline") {
     return <PineForgeTimeline onBack={() => setView("editor")} />;
   }
@@ -99,6 +125,8 @@ export default function App() {
           loading={indicators.loading}
           error={indicators.error}
           onOpenTimeline={() => setView("timeline")}
+          onDeleteIndicator={(id) => void handleDeleteIndicator(id)}
+          deletingIndicatorId={deletingIndicatorId}
         />
       }
       promptPanel={

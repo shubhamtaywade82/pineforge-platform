@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 156 files · ~21,929 words
+- 158 files · ~22,536 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 508 nodes · 520 edges · 107 communities (83 shown, 24 thin omitted)
+- 512 nodes · 526 edges · 108 communities (82 shown, 26 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `adf9c927`
+- Built from commit: `4a2d420c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -22,6 +22,7 @@
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
@@ -87,19 +88,19 @@
   client/src/App.tsx → client/src/hooks/useIndicators.ts
 - `App()` --calls--> `useIndicatorVersions()`  [EXTRACTED]
   client/src/App.tsx → client/src/hooks/useIndicatorVersions.ts
-- `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
-  client/src/components/timeline/PineForgeTimeline.tsx → client/src/data/timelinePhases.ts
 - `useGenerator()` --calls--> `useSSEStream()`  [EXTRACTED]
   client/src/hooks/useGenerator.ts → client/src/hooks/useSSEStream.ts
+- `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
+  client/src/components/timeline/PineForgeTimeline.tsx → client/src/data/timelinePhases.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (107 total, 24 thin omitted)
+## Communities (108 total, 26 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
-Nodes (34): ValidationPanel(), ValidationPanelProps, versions, VersionHistoryPanel(), VersionHistoryPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel() (+26 more)
+Nodes (35): ValidationPanel(), ValidationPanelProps, versions, VersionHistoryPanel(), VersionHistoryPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel() (+27 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
@@ -109,17 +110,13 @@ Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencie
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
 
-### Community 3 - "Community 3"
-Cohesion: 0.12
-Nodes (3): MetadataService, ExtractMetadataJob, GeneratorsController
-
 ### Community 4 - "Community 4"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.07
-Nodes (6): CompleteService, RefineService, RepairService, StreamService, Indicator, Builder
+Nodes (7): CompleteService, MetadataService, RefineService, StreamService, ExtractMetadataJob, Indicator, Builder
 
 ### Community 8 - "Community 8"
 Cohesion: 0.14
@@ -210,24 +207,24 @@ Cohesion: 0.15
 Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMilestone, TimelinePhase, timelineTotals(), withProgress(), MilestoneCardProps (+4 more)
 
 ## Knowledge Gaps
-- **182 isolated node(s):** `PineEditor`, `AppView`, `setModelMarkers`, `registerInlineCompletionsProvider`, `PineEditorProps` (+177 more)
+- **183 isolated node(s):** `PineEditor`, `AppView`, `indicators`, `SidebarProps`, `StreamMetadata` (+178 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Community 6` to `Community 3`?**
+- **Why does `Builder` connect `Community 6` to `Community 7`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `PineEditor`, `AppView`, `setModelMarkers` to the rest of the system?**
-  _182 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `GeneratorsController` connect `Community 3` to `Community 6`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **What connects `PineEditor`, `AppView`, `indicators` to the rest of the system?**
+  _183 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07197763801537387 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06766917293233082 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11956521739130435 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.12105263157894737 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
