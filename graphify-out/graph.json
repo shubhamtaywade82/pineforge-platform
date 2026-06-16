@@ -1,43 +1,413 @@
 {
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
   "nodes": [
     {
-      "id": "1",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "PineEditor",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_app_pineeditor",
+      "community": 0,
+      "norm_label": "pineeditor"
+    },
+    {
+      "label": "AppView",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_app_appview",
+      "community": 0,
+      "norm_label": "appview"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 2,
+      "norm_label": "app()"
+    },
+    {
+      "label": "PineEditor.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_pineeditor",
+      "community": 6,
+      "norm_label": "pineeditor.tsx"
+    },
+    {
+      "label": "PineEditorProps",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "editor_pineeditor_pineeditorprops",
+      "community": 6,
+      "norm_label": "pineeditorprops"
+    },
+    {
+      "label": "PineEditor()",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "editor_pineeditor_pineeditor",
+      "community": 6,
+      "norm_label": "pineeditor()"
+    },
+    {
+      "label": "ValidationPanel.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_validationpanel",
+      "community": 0,
+      "norm_label": "validationpanel.tsx"
+    },
+    {
+      "label": "ValidationPanelProps",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "editor_validationpanel_validationpanelprops",
+      "community": 0,
+      "norm_label": "validationpanelprops"
+    },
+    {
+      "label": "ValidationPanel()",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "editor_validationpanel_validationpanel",
+      "community": 0,
+      "norm_label": "validationpanel()"
+    },
+    {
+      "label": "VersionHistoryPanel.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel",
+      "community": 7,
+      "norm_label": "versionhistorypanel.tsx"
+    },
+    {
+      "label": "VersionHistoryPanelProps",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_versionhistorypanelprops",
+      "community": 7,
+      "norm_label": "versionhistorypanelprops"
+    },
+    {
+      "label": "VersionHistoryPanel()",
+      "file_type": "code",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "editor_versionhistorypanel_versionhistorypanel",
+      "community": 7,
+      "norm_label": "versionhistorypanel()"
+    },
+    {
+      "label": "ContextHistory.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "generator_contexthistory",
+      "community": 8,
+      "norm_label": "contexthistory.tsx"
+    },
+    {
+      "label": "ContextHistoryProps",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "generator_contexthistory_contexthistoryprops",
+      "community": 8,
+      "norm_label": "contexthistoryprops"
+    },
+    {
+      "label": "ContextHistory()",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "generator_contexthistory_contexthistory",
+      "community": 8,
+      "norm_label": "contexthistory()"
+    },
+    {
+      "label": "PromptPanel.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "generator_promptpanel",
+      "community": 9,
+      "norm_label": "promptpanel.tsx"
+    },
+    {
+      "label": "PromptPanelProps",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "generator_promptpanel_promptpanelprops",
+      "community": 9,
+      "norm_label": "promptpanelprops"
+    },
+    {
+      "label": "PromptPanel()",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "generator_promptpanel_promptpanel",
+      "community": 9,
+      "norm_label": "promptpanel()"
+    },
+    {
+      "label": "ScriptTypeTabs.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "generator_scripttypetabs",
+      "community": 3,
+      "norm_label": "scripttypetabs.tsx"
+    },
+    {
+      "label": "ScriptTypeTabsProps",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "generator_scripttypetabs_scripttypetabsprops",
+      "community": 3,
+      "norm_label": "scripttypetabsprops"
+    },
+    {
+      "label": "OPTIONS",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "generator_scripttypetabs_options",
+      "community": 3,
+      "norm_label": "options"
+    },
+    {
+      "label": "ScriptTypeTabs()",
+      "file_type": "code",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "generator_scripttypetabs_scripttypetabs",
+      "community": 3,
+      "norm_label": "scripttypetabs()"
+    },
+    {
+      "label": "AppShell.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/AppShell.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "layout_appshell",
+      "community": 0,
+      "norm_label": "appshell.tsx"
+    },
+    {
+      "label": "AppShellProps",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/AppShell.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "layout_appshell_appshellprops",
+      "community": 0,
+      "norm_label": "appshellprops"
+    },
+    {
+      "label": "AppShell()",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/AppShell.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "layout_appshell_appshell",
+      "community": 0,
+      "norm_label": "appshell()"
+    },
+    {
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "layout_sidebar",
+      "community": 0,
+      "norm_label": "sidebar.tsx"
+    },
+    {
+      "label": "SidebarProps",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "layout_sidebar_sidebarprops",
+      "community": 0,
+      "norm_label": "sidebarprops"
+    },
+    {
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "layout_sidebar_sidebar",
+      "community": 0,
+      "norm_label": "sidebar()"
+    },
+    {
+      "label": "useGenerator.ts",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_usegenerator",
+      "community": 2,
+      "norm_label": "usegenerator.ts"
+    },
+    {
+      "label": "useGenerator()",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "hooks_usegenerator_usegenerator",
+      "community": 2,
+      "norm_label": "usegenerator()"
+    },
+    {
+      "label": "useSSEStream.ts",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_usessestream",
+      "community": 2,
+      "norm_label": "usessestream.ts"
+    },
+    {
+      "label": "StreamMetadata",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "hooks_usessestream_streammetadata",
+      "community": 2,
+      "norm_label": "streammetadata"
+    },
+    {
+      "label": "useSSEStream()",
+      "file_type": "code",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "hooks_usessestream_usessestream",
+      "community": 2,
+      "norm_label": "usessestream()"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "client/tailwind.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "client_tailwind_config",
+      "community": 10,
+      "norm_label": "tailwind.config.js"
+    },
+    {
       "type": "file",
       "name": "overview.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/overview/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/overview/",
+      "file_type": "concept",
+      "id": "1",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "2",
       "type": "file",
       "name": "CE10101.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/CE10101/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/CE10101/",
+      "file_type": "concept",
+      "id": "2",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "3",
       "type": "file",
       "name": "CW10003.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/CW10003/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/CW10003/",
+      "file_type": "concept",
+      "id": "3",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "4",
       "type": "file",
       "name": "RE10139.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/RE10139/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/RE10139/",
+      "file_type": "concept",
+      "id": "4",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "5",
       "type": "file",
       "name": "RE10143.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/RE10143/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/RE10143/",
+      "file_type": "concept",
+      "id": "5",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "6",
       "type": "file",
       "name": "SOURCE.md",
-      "source_url": "https://www.tradingview.com/pine-script-docs/errors/SOURCE/"
+      "source_url": "https://www.tradingview.com/pine-script-docs/errors/SOURCE/",
+      "file_type": "concept",
+      "id": "6",
+      "community": 1,
+      "norm_label": ""
     },
     {
-      "id": "overview_errors",
       "label": "Errors: Overview",
       "file_type": "document",
       "source_file": "docs/pine_v6_errors/overview.md",
@@ -45,10 +415,12 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/errors/overview/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "overview_errors",
+      "community": 5,
+      "norm_label": "errors: overview"
     },
     {
-      "id": "overview_writing",
       "label": "Pine Script v6 Writing \u2014 Source",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/SOURCE.md",
@@ -56,10 +428,12 @@
       "source_url": null,
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "overview_writing",
+      "community": 5,
+      "norm_label": "pine script v6 writing \u2014 source"
     },
     {
-      "id": "debugging",
       "label": "Writing: Debugging",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/debugging.md",
@@ -67,10 +441,12 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/writing/debugging/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "debugging",
+      "community": 5,
+      "norm_label": "writing: debugging"
     },
     {
-      "id": "writing_limitations",
       "label": "Writing: Limitations",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/limitations.md",
@@ -78,10 +454,12 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/writing/limitations/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "writing_limitations",
+      "community": 4,
+      "norm_label": "writing: limitations"
     },
     {
-      "id": "writing_profiling_and_optimization",
       "label": "Writing: Profiling and Optimization",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/profiling-and-optimization.md",
@@ -89,10 +467,12 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/writing/profiling-and-optimization/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "writing_profiling_and_optimization",
+      "community": 4,
+      "norm_label": "writing: profiling and optimization"
     },
     {
-      "id": "writing_publishing",
       "label": "Writing: Publishing",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/publishing.md",
@@ -100,10 +480,12 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/writing/publishing/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "writing_publishing",
+      "community": 4,
+      "norm_label": "writing: publishing"
     },
     {
-      "id": "writing_style_guide",
       "label": "Writing: Style Guide",
       "file_type": "document",
       "source_file": "docs/pine_v6_writing/style-guide.md",
@@ -111,117 +493,574 @@
       "source_url": "https://www.tradingview.com/pine-script-docs/writing/style-guide/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "writing_style_guide",
+      "community": 4,
+      "norm_label": "writing: style guide"
     }
   ],
-  "edges": [
+  "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel_validationpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "editor_versionhistorypanel_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory_contexthistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel_promptpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs_scripttypetabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator_usegenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell_appshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar_sidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_appview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_pineeditor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_usegenerator_usegenerator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pineeditor_pineeditor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/PineEditor.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "editor_pineeditor",
+      "target": "editor_pineeditor_pineeditorprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "editor_validationpanel",
+      "target": "editor_validationpanel_validationpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/ValidationPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "editor_validationpanel",
+      "target": "editor_validationpanel_validationpanelprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "editor_versionhistorypanel_versionhistorypanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/editor/VersionHistoryPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "editor_versionhistorypanel",
+      "target": "editor_versionhistorypanel_versionhistorypanelprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "generator_contexthistory",
+      "target": "generator_contexthistory_contexthistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ContextHistory.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "generator_contexthistory",
+      "target": "generator_contexthistory_contexthistoryprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "generator_promptpanel",
+      "target": "generator_promptpanel_promptpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/PromptPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "generator_promptpanel",
+      "target": "generator_promptpanel_promptpanelprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "generator_scripttypetabs",
+      "target": "generator_scripttypetabs_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "generator_scripttypetabs",
+      "target": "generator_scripttypetabs_scripttypetabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/generator/ScriptTypeTabs.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "generator_scripttypetabs",
+      "target": "generator_scripttypetabs_scripttypetabsprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/AppShell.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "layout_appshell",
+      "target": "layout_appshell_appshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/AppShell.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "layout_appshell",
+      "target": "layout_appshell_appshellprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "layout_sidebar",
+      "target": "layout_sidebar_sidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "layout_sidebar",
+      "target": "layout_sidebar_sidebarprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "hooks_usegenerator_usegenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "hooks_usessestream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hooks_usegenerator",
+      "target": "hooks_usessestream_usessestream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/hooks/useGenerator.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "hooks_usegenerator_usegenerator",
+      "target": "hooks_usessestream_usessestream"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "hooks_usessestream",
+      "target": "hooks_usessestream_streammetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/hooks/useSSEStream.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "hooks_usessestream",
+      "target": "hooks_usessestream_usessestream",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
       "source": "6",
       "target": "1",
-      "type": "contains"
+      "confidence_score": 1.0
     },
     {
+      "type": "contains",
       "source": "6",
       "target": "2",
-      "type": "contains"
+      "confidence_score": 1.0
     },
     {
+      "type": "contains",
       "source": "6",
       "target": "3",
-      "type": "contains"
+      "confidence_score": 1.0
     },
     {
+      "type": "contains",
       "source": "6",
       "target": "4",
-      "type": "contains"
+      "confidence_score": 1.0
     },
     {
+      "type": "contains",
       "source": "6",
       "target": "5",
-      "type": "contains"
+      "confidence_score": 1.0
     },
     {
-      "source": "overview_errors",
-      "target": "overview_writing",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_errors/overview.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "overview_errors",
+      "target": "overview_writing"
     },
     {
-      "source": "overview_writing",
-      "target": "debugging",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/SOURCE.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "overview_writing",
+      "target": "debugging"
     },
     {
-      "source": "writing_limitations",
-      "target": "writing_profiling_and_optimization",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/limitations.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_limitations",
+      "target": "writing_profiling_and_optimization"
     },
     {
-      "source": "writing_limitations",
-      "target": "writing_publishing",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/limitations.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_limitations",
+      "target": "writing_publishing"
     },
     {
-      "source": "writing_limitations",
-      "target": "writing_style_guide",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/limitations.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_limitations",
+      "target": "writing_style_guide"
     },
     {
-      "source": "writing_profiling_and_optimization",
-      "target": "writing_publishing",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/profiling-and-optimization.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_profiling_and_optimization",
+      "target": "writing_publishing"
     },
     {
-      "source": "writing_profiling_and_optimization",
-      "target": "writing_style_guide",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/profiling-and-optimization.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_profiling_and_optimization",
+      "target": "writing_style_guide"
     },
     {
-      "source": "writing_publishing",
-      "target": "writing_style_guide",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/pine_v6_writing/publishing.md",
       "source_location": null,
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "writing_publishing",
+      "target": "writing_style_guide"
     }
   ],
   "hyperedges": [],
-  "input_tokens": 9268,
-  "output_tokens": 1563
+  "built_at_commit": "16d503216c05ff82fe0063d1d9f9763284823aa1"
 }

@@ -11,6 +11,7 @@ export function useGenerator() {
     stream,
     cancel,
     reset: resetStream,
+    load: loadStream,
     status,
     code,
     error,
@@ -88,6 +89,28 @@ export function useGenerator() {
     resetStream();
   }, [resetStream]);
 
+  const loadIndicator = useCallback(
+    (
+      initialCode: string,
+      initialMetadata: {
+        indicatorId?: string;
+        validation?: { passed: boolean; errors: string[]; warnings: string[] };
+        version?: number;
+        model?: string;
+        source?: string;
+      },
+      initialPrompt: string,
+      initialScriptType: ScriptType
+    ) => {
+      setPrompt(initialPrompt);
+      setScriptType(initialScriptType);
+      setChatHistory([]);
+      setPreviousCode(undefined);
+      loadStream(initialCode, initialMetadata);
+    },
+    [loadStream]
+  );
+
   return {
     scriptType,
     setScriptType,
@@ -100,6 +123,7 @@ export function useGenerator() {
     rephraseError,
     cancel,
     reset,
+    loadIndicator,
     status,
     code,
     error,

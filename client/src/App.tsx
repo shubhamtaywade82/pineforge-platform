@@ -23,6 +23,14 @@ export default function App() {
   const [view, setView] = useState<AppView>("editor");
   const [showDiff, setShowDiff] = useState(false);
   const [deletingIndicatorId, setDeletingIndicatorId] = useState<string | null>(null);
+  
+  // Custom sidebar/panel collapse states
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [isPromptCollapsed, setIsPromptCollapsed] = useState(false);
+
+  // Track active indicator selection
+  const [activeIndicatorId, setActiveIndicatorId] = useState<string | null>(null);
+
   const generator = useGenerator();
   const indicators = useIndicators();
   const {
@@ -46,9 +54,20 @@ export default function App() {
     setShowDiff((previous) => !previous);
   }, [diffAvailable]);
 
+  // Sync active indicator selection with generator's indicatorId
+  useEffect(() => {
+    if (generator.indicatorId) {
+      setActiveIndicatorId(generator.indicatorId);
+    } else {
+      setActiveIndicatorId(null);
+    }
+  }, [generator.indicatorId]);
+
   useEffect(() => {
     if (generator.status === "done" && generator.metadata.version) {
       refetchVersions();
+      // Refresh indicators list to show updated script or new script name/version
+      void indicators.refresh();
     }
   }, [generator.metadata.version, generator.status, refetchVersions]);
 
@@ -88,6 +107,41 @@ export default function App() {
     [setLeftVersion, setRightVersion, versions]
   );
 
+  // Load selected indicator from sidebar
+  const handleSelectIndicator = useCallback(
+    async (id: string) => {
+      if (generator.status === "streaming") {
+        return; // Don't interrupt streaming
+      }
+
+      try {
+        const response = await fetch(`/api/v1/indicators/${id}`);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        const details = await response.json();
+
+        generator.loadIndicator(
+          details.generated_code || "",
+          {
+            indicatorId: details.id,
+            validation: details.validation,
+            version: details.metadata?.version,
+            model: details.metadata?.model,
+            source: details.metadata?.source,
+          },
+          details.prompt || "",
+          details.script_type || "indicator"
+        );
+        setActiveIndicatorId(details.id);
+        setShowDiff(false);
+      } catch (err) {
+        console.error("Failed to load indicator details:", err);
+      }
+    },
+    [generator]
+  );
+
   const handleDeleteIndicator = useCallback(
     async (id: string) => {
       const indicator = indicators.indicators.find((entry) => entry.id === id);
@@ -104,6 +158,7 @@ export default function App() {
 
         if (generator.indicatorId === id) {
           generator.reset();
+          setActiveIndicatorId(null);
           setShowDiff(false);
         }
       } finally {
@@ -117,8 +172,17 @@ export default function App() {
     return <PineForgeTimeline onBack={() => setView("editor")} />;
   }
 
+  const activeIndicatorName = activeIndicatorId
+    ? indicators.indicators.find((ind) => ind.id === activeIndicatorId)?.name
+    : undefined;
+
   return (
     <AppShell
+      isSidebarCollapsed={isSidebarCollapsed}
+      onToggleSidebar={() => setIsSidebarCollapsed((prev) => !prev)}
+      isPromptCollapsed={isPromptCollapsed}
+      onTogglePrompt={() => setIsPromptCollapsed((prev) => !prev)}
+      activeIndicatorName={activeIndicatorName}
       sidebar={
         <Sidebar
           indicators={indicators.indicators}
@@ -127,6 +191,9 @@ export default function App() {
           onOpenTimeline={() => setView("timeline")}
           onDeleteIndicator={(id) => void handleDeleteIndicator(id)}
           deletingIndicatorId={deletingIndicatorId}
+          onSelectIndicator={handleSelectIndicator}
+          activeIndicatorId={activeIndicatorId}
+          onCollapse={() => setIsSidebarCollapsed(true)}
         />
       }
       promptPanel={
@@ -160,8 +227,9 @@ export default function App() {
       editor={
         <Suspense
           fallback={
-            <div className="flex h-full items-center justify-center text-sm text-gray-500">
-              Loading editor...
+            <div className="flex h-full items-center justify-center text-sm text-slate-500">
+              <div className="h-5 w-5 animate-spin rounded-full border-2 border-slate-700 border-t-blue-500" />
+              <span className="ml-2">Loading editor...</span>
             </div>
           }
         >

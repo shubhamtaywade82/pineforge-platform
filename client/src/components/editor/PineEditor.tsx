@@ -109,24 +109,66 @@ export function PineEditor({
   const rightVersionId = rightVersion?.id ?? "";
 
   return (
-    <div className="relative flex h-full flex-col">
-      <div className="flex h-9 flex-shrink-0 items-center justify-between border-b border-gray-800 bg-[#161B22] px-3">
-        <div className="flex items-center gap-3 text-xs text-gray-500">
-          <span className="font-mono text-[#4EC9B0]">Pine Script v6</span>
+    <div className="relative flex h-full flex-col bg-[#070A13]">
+      {/* Editor Header / Toolbar */}
+      <div className="flex h-12 flex-shrink-0 items-center justify-between border-b border-slate-800/80 bg-[#0B0F19]/60 px-4 backdrop-blur-md">
+        <div className="flex items-center gap-4 text-xs font-medium text-slate-400">
+          <div className="flex items-center gap-1.5 rounded-full bg-slate-900/80 px-2.5 py-1 border border-slate-800">
+            <span className="h-2 w-2 rounded-full bg-[#4EC9B0]" />
+            <span className="font-mono text-[#4EC9B0] text-[10px] font-bold tracking-wider">
+              PINE v6
+            </span>
+          </div>
+
           {validation && (
-            <span className={validation.passed ? "text-green-500" : "text-red-400"}>
-              {validation.passed
-                ? "Valid"
-                : `${validation.errors.length} error${validation.errors.length === 1 ? "" : "s"}`}
+            <span
+              className={`flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-bold border transition-all ${
+                validation.passed
+                  ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"
+                  : "bg-red-500/10 text-red-400 border-red-500/20"
+              }`}
+            >
+              {validation.passed ? (
+                <>
+                  <svg
+                    className="h-3 w-3"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={3}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Valid
+                </>
+              ) : (
+                <>
+                  <svg
+                    className="h-3 w-3"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={3}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                  {validation.errors.length} error{validation.errors.length === 1 ? "" : "s"}
+                </>
+              )}
             </span>
           )}
+
           {showDiff && versions.length >= 2 ? (
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 rounded-lg bg-slate-900/60 p-1 border border-slate-800/80">
               <select
                 aria-label="Left version"
                 value={leftVersionId}
                 onChange={(event) => handleLeftVersionChange(event.target.value)}
-                className="rounded border border-gray-700 bg-[#0d1117] px-1 py-0.5 text-[10px] text-gray-300"
+                className="rounded border border-slate-700/60 bg-[#0E1322] px-2 py-0.5 text-[10px] text-slate-200 outline-none hover:border-slate-600 transition-colors"
               >
                 {versions.map((version) => (
                   <option key={`left-${version.id}`} value={version.id}>
@@ -134,12 +176,14 @@ export function PineEditor({
                   </option>
                 ))}
               </select>
-              <span className="text-gray-600">vs</span>
+              <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                vs
+              </span>
               <select
                 aria-label="Right version"
                 value={rightVersionId}
                 onChange={(event) => handleRightVersionChange(event.target.value)}
-                className="rounded border border-gray-700 bg-[#0d1117] px-1 py-0.5 text-[10px] text-gray-300"
+                className="rounded border border-slate-700/60 bg-[#0E1322] px-2 py-0.5 text-[10px] text-slate-200 outline-none hover:border-slate-600 transition-colors"
               >
                 {versions.map((version) => (
                   <option key={`right-${version.id}`} value={version.id}>
@@ -151,38 +195,98 @@ export function PineEditor({
           ) : null}
         </div>
 
+        {/* Action button Group */}
         <div className="flex items-center gap-2">
           {diffAvailable && onToggleDiff ? (
             <button
               type="button"
               onClick={onToggleDiff}
-              className={`rounded border px-2 py-1 text-xs transition-colors ${
+              className={`flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-semibold border transition-all ${
                 showDiff
-                  ? "border-blue-500 bg-blue-950/30 text-blue-400"
-                  : "border-gray-700 text-gray-400 hover:text-gray-200"
+                  ? "border-blue-500/50 bg-blue-500/10 text-blue-400"
+                  : "border-slate-800 bg-slate-900/50 text-slate-300 hover:border-slate-700 hover:text-slate-200"
               }`}
             >
+              <svg
+                className="h-3.5 w-3.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                />
+              </svg>
               {showDiff ? "Editor" : "Diff"}
             </button>
           ) : null}
+
           <button
             type="button"
             onClick={() => void copyToClipboard()}
-            className="rounded border border-gray-700 px-2 py-1 text-xs text-gray-400 transition-colors hover:text-gray-200"
+            className="flex items-center gap-1.5 rounded-lg border border-slate-800 bg-slate-900/50 px-2.5 py-1.5 text-xs font-semibold text-slate-300 transition-all hover:border-slate-700 hover:text-slate-200"
           >
-            {copied ? "Copied" : "Copy"}
+            {copied ? (
+              <>
+                <svg
+                  className="h-3.5 w-3.5 text-emerald-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2.5}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Copied
+              </>
+            ) : (
+              <>
+                <svg
+                  className="h-3.5 w-3.5 text-slate-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                  />
+                </svg>
+                Copy
+              </>
+            )}
           </button>
+
           <button
             type="button"
             onClick={() => void openInTradingView()}
-            className="rounded bg-blue-600 px-2 py-1 text-xs text-white transition-colors hover:bg-blue-500"
+            className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 px-3 py-1.5 text-xs font-bold text-white shadow-md shadow-blue-500/10 transition-all hover:from-blue-500 hover:to-indigo-500 hover:shadow-blue-500/20 active:scale-[0.98]"
           >
-            Open in TV
+            <span>Open in TV</span>
+            <svg
+              className="h-3.5 w-3.5 text-blue-200"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
           </button>
         </div>
       </div>
 
-      <div className="min-h-0 flex-1">
+      {/* Editor Content Area */}
+      <div className="min-h-0 flex-1 relative">
         {showDiff && leftCode && rightCode ? (
           <DiffEditor
             height="100%"

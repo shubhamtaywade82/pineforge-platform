@@ -108,5 +108,12 @@ export function useSSEStream() {
     setMetadata({});
   }, []);
 
-  return { stream, cancel, reset, status, code, error, metadata };
+  const load = useCallback((initialCode: string, initialMetadata: StreamMetadata) => {
+    setStatus("done");
+    setCode(initialCode);
+    setError(null);
+    setMetadata(initialMetadata);
+  }, []);
+
+  return { stream, cancel, reset, load, status, code, error, metadata };
 }
