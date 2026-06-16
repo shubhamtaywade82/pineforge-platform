@@ -44,18 +44,35 @@ module Llm
             local_adapter = OllamaAdapter.new(client: local_client)
             begin
               local_started_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+              
+              # Query local models to pick one that is actually downloaded/present
+              local_models = local_client.list_model_names rescue []
+              best_model = LOCAL_FALLBACK_MODEL
+              
+              unless local_models.include?(best_model)
+                preferred_fallbacks = [
+                  "qwen2.5-coder:7b", "qwen2.5-coder:3b", "qwen2.5:0.5b",
+                  "qwen3.5:latest", "llama3.2:latest", "llama3.2:3b",
+                  "qwen3.5:4b", "qwen3:8b", "qwen3:latest", "llama3.1:8b"
+                ]
+                matched_model = preferred_fallbacks.find { |m| local_models.include?(m) }
+                best_model = matched_model || local_models.reject { |m| m.include?("embed") }.first || best_model
+              end
+
+              @logger.warn("[Llm::Router] Selected best available local model: #{best_model}")
+
               local_result = local_adapter.chat(
                 messages: messages,
-                model: LOCAL_FALLBACK_MODEL,
+                model: best_model,
                 stream: stream,
                 format: format,
                 &block
               )
               @last_generation_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - local_started_at) * 1000).round
-              @last_model_used = LOCAL_FALLBACK_MODEL
+              @last_model_used = best_model
               @last_source = "local"
               @adapter = local_adapter
-              @logger.info("[Llm::Router] Local fallback successful: model=#{LOCAL_FALLBACK_MODEL} elapsed_ms=#{@last_generation_ms}")
+              @logger.info("[Llm::Router] Local fallback successful: model=#{best_model} elapsed_ms=#{@last_generation_ms}")
               return local_result
             rescue Ollama::Error => local_err
               @logger.error("[Llm::Router] Local fallback also failed: #{local_err.message}")

@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 158 files · ~22,536 words
+- 162 files · ~23,385 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 512 nodes · 526 edges · 108 communities (82 shown, 26 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
+- 525 nodes · 548 edges · 109 communities (86 shown, 23 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 22 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4a2d420c`
+- Built from commit: `6acf65bd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,7 +45,6 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 33|Community 33]]
 - [[_COMMUNITY_Community 34|Community 34]]
@@ -72,9 +71,9 @@
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `IndicatorsController` - 14 edges
-3. `GeneratorsController` - 11 edges
-4. `Graphify Development Guide` - 9 edges
-5. `Builder` - 9 edges
+3. `GeneratorsController` - 13 edges
+4. `Builder` - 12 edges
+5. `Graphify Development Guide` - 9 edges
 6. `Pine Script v6 Rules (Distilled)` - 9 edges
 7. `IndicatorVersion` - 7 edges
 8. `ADR-0003: Graphify as RAG Layer` - 7 edges
@@ -96,7 +95,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (108 total, 26 thin omitted)
+## Communities (109 total, 23 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
@@ -110,13 +109,21 @@ Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencie
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
 
+### Community 3 - "Community 3"
+Cohesion: 0.08
+Nodes (5): MetadataService, RephraseService, ExtractMetadataJob, Router, GeneratorsController
+
 ### Community 4 - "Community 4"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.07
-Nodes (7): CompleteService, MetadataService, RefineService, StreamService, ExtractMetadataJob, Indicator, Builder
+Cohesion: 0.16
+Nodes (3): RefineService, StreamService, Indicator
+
+### Community 7 - "Community 7"
+Cohesion: 0.12
+Nodes (3): CompleteService, RepairService, Builder
 
 ### Community 8 - "Community 8"
 Cohesion: 0.14
@@ -207,24 +214,24 @@ Cohesion: 0.15
 Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMilestone, TimelinePhase, timelineTotals(), withProgress(), MilestoneCardProps (+4 more)
 
 ## Knowledge Gaps
-- **183 isolated node(s):** `PineEditor`, `AppView`, `indicators`, `SidebarProps`, `StreamMetadata` (+178 more)
+- **183 isolated node(s):** `PineEditor`, `AppView`, `PromptPanelProps`, `indicators`, `SidebarProps` (+178 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Community 6` to `Community 7`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `GeneratorsController` connect `Community 3` to `Community 6`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **What connects `PineEditor`, `AppView`, `indicators` to the rest of the system?**
+- **Why does `Builder` connect `Community 7` to `Community 3`, `Community 6`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **What connects `PineEditor`, `AppView`, `PromptPanelProps` to the rest of the system?**
   _183 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.06766917293233082 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06654567453115548 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11956521739130435 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.08266129032258064 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._

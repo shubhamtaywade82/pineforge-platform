@@ -47,6 +47,16 @@ module Api
         render json: { error: e.message }, status: :unprocessable_entity
       end
 
+      def rephrase
+        result = Generators::RephraseService.new(
+          prompt: rephrase_params[:prompt],
+          script_type: rephrase_params[:script_type] || "indicator"
+        ).call
+        render json: result
+      rescue ArgumentError => e
+        render json: { error: e.message }, status: :unprocessable_entity
+      end
+
       private
 
       def stream_response
@@ -76,6 +86,10 @@ module Api
 
       def complete_params
         params.permit(:prefix, :script_type, :mode)
+      end
+
+      def rephrase_params
+        params.permit(:prompt, :script_type)
       end
 
       def indicator_json(indicator)

@@ -26,6 +26,7 @@ RSpec.describe Llm::Router do
     end
 
     it "falls back to local client and local fallback model if cloud primary model call fails" do
+      allow(local_client).to receive(:list_model_names).and_return([LOCAL_FALLBACK_MODEL])
       # Stub local client chat call
       local_adapter = instance_double(Llm::OllamaAdapter)
       allow(Llm::OllamaAdapter).to receive(:new).and_call_original
@@ -41,6 +42,25 @@ RSpec.describe Llm::Router do
 
       expect(result).to eq("local response")
       expect(router.last_model_used).to eq(LOCAL_FALLBACK_MODEL)
+      expect(router.last_source).to eq("local")
+    end
+
+    it "resolves to the best alternative model if local fallback model is not installed locally" do
+      allow(local_client).to receive(:list_model_names).and_return(["llama3.2:latest", "other-model"])
+      local_adapter = instance_double(Llm::OllamaAdapter)
+      allow(Llm::OllamaAdapter).to receive(:new).and_call_original
+      allow(Llm::OllamaAdapter).to receive(:new).with(client: local_client).and_return(local_adapter)
+      allow(local_adapter).to receive(:chat).with(
+        messages: [{ role: "user", content: "hi" }],
+        model: "llama3.2:latest",
+        stream: false,
+        format: nil
+      ).and_return("alternative local response")
+
+      result = router.chat(messages: [{ role: "user", content: "hi" }], stream: false)
+
+      expect(result).to eq("alternative local response")
+      expect(router.last_model_used).to eq("llama3.2:latest")
       expect(router.last_source).to eq("local")
     end
   end

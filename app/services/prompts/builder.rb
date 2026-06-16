@@ -60,6 +60,20 @@ module Prompts
       append_graph_context(base)
     end
 
+    def rephrase_messages
+      [
+        { role: "system", content: rephrase_system_prompt },
+        {
+          role: "user",
+          content: "Please rephrase this rough prompt for a Pine Script v6 #{@script_type}:\n#{@prompt}"
+        }
+      ]
+    end
+
+    def rephrase_system_prompt
+      File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/rephrase_system.txt"))
+    end
+
     attr_writer :existing_code
 
     private

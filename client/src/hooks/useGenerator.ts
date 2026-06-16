@@ -17,6 +17,9 @@ export function useGenerator() {
     metadata,
   } = useSSEStream();
 
+  const [rephrasing, setRephrasing] = useState(false);
+  const [rephraseError, setRephraseError] = useState<string | null>(null);
+
   const generate = useCallback(async () => {
     setPreviousCode(undefined);
     setChatHistory((previous) => [...previous, { role: "user", content: prompt }]);
@@ -44,6 +47,40 @@ export function useGenerator() {
     }
   }, [status, code]);
 
+  const rephrasePrompt = useCallback(async () => {
+    const trimmedPrompt = prompt.trim();
+    if (!trimmedPrompt) {
+      return;
+    }
+
+    setRephrasing(true);
+    setRephraseError(null);
+
+    try {
+      const response = await fetch("/api/v1/generators/rephrase", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: trimmedPrompt, script_type: scriptType }),
+      });
+
+      if (!response.ok) {
+        const payload = (await response.json()) as { error?: string };
+        throw new Error(payload.error ?? `HTTP ${response.status}`);
+      }
+
+      const payload = (await response.json()) as { rephrased_prompt?: string };
+      if (payload.rephrased_prompt) {
+        setPrompt(payload.rephrased_prompt);
+      }
+    } catch (rephraseFailure) {
+      setRephraseError(
+        rephraseFailure instanceof Error ? rephraseFailure.message : "Failed to rephrase prompt"
+      );
+    } finally {
+      setRephrasing(false);
+    }
+  }, [prompt, scriptType]);
+
   const reset = useCallback(() => {
     setPrompt("");
     setChatHistory([]);
@@ -58,6 +95,9 @@ export function useGenerator() {
     setPrompt,
     generate,
     refine,
+    rephrasePrompt,
+    rephrasing,
+    rephraseError,
     cancel,
     reset,
     status,

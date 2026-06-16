@@ -137,6 +137,9 @@ export default function App() {
             onPromptChange={generator.setPrompt}
             onGenerate={() => void generator.generate()}
             onRefine={(value) => void generator.refine(value)}
+            onRephrase={() => void generator.rephrasePrompt()}
+            rephrasing={generator.rephrasing}
+            rephraseError={generator.rephraseError}
             status={generator.status}
             onCancel={generator.cancel}
             hasExisting={generator.code.length > 0}

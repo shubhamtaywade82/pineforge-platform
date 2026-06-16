@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :generators, only: %i[create show] do
         collection do
           post :complete
+          post :rephrase
         end
         member do
           post :refine
