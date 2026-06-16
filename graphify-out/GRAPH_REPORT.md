@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 147 files · ~18,488 words
+- 147 files · ~18,451 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 442 nodes · 432 edges · 102 communities (79 shown, 23 thin omitted)
+- 473 nodes · 463 edges · 105 communities (80 shown, 25 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d0c035a1`
+- Built from commit: `a9731f94`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -63,18 +63,21 @@
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
 - [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 102|Community 102]]
+- [[_COMMUNITY_Community 103|Community 103]]
+- [[_COMMUNITY_Community 104|Community 104]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `IndicatorsController` - 14 edges
 3. `GeneratorsController` - 11 edges
-4. `Builder` - 9 edges
-5. `Pine Script v6 Rules (Distilled)` - 9 edges
-6. `PineForge Platform` - 7 edges
-7. `Testing Skill` - 7 edges
-8. `StreamService` - 6 edges
-9. `scripts` - 6 edges
-10. `App()` - 6 edges
+4. `Graphify Development Guide` - 9 edges
+5. `Builder` - 9 edges
+6. `Pine Script v6 Rules (Distilled)` - 9 edges
+7. `ADR-0003: Graphify as RAG Layer` - 7 edges
+8. `PineForge Platform` - 7 edges
+9. `Testing Skill` - 7 edges
+10. `LLM Routing Skill` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `App()` --calls--> `useGenerator()`  [EXTRACTED]
@@ -89,7 +92,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (102 total, 23 thin omitted)
+## Communities (105 total, 25 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -103,21 +106,13 @@ Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencie
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
 
-### Community 3 - "Community 3"
-Cohesion: 0.12
-Nodes (3): MetadataService, ExtractMetadataJob, GeneratorsController
-
 ### Community 4 - "Community 4"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.16
-Nodes (3): RefineService, StreamService, Indicator
-
-### Community 7 - "Community 7"
-Cohesion: 0.12
-Nodes (3): CompleteService, RepairService, Builder
+Cohesion: 0.07
+Nodes (7): CompleteService, MetadataService, RefineService, StreamService, ExtractMetadataJob, Indicator, Builder
 
 ### Community 8 - "Community 8"
 Cohesion: 0.14
@@ -164,8 +159,8 @@ Cohesion: 0.33
 Nodes (5): Goals, Out of Scope, PineForge Vision, Target Users, v1.0 Focus
 
 ### Community 20 - "Community 20"
-Cohesion: 0.33
-Nodes (5): Integrations, LLM Routing Skill, Models (v1.0), Rules, Source of Truth
+Cohesion: 0.29
+Nodes (6): Graphify RAG, Integrations, LLM Routing Skill, Models (v1.0), Rules, Source of Truth
 
 ### Community 21 - "Community 21"
 Cohesion: 0.33
@@ -191,25 +186,37 @@ Nodes (4): Pine Script Skill, Rules, Scope, Source of Truth
 Cohesion: 0.40
 Nodes (4): React UI Skill, Rules, Source of Truth, Stack
 
+### Community 102 - "Community 102"
+Cohesion: 0.24
+Nodes (6): build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated(), resolve()
+
+### Community 103 - "Community 103"
+Cohesion: 0.20
+Nodes (9): Bootstrap / Refresh Graph, Committed Artifacts, Graphify Development Guide, Ingest Pine v6 Knowledge, Install, Live Watch (Optional), PR Triage, Production Integration (+1 more)
+
+### Community 104 - "Community 104"
+Cohesion: 0.25
+Nodes (7): ADR-0003: Graphify as RAG Layer, Alternatives Considered, Consequences, Context, Decision, Ollama Endpoint Policy, Status
+
 ## Knowledge Gaps
-- **158 isolated node(s):** `ApplicationController`, `ApplicationJob`, `ApplicationMailer`, `ApplicationRecord`, `GenerationSession` (+153 more)
+- **174 isolated node(s):** `EndpointResolver`, `Status`, `Context`, `Decision`, `Alternatives Considered` (+169 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **25 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Community 7` to `Community 3`, `Community 6`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `ApplicationController`, `ApplicationJob`, `ApplicationMailer` to the rest of the system?**
-  _158 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Builder` connect `Community 6` to `Community 7`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `GeneratorsController` connect `Community 3` to `Community 6`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **What connects `EndpointResolver`, `Status`, `Context` to the rest of the system?**
+  _174 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08456659619450317 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11956521739130435 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.12105263157894737 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
