@@ -31,7 +31,5 @@
 # Ignore key files for decrypting credentials and more.
 /config/*.key
 
-client/node_modules
-
 /coverage
 /spec/examples.txt
