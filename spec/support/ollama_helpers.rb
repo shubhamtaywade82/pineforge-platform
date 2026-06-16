@@ -57,5 +57,15 @@ RSpec.configure do |config|
 
   config.before do
     allow(Rails.application.config.x).to receive(:ollama_client).and_return(build_ollama_client)
+    allow(Rails.application.config.x).to receive(:ollama_local_client).and_return(build_ollama_client)
+    allow(Graphify::ContextService).to receive(:fetch).and_return("")
+
+    endpoint = Llm::EndpointResolver::ResolvedEndpoint.new(
+      client: build_ollama_client,
+      model: PRIMARY_MODEL,
+      source: "local"
+    )
+    allow(Llm::EndpointResolver).to receive(:resolve).and_return(endpoint)
+    Llm::EndpointResolver.reset_cache! if Llm::EndpointResolver.respond_to?(:reset_cache!)
   end
 end

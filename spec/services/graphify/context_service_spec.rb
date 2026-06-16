@@ -3,6 +3,7 @@
 require "rails_helper"
 
 RSpec.describe Graphify::ContextService do
+  before { allow(Graphify::ContextService).to receive(:fetch).and_call_original }
   describe ".enabled?" do
     it "returns true when graph.json exists" do
       allow(described_class::GRAPH_PATH).to receive(:exist?).and_return(true)

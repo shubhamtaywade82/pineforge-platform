@@ -3,7 +3,10 @@
 require "rails_helper"
 
 RSpec.describe Llm::EndpointResolver do
-  before { described_class.reset_cache! }
+  before do
+    allow(Llm::EndpointResolver).to receive(:resolve).and_call_original
+    described_class.reset_cache!
+  end
   after { described_class.reset_cache! }
 
   describe ".resolve" do

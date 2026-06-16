@@ -3,6 +3,7 @@
 require "rails_helper"
 
 RSpec.describe Prompts::Builder do
+  before { allow(Graphify::ContextService).to receive(:fetch).and_call_original }
   describe "#system_prompt" do
     it "includes graph context when available" do
       allow(Graphify::ContextService).to receive(:fetch).and_return("ta.rsi(source, length)")
