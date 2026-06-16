@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 215 files · ~41,359 words
+- 215 files · ~41,496 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 616 nodes · 619 edges · 149 communities (93 shown, 56 thin omitted)
+- 617 nodes · 620 edges · 149 communities (94 shown, 55 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 40 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3ac04048`
+- Built from commit: `0ef2d3b9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -130,7 +130,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (149 total, 56 thin omitted)
+## Communities (149 total, 55 thin omitted)
 
 ### Community 0 - "Validation Panel Module"
 Cohesion: 0.07
@@ -145,12 +145,16 @@ Cohesion: 0.07
 Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencies, autoprefixer, jsdom, postcss (+19 more)
 
 ### Community 3 - "Application Module"
-Cohesion: 0.08
-Nodes (12): Application, CompleteService, MetadataService, RephraseService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver (+4 more)
+Cohesion: 0.11
+Nodes (10): Application, MetadataService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated(), local_client() (+2 more)
 
 ### Community 4 - "Pine Diagnostics Module"
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
+
+### Community 5 - "Repair Service Module"
+Cohesion: 0.10
+Nodes (4): CompleteService, RepairService, RephraseService, Builder
 
 ### Community 6 - "Timeline Phases Module"
 Cohesion: 0.15
@@ -229,8 +233,8 @@ Cohesion: 0.18
 Nodes (10): Constants, Explicit typing, Functions, Inputs, Line wrapping, Naming, PineForge codegen defaults, Script organization (recommended order) (+2 more)
 
 ### Community 139 - "Community 139"
-Cohesion: 0.20
-Nodes (9): Bootstrap / Refresh Graph, Committed Artifacts, Graphify Development Guide, Ingest Pine v6 Knowledge, Install, Live Watch (Optional), PR Triage, Production Integration (+1 more)
+Cohesion: 0.18
+Nodes (10): Bootstrap / Refresh Graph, Committed Artifacts, Graphify Development Guide, Ingest Pine v6 Knowledge, Install, Live Watch (Optional), Local Ollama troubleshooting, PR Triage (+2 more)
 
 ### Community 140 - "Community 140"
 Cohesion: 0.22
@@ -257,18 +261,18 @@ Cohesion: 0.40
 Nodes (4): Codegen rules, Documented codes (this KB), Error categories, Errors: Overview
 
 ## Knowledge Gaps
-- **226 isolated node(s):** `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge`, `Query Commands`, `PR Triage` (+221 more)
+- **226 isolated node(s):** `Install`, `Local Ollama troubleshooting`, `Ingest Pine v6 Knowledge`, `Query Commands`, `PR Triage` (+221 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **55 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Repair Service Module` to `Refine Service Module`, `Application Module`?**
+- **Why does `Builder` connect `Repair Service Module` to `Refine Service Module`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `fetch()` connect `Context Service Module` to `Application Module`, `Repair Service Module`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **What connects `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge` to the rest of the system?**
+- **What connects `Install`, `Local Ollama troubleshooting`, `Ingest Pine v6 Knowledge` to the rest of the system?**
   _231 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Validation Panel Module` be split into smaller, more focused modules?**
   _Cohesion score 0.06654567453115548 - nodes in this community are weakly interconnected._
@@ -277,4 +281,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Package Module` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Application Module` be split into smaller, more focused modules?**
-  _Cohesion score 0.08064516129032258 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10666666666666667 - nodes in this community are weakly interconnected._
