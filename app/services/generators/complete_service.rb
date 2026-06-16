@@ -4,10 +4,10 @@ module Generators
   class CompleteService
     MAX_PREFIX_LENGTH = 4_096
 
-    def initialize(prefix:, script_type: "indicator", router: Llm::Router.new)
+    def initialize(prefix:, script_type: "indicator", router: nil)
       @prefix = prefix.to_s
       @script_type = script_type
-      @router = router
+      @router = router || Llm::Router.from_resolved_endpoint(Llm::EndpointResolver.resolve)
     end
 
     def call

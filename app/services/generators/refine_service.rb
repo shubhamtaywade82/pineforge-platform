@@ -6,15 +6,16 @@ module Generators
       indicator:,
       prompt:,
       user: nil,
-      router: Llm::Router.new,
+      router: nil,
       repair_service: nil,
       &event_emitter
     )
       @indicator = indicator
       @prompt = prompt
       @user = user
-      @router = router
-      @repair_service = repair_service || RepairService.new(router: router)
+      @endpoint = Llm::EndpointResolver.resolve
+      @router = router || Llm::Router.from_resolved_endpoint(@endpoint)
+      @repair_service = repair_service || RepairService.new(router: @router)
       @emit = event_emitter
     end
 
@@ -22,6 +23,8 @@ module Generators
       session = @indicator.generation_session || @indicator.create_generation_session!(user: @user, messages: [])
       prior_messages = Array(session.messages)
       prior_messages << { role: "user", content: @prompt }
+
+      emit(type: "init", indicator_id: @indicator.id, model: @endpoint.model, source: @endpoint.source)
 
       builder = Prompts::Builder.new(
         prompt: @prompt,

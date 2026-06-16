@@ -1,0 +1,9 @@
+//@version=6
+library("ArrayHelper", overlay=false)
+
+export pushFloat(array<float> values, float value) =>
+    array.push(values, value)
+    values
+
+export averageFloat(array<float> values) =>
+    array.size(values) == 0 ? na : array.sum(values) / array.size(values)

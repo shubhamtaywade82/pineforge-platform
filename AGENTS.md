@@ -58,6 +58,29 @@ Never guess.
 - All LLM calls must be observable.
 - No hardcoded model assumptions.
 - Routing logic must be centralized.
+- Graphify context must precede every LLM chat call via `Graphify::ContextService`.
+- Use `Llm::EndpointResolver` for cloud→local Ollama fallback — never hardcode client URLs.
+
+---
+
+# Graphify Knowledge Graph
+
+This project has a graphify knowledge graph at `graphify-out/`.
+
+**Before answering architecture or codebase questions:**
+
+1. Read [`graphify-out/GRAPH_REPORT.md`](graphify-out/GRAPH_REPORT.md) for god nodes and suggested queries
+2. Run `graphify query "<question>" --graph graphify-out/graph.json --budget 2000` — do not read raw source files when the graph exists
+3. Use `graphify path "A" "B"` for call chains; `graphify explain "Concept"` for component docs
+4. After modifying `app/` or `client/src/`, run `bin/graphify-update` (git hook handles this if `graphify hook install` was run)
+
+**Code generation discipline:**
+
+- `Graphify::ContextService.fetch` precedes every `Llm::Router#chat` via `Prompts::Builder`
+- `Pine::Validator` must pass before generated code is persisted
+- All streaming uses `ActionController::Live` with `X-Accel-Buffering: no`
+
+See [`docs/dev/graphify.md`](docs/dev/graphify.md) for full setup.
 
 ---
 

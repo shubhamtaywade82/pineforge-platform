@@ -7,6 +7,8 @@ export type StreamEvent = {
   validation?: ValidationResult;
   message?: string;
   version?: number;
+  model?: string;
+  source?: string;
 };
 
 export type ValidationResult = {

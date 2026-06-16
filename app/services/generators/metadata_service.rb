@@ -2,9 +2,9 @@
 
 module Generators
   class MetadataService
-    def initialize(indicator:, router: Llm::Router.new)
+    def initialize(indicator:, router: nil)
       @indicator = indicator
-      @router = router
+      @router = router || Llm::Router.from_resolved_endpoint(Llm::EndpointResolver.resolve)
     end
 
     def call

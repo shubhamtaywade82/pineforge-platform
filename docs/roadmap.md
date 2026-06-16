@@ -38,6 +38,8 @@ m22 Validation insights
 m23 Explainability
 m24 Quality scoring
 
+Note: Graphify RAG (m19–m21, m27) landed early — see [`docs/adr/0003-graphify-rag-layer.md`](adr/0003-graphify-rag-layer.md).
+
 ---
 
 ## Phase 3 — Engineering Platform (m25–m36)

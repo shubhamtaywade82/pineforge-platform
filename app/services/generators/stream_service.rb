@@ -7,7 +7,7 @@ module Generators
       script_type:,
       name: nil,
       user: nil,
-      router: Llm::Router.new,
+      router: nil,
       repair_service: nil,
       &event_emitter
     )
@@ -15,14 +15,15 @@ module Generators
       @script_type = script_type
       @name = name
       @user = user
-      @router = router
-      @repair_service = repair_service || RepairService.new(router: router)
+      @endpoint = Llm::EndpointResolver.resolve
+      @router = router || Llm::Router.from_resolved_endpoint(@endpoint)
+      @repair_service = repair_service || RepairService.new(router: @router)
       @emit = event_emitter
     end
 
     def call
       indicator = create_indicator!
-      emit(type: "init", indicator_id: indicator.id)
+      emit(type: "init", indicator_id: indicator.id, model: @endpoint.model, source: @endpoint.source)
 
       builder = Prompts::Builder.new(prompt: @prompt, script_type: @script_type)
       full_code = generate_code(builder.messages)

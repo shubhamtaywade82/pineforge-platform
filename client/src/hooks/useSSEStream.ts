@@ -5,6 +5,8 @@ type StreamMetadata = {
   indicatorId?: string;
   validation?: ValidationResult;
   version?: number;
+  model?: string;
+  source?: string;
 };
 
 export function useSSEStream() {
@@ -63,7 +65,12 @@ export function useSSEStream() {
             setCode((previous) => previous + event.token);
           }
           if (event.type === "init" && event.indicator_id) {
-            setMetadata((previous) => ({ ...previous, indicatorId: event.indicator_id }));
+            setMetadata((previous) => ({
+              ...previous,
+              indicatorId: event.indicator_id,
+              model: event.model,
+              source: event.source,
+            }));
           }
           if (event.type === "done") {
             setStatus("done");

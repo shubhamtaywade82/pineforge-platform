@@ -33,6 +33,8 @@ jobs:
           bundler-cache: true
       - name: Prepare database
         run: bin/rails db:prepare
+      - name: Verify graph artifact
+        run: ruby -rjson -e "JSON.parse(File.read('graphify-out/graph.json'))"
       - name: Run RSpec
         run: bundle exec rspec
 

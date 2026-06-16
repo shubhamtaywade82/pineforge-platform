@@ -11,7 +11,8 @@ module Prompts
     end
 
     def system_prompt
-      File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/minimal_system.txt"))
+      base = File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/minimal_system.txt"))
+      append_graph_context(base)
     end
 
     def messages
@@ -55,12 +56,25 @@ module Prompts
     end
 
     def completion_system_prompt
-      File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/completion_system.txt"))
+      base = File.read(Rails.root.join("app/prompts/#{PROMPT_VERSION}/completion_system.txt"))
+      append_graph_context(base)
     end
 
     attr_writer :existing_code
 
     private
+
+    def append_graph_context(base)
+      context = Graphify::ContextService.fetch(@prompt, @script_type)
+      return base if context.blank?
+
+      <<~PROMPT.strip
+        #{base}
+
+        === RELEVANT PINE v6 GRAPH CONTEXT (#{@script_type}) ===
+        #{context}
+      PROMPT
+    end
 
     def normalized_context
       @context_messages.map do |message|

@@ -1,0 +1,8 @@
+//@version=6
+indicator("MTF Security Example", overlay=true)
+
+dailyClose = request.security(syminfo.tickerid, "D", close,
+     gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_off)
+
+plot(close, color=color.blue, title="Current TF Close")
+plot(dailyClose, color=color.orange, title="Daily Close")
