@@ -244,7 +244,7 @@ export function registerPineLanguage(monaco: typeof import("monaco-editor")) {
     escapes: /\\(?:[nrt\\"])/,
     tokenizer: {
       root: [
-        [/^\/\/@version=\d/, "annotation.version"],
+        [/^\/\/[\x40]version=\d/, "annotation.version"],
         [/\/\/.*$/, "comment"],
         [/"/, { token: "string.quote", bracket: "@open", next: "@string" }],
         [
