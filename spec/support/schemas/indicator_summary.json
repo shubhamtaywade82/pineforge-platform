@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["id", "name", "script_type", "status", "updated_at"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "script_type": { "type": "string" },
+    "status": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

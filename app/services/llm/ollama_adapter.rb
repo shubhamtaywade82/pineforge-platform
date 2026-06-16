@@ -2,7 +2,7 @@
 
 module Llm
   class OllamaAdapter
-    def initialize(client: OllamaClient)
+    def initialize(client: Rails.application.config.x.ollama_client)
       @client = client
     end
 

@@ -28,9 +28,14 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem "rspec-rails", "~> 7.1"
   gem "factory_bot_rails"
+  gem "faker"
   gem "webmock"
 end
 
 group :test do
   gem "shoulda-matchers", "~> 6.0"
+  gem "vcr", "~> 6.3"
+  gem "json_matchers"
+  gem "rspec-sidekiq"
+  gem "simplecov", require: false
 end

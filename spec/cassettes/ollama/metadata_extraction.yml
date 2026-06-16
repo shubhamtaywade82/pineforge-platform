@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://ollama.test/api/chat
+    body:
+      encoding: UTF-8
+      string: '{"model":"qwen2.5-coder:7b","messages":[{"role":"system","content":"You
+        extract Pine Script metadata. Return JSON only."},{"role":"user","content":"Given
+        this Pine Script v6 request, extract metadata as JSON only.\nNo markdown,
+        no explanation.\nSchema: {\n  \"indicator_name\": \"string\",\n  \"overlay\":
+        true|false,\n  \"inputs_detected\": [\"array of input variable names\"],\n  \"description\":
+        \"one sentence summary\"\n}\nRequest: Build an RSI indicator with configurable
+        length"}],"stream":false,"format":"json"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"model":"qwen2.5-coder:7b","created_at":"2025-01-01T00:00:00Z","message":{"role":"assistant","content":"{\"indicator_name\":\"RSI
+        Momentum\",\"overlay\":true,\"inputs_detected\":[\"length\"],\"description\":\"RSI
+        indicator with configurable length\"}"},"done":true}'
+  recorded_at: Wed, 01 Jan 2025 00:00:00 GMT
+recorded_with: VCR 6.3.1

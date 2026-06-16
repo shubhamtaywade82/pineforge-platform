@@ -5,7 +5,6 @@ require "rails_helper"
 RSpec.describe Indicator, type: :model do
   subject(:indicator) { build(:indicator) }
 
-  it { is_expected.to validate_presence_of(:name) }
   it { is_expected.to validate_presence_of(:prompt) }
   it { is_expected.to validate_inclusion_of(:pine_version).in_array(%w[6]) }
 

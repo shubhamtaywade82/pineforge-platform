@@ -70,3 +70,4 @@ Rails.application.configure do
 
   # Allow ActionController::Live streaming responses in development.
   config.allow_concurrency = true
+end

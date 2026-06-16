@@ -3,7 +3,7 @@
 module Api
   module V1
     class IndicatorsController < ApplicationController
-      before_action :set_indicator
+      before_action :set_indicator, except: [:index]
 
       def index
         indicators = Indicator.order(created_at: :desc)

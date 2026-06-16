@@ -64,5 +64,5 @@ RSpec.configure do |config|
   # Filter lines from Rails gems in backtraces.
   config.filter_rails_from_backtrace!
 
-  config.include FactoryBot::Syntax::Methods
+  config.infer_spec_type_from_file_location!
 end
