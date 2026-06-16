@@ -9,7 +9,12 @@ BASE_URL="https://raw.githubusercontent.com/codenamedevan/pinescriptv6/main/refe
 mkdir -p "$SOURCE_DIR"
 
 for file in ta.md request.md strategy.md drawing.md general.md collections.md; do
+  echo "Fetching $file..."
   curl -fsSL "$BASE_URL/$file" -o "$SOURCE_DIR/$file"
+  if [[ ! -s "$SOURCE_DIR/$file" ]]; then
+    echo "Failed to download $file" >&2
+    exit 1
+  fi
 done
 
 cd "$ROOT"

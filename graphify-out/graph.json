@@ -4,6 +4,886 @@
   "graph": {},
   "nodes": [
     {
+      "label": "reference_lookup.rb",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_reference_lookup",
+      "community": 111,
+      "norm_label": "reference_lookup.rb"
+    },
+    {
+      "label": "ReferenceLookup",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup",
+      "community": 111,
+      "norm_label": "referencelookup"
+    },
+    {
+      "label": "enabled?()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_enabled",
+      "community": 111,
+      "norm_label": "enabled?()"
+    },
+    {
+      "label": "call()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_call",
+      "community": 111,
+      "norm_label": "call()"
+    },
+    {
+      "label": "reset_index!()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_reset_index",
+      "community": 111,
+      "norm_label": "reset_index!()"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_index",
+      "community": 111,
+      "norm_label": "index()"
+    },
+    {
+      "label": "load_index()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_load_index",
+      "community": 111,
+      "norm_label": "load_index()"
+    },
+    {
+      "label": "empty_index()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_empty_index",
+      "community": 111,
+      "norm_label": "empty_index()"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_initialize",
+      "community": 111,
+      "norm_label": ".initialize()"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_call",
+      "community": 111,
+      "norm_label": ".call()"
+    },
+    {
+      "label": ".resolve_symbols()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_resolve_symbols",
+      "community": 111,
+      "norm_label": ".resolve_symbols()"
+    },
+    {
+      "label": ".explicit_symbols()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_explicit_symbols",
+      "community": 111,
+      "norm_label": ".explicit_symbols()"
+    },
+    {
+      "label": ".aliased_symbols()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_aliased_symbols",
+      "community": 111,
+      "norm_label": ".aliased_symbols()"
+    },
+    {
+      "label": ".script_type_symbols()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_script_type_symbols",
+      "community": 111,
+      "norm_label": ".script_type_symbols()"
+    },
+    {
+      "label": ".format_entries()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_format_entries",
+      "community": 111,
+      "norm_label": ".format_entries()"
+    },
+    {
+      "label": ".format_entry()",
+      "file_type": "code",
+      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "pine_reference_lookup_referencelookup_format_entry",
+      "community": 111,
+      "norm_label": ".format_entry()"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "dev_graphify",
+      "community": 13,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Graphify Development Guide",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "dev_graphify_graphify_development_guide",
+      "community": 13,
+      "norm_label": "graphify development guide"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "dev_graphify_install",
+      "community": 13,
+      "norm_label": "install"
+    },
+    {
+      "label": "Bootstrap / Refresh Graph",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "dev_graphify_bootstrap_refresh_graph",
+      "community": 13,
+      "norm_label": "bootstrap / refresh graph"
+    },
+    {
+      "label": "Ingest Pine v6 Knowledge",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "dev_graphify_ingest_pine_v6_knowledge",
+      "community": 13,
+      "norm_label": "ingest pine v6 knowledge"
+    },
+    {
+      "label": "Query Commands",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "dev_graphify_query_commands",
+      "community": 13,
+      "norm_label": "query commands"
+    },
+    {
+      "label": "PR Triage",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "dev_graphify_pr_triage",
+      "community": 13,
+      "norm_label": "pr triage"
+    },
+    {
+      "label": "Live Watch (Optional)",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "dev_graphify_live_watch_optional",
+      "community": 13,
+      "norm_label": "live watch (optional)"
+    },
+    {
+      "label": "Committed Artifacts",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "dev_graphify_committed_artifacts",
+      "community": 13,
+      "norm_label": "committed artifacts"
+    },
+    {
+      "label": "Production Integration",
+      "file_type": "document",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "dev_graphify_production_integration",
+      "community": 13,
+      "norm_label": "production integration"
+    },
+    {
+      "label": "SOURCE.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/SOURCE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_source",
+      "community": 176,
+      "norm_label": "source.md"
+    },
+    {
+      "label": "Pine Script v6 Language \u2014 Source",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/SOURCE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_source_pine_script_v6_language_source",
+      "community": 176,
+      "norm_label": "pine script v6 language \u2014 source"
+    },
+    {
+      "label": "conditional-structures.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures",
+      "community": 157,
+      "norm_label": "conditional-structures.md"
+    },
+    {
+      "label": "Language: Conditional Structures",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "community": 157,
+      "norm_label": "language: conditional structures"
+    },
+    {
+      "label": "if \u2014 side effects",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_if_side_effects",
+      "community": 157,
+      "norm_label": "if \u2014 side effects"
+    },
+    {
+      "label": "if \u2014 return value",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_if_return_value",
+      "community": 157,
+      "norm_label": "if \u2014 return value"
+    },
+    {
+      "label": "switch \u2014 with expression",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_switch_with_expression",
+      "community": 157,
+      "norm_label": "switch \u2014 with expression"
+    },
+    {
+      "label": "switch \u2014 without expression",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_switch_without_expression",
+      "community": 157,
+      "norm_label": "switch \u2014 without expression"
+    },
+    {
+      "label": "Strategy pattern",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_strategy_pattern",
+      "community": 157,
+      "norm_label": "strategy pattern"
+    },
+    {
+      "label": "barstate guards",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "pine_v6_language_conditional_structures_barstate_guards",
+      "community": 157,
+      "norm_label": "barstate guards"
+    },
+    {
+      "label": "declaration-statements.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements",
+      "community": 170,
+      "norm_label": "declaration-statements.md"
+    },
+    {
+      "label": "Language: Declaration Statements",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "community": 170,
+      "norm_label": "language: declaration statements"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_rules",
+      "community": 170,
+      "norm_label": "rules"
+    },
+    {
+      "label": "indicator()",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_indicator",
+      "community": 170,
+      "norm_label": "indicator()"
+    },
+    {
+      "label": "strategy()",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_strategy",
+      "community": 170,
+      "norm_label": "strategy()"
+    },
+    {
+      "label": "library()",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_library",
+      "community": 170,
+      "norm_label": "library()"
+    },
+    {
+      "label": "Codegen defaults",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "pine_v6_language_declaration_statements_codegen_defaults",
+      "community": 170,
+      "norm_label": "codegen defaults"
+    },
+    {
+      "label": "execution-model.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model",
+      "community": 171,
+      "norm_label": "execution-model.md"
+    },
+    {
+      "label": "Language: Execution Model",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_language_execution_model",
+      "community": 171,
+      "norm_label": "language: execution model"
+    },
+    {
+      "label": "Bar-by-bar execution",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_bar_by_bar_execution",
+      "community": 171,
+      "norm_label": "bar-by-bar execution"
+    },
+    {
+      "label": "Default vs persistent variables",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_default_vs_persistent_variables",
+      "community": 171,
+      "norm_label": "default vs persistent variables"
+    },
+    {
+      "label": "History referencing",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_history_referencing",
+      "community": 171,
+      "norm_label": "history referencing"
+    },
+    {
+      "label": "Realtime bars",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_realtime_bars",
+      "community": 171,
+      "norm_label": "realtime bars"
+    },
+    {
+      "label": "Codegen rules",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "pine_v6_language_execution_model_codegen_rules",
+      "community": 171,
+      "norm_label": "codegen rules"
+    },
+    {
+      "label": "identifiers.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_identifiers",
+      "community": 173,
+      "norm_label": "identifiers.md"
+    },
+    {
+      "label": "Language: Identifiers",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_identifiers_language_identifiers",
+      "community": 173,
+      "norm_label": "language: identifiers"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_identifiers_rules",
+      "community": 173,
+      "norm_label": "rules"
+    },
+    {
+      "label": "Style guide (PineForge convention)",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "pine_v6_language_identifiers_style_guide_pineforge_convention",
+      "community": 173,
+      "norm_label": "style guide (pineforge convention)"
+    },
+    {
+      "label": "Valid examples",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "pine_v6_language_identifiers_valid_examples",
+      "community": 173,
+      "norm_label": "valid examples"
+    },
+    {
+      "label": "operators.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators",
+      "community": 9,
+      "norm_label": "operators.md"
+    },
+    {
+      "label": "Language: Operators",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_language_operators",
+      "community": 9,
+      "norm_label": "language: operators"
+    },
+    {
+      "label": "Arithmetic",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_arithmetic",
+      "community": 9,
+      "norm_label": "arithmetic"
+    },
+    {
+      "label": "Comparison",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_comparison",
+      "community": 9,
+      "norm_label": "comparison"
+    },
+    {
+      "label": "Logical",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_logical",
+      "community": 9,
+      "norm_label": "logical"
+    },
+    {
+      "label": "Ternary",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_ternary",
+      "community": 9,
+      "norm_label": "ternary"
+    },
+    {
+      "label": "History reference `[]`",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_history_reference",
+      "community": 9,
+      "norm_label": "history reference `[]`"
+    },
+    {
+      "label": "Precedence (high \u2192 low)",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_precedence_high_low",
+      "community": 9,
+      "norm_label": "precedence (high \u2192 low)"
+    },
+    {
+      "label": "Assignment",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_assignment",
+      "community": 9,
+      "norm_label": "assignment"
+    },
+    {
+      "label": "Qualifier interaction",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "pine_v6_language_operators_qualifier_interaction",
+      "community": 9,
+      "norm_label": "qualifier interaction"
+    },
+    {
+      "label": "script-structure.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure",
+      "community": 168,
+      "norm_label": "script-structure.md"
+    },
+    {
+      "label": "Language: Script Structure",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_language_script_structure",
+      "community": 168,
+      "norm_label": "language: script structure"
+    },
+    {
+      "label": "General structure",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_general_structure",
+      "community": 168,
+      "norm_label": "general structure"
+    },
+    {
+      "label": "Version",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_version",
+      "community": 168,
+      "norm_label": "version"
+    },
+    {
+      "label": "Declaration statement (exactly one)",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_declaration_statement_exactly_one",
+      "community": 168,
+      "norm_label": "declaration statement (exactly one)"
+    },
+    {
+      "label": "Code organization",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_code_organization",
+      "community": 168,
+      "norm_label": "code organization"
+    },
+    {
+      "label": "Compiler annotations",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_compiler_annotations",
+      "community": 168,
+      "norm_label": "compiler annotations"
+    },
+    {
+      "label": "Minimal examples",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "pine_v6_language_script_structure_minimal_examples",
+      "community": 168,
+      "norm_label": "minimal examples"
+    },
+    {
+      "label": "type-system.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system",
+      "community": 172,
+      "norm_label": "type-system.md"
+    },
+    {
+      "label": "Language: Type System",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_language_type_system",
+      "community": 172,
+      "norm_label": "language: type system"
+    },
+    {
+      "label": "Qualifier hierarchy (weakest \u2192 strongest)",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_qualifier_hierarchy_weakest_strongest",
+      "community": 172,
+      "norm_label": "qualifier hierarchy (weakest \u2192 strongest)"
+    },
+    {
+      "label": "Qualifiers",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_qualifiers",
+      "community": 172,
+      "norm_label": "qualifiers"
+    },
+    {
+      "label": "Common compilation trap",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_common_compilation_trap",
+      "community": 172,
+      "norm_label": "common compilation trap"
+    },
+    {
+      "label": "Declaration keywords",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_declaration_keywords",
+      "community": 172,
+      "norm_label": "declaration keywords"
+    },
+    {
+      "label": "Codegen rules",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "pine_v6_language_type_system_codegen_rules",
+      "community": 172,
+      "norm_label": "codegen rules"
+    },
+    {
+      "label": "variable-declarations.md",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations",
+      "community": 169,
+      "norm_label": "variable-declarations.md"
+    },
+    {
+      "label": "Language: Variable Declarations",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "community": 169,
+      "norm_label": "language: variable declarations"
+    },
+    {
+      "label": "Forms",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_forms",
+      "community": 169,
+      "norm_label": "forms"
+    },
+    {
+      "label": "Declaration modes",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_declaration_modes",
+      "community": 169,
+      "norm_label": "declaration modes"
+    },
+    {
+      "label": "Assignment operators",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_assignment_operators",
+      "community": 169,
+      "norm_label": "assignment operators"
+    },
+    {
+      "label": "Qualified type syntax",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_qualified_type_syntax",
+      "community": 169,
+      "norm_label": "qualified type syntax"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_rules",
+      "community": 169,
+      "norm_label": "rules"
+    },
+    {
+      "label": "Codegen patterns",
+      "file_type": "document",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "pine_v6_language_variable_declarations_codegen_patterns",
+      "community": 169,
+      "norm_label": "codegen patterns"
+    },
+    {
       "label": "reference_index_builder.rb",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
@@ -77,7 +957,7 @@
       "label": ".truncate()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L85",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_truncate",
       "community": 112,
@@ -87,7 +967,7 @@
       "label": ".entry_for()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L90",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_entry_for",
       "community": 112,
@@ -97,7 +977,7 @@
       "label": ".extract_example()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L103",
+      "source_location": "L104",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_extract_example",
       "community": 112,
@@ -107,7 +987,7 @@
       "label": ".flush_section()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L113",
+      "source_location": "L114",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_flush_section",
       "community": 112,
@@ -117,7 +997,7 @@
       "label": ".normalize_symbol()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L119",
+      "source_location": "L120",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_normalize_symbol",
       "community": 112,
@@ -127,171 +1007,41 @@
       "label": ".default_aliases()",
       "file_type": "code",
       "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L123",
+      "source_location": "L124",
       "_origin": "ast",
       "id": "pine_reference_index_builder_referenceindexbuilder_default_aliases",
       "community": 112,
       "norm_label": ".default_aliases()"
     },
     {
-      "label": "reference_lookup.rb",
+      "label": "reference_index_builder_spec.rb",
       "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
+      "source_file": "spec/lib/pine/reference_index_builder_spec.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 111,
-      "norm_label": "reference_lookup.rb",
-      "id": "pine_reference_lookup"
+      "id": "pine_reference_index_builder_spec",
+      "community": 177,
+      "norm_label": "reference_index_builder_spec.rb"
     },
     {
-      "label": "ReferenceLookup",
+      "label": "reference_lookup_spec.rb",
       "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L6",
+      "source_file": "spec/services/pine/reference_lookup_spec.rb",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 111,
-      "norm_label": "referencelookup",
-      "id": "pine_reference_lookup_referencelookup"
+      "id": "pine_reference_lookup_spec",
+      "community": 178,
+      "norm_label": "reference_lookup_spec.rb"
     },
     {
-      "label": "enabled?()",
+      "label": "builder_spec.rb",
       "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L13",
+      "source_file": "spec/services/prompts/builder_spec.rb",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 111,
-      "norm_label": "enabled?()",
-      "id": "pine_reference_lookup_enabled"
-    },
-    {
-      "label": "call()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": "call()",
-      "id": "pine_reference_lookup_call"
-    },
-    {
-      "label": "reset_index!()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": "reset_index!()",
-      "id": "pine_reference_lookup_reset_index"
-    },
-    {
-      "label": "index()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": "index()",
-      "id": "pine_reference_lookup_index"
-    },
-    {
-      "label": "load_index()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": "load_index()",
-      "id": "pine_reference_lookup_load_index"
-    },
-    {
-      "label": "empty_index()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L40",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": "empty_index()",
-      "id": "pine_reference_lookup_empty_index"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L45",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".initialize()",
-      "id": "pine_reference_lookup_referencelookup_initialize"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".call()",
-      "id": "pine_reference_lookup_referencelookup_call"
-    },
-    {
-      "label": ".resolve_symbols()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".resolve_symbols()",
-      "id": "pine_reference_lookup_referencelookup_resolve_symbols"
-    },
-    {
-      "label": ".explicit_symbols()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L71",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".explicit_symbols()",
-      "id": "pine_reference_lookup_referencelookup_explicit_symbols"
-    },
-    {
-      "label": ".aliased_symbols()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L75",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".aliased_symbols()",
-      "id": "pine_reference_lookup_referencelookup_aliased_symbols"
-    },
-    {
-      "label": ".script_type_symbols()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L83",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".script_type_symbols()",
-      "id": "pine_reference_lookup_referencelookup_script_type_symbols"
-    },
-    {
-      "label": ".format_entries()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L94",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".format_entries()",
-      "id": "pine_reference_lookup_referencelookup_format_entries"
-    },
-    {
-      "label": ".format_entry()",
-      "file_type": "code",
-      "source_file": "app/services/pine/reference_lookup.rb",
-      "source_location": "L109",
-      "_origin": "ast",
-      "community": 111,
-      "norm_label": ".format_entry()",
-      "id": "pine_reference_lookup_referencelookup_format_entry"
+      "id": "prompts_builder_spec",
+      "community": 94,
+      "norm_label": "builder_spec.rb"
     },
     {
       "label": "builder.rb",
@@ -349,7 +1099,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": ".repair_messages()",
       "id": "prompts_builder_builder_repair_messages"
     },
@@ -369,7 +1119,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 2,
+      "community": 4,
       "norm_label": ".completion_messages()",
       "id": "prompts_builder_builder_completion_messages"
     },
@@ -389,7 +1139,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".rephrase_messages()",
       "id": "prompts_builder_builder_rephrase_messages"
     },
@@ -1659,7 +2409,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L610",
       "_origin": "ast",
-      "community": 6,
+      "community": 174,
       "norm_label": "ta.mode()",
       "id": "sources_ta_ta_mode"
     },
@@ -1669,7 +2419,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L614",
       "_origin": "ast",
-      "community": 6,
+      "community": 174,
       "norm_label": "returns",
       "id": "sources_ta_returns_614"
     },
@@ -1679,7 +2429,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L617",
       "_origin": "ast",
-      "community": 6,
+      "community": 174,
       "norm_label": "remarks",
       "id": "sources_ta_remarks_617"
     },
@@ -1689,7 +2439,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L622",
       "_origin": "ast",
-      "community": 6,
+      "community": 175,
       "norm_label": "ta.mom()",
       "id": "sources_ta_ta_mom"
     },
@@ -1699,7 +2449,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L626",
       "_origin": "ast",
-      "community": 6,
+      "community": 175,
       "norm_label": "returns",
       "id": "sources_ta_returns_626"
     },
@@ -1709,7 +2459,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L629",
       "_origin": "ast",
-      "community": 6,
+      "community": 175,
       "norm_label": "remarks",
       "id": "sources_ta_remarks_629"
     },
@@ -1719,7 +2469,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L634",
       "_origin": "ast",
-      "community": 157,
+      "community": 6,
       "norm_label": "ta.percentile_linear_interpolation()",
       "id": "sources_ta_ta_percentile_linear_interpolation"
     },
@@ -1729,7 +2479,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L638",
       "_origin": "ast",
-      "community": 157,
+      "community": 6,
       "norm_label": "returns",
       "id": "sources_ta_returns_638"
     },
@@ -1739,7 +2489,7 @@
       "source_file": "docs/pine_v6_reference/sources/ta.md",
       "source_location": "L641",
       "_origin": "ast",
-      "community": 157,
+      "community": 6,
       "norm_label": "remarks",
       "id": "sources_ta_remarks_641"
     },
@@ -2604,106 +3354,6 @@
       "id": "sources_ta_code_example_1219"
     },
     {
-      "label": "graphify.md",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "graphify.md",
-      "id": "dev_graphify"
-    },
-    {
-      "label": "Graphify Development Guide",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "graphify development guide",
-      "id": "dev_graphify_graphify_development_guide"
-    },
-    {
-      "label": "Install",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "install",
-      "id": "dev_graphify_install"
-    },
-    {
-      "label": "Bootstrap / Refresh Graph",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "bootstrap / refresh graph",
-      "id": "dev_graphify_bootstrap_refresh_graph"
-    },
-    {
-      "label": "Ingest Pine v6 Knowledge",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "ingest pine v6 knowledge",
-      "id": "dev_graphify_ingest_pine_v6_knowledge"
-    },
-    {
-      "label": "Query Commands",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L40",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "query commands",
-      "id": "dev_graphify_query_commands"
-    },
-    {
-      "label": "PR Triage",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "pr triage",
-      "id": "dev_graphify_pr_triage"
-    },
-    {
-      "label": "Live Watch (Optional)",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "live watch (optional)",
-      "id": "dev_graphify_live_watch_optional"
-    },
-    {
-      "label": "Committed Artifacts",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L70",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "committed artifacts",
-      "id": "dev_graphify_committed_artifacts"
-    },
-    {
-      "label": "Production Integration",
-      "file_type": "document",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L79",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "production integration",
-      "id": "dev_graphify_production_integration"
-    },
-    {
       "label": "SOURCE.md",
       "file_type": "document",
       "source_file": "docs/pine_v6_primer/SOURCE.md",
@@ -2939,7 +3589,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": "generators_controller.rb",
       "id": "v1_generators_controller"
     },
@@ -2949,7 +3599,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": "generatorscontroller",
       "id": "v1_generators_controller_generatorscontroller"
     },
@@ -2959,7 +3609,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".create()",
       "id": "v1_generators_controller_generatorscontroller_create"
     },
@@ -2969,7 +3619,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".show()",
       "id": "v1_generators_controller_generatorscontroller_show"
     },
@@ -2979,7 +3629,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".refine()",
       "id": "v1_generators_controller_generatorscontroller_refine"
     },
@@ -2989,7 +3639,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".metadata()",
       "id": "v1_generators_controller_generatorscontroller_metadata"
     },
@@ -2999,7 +3649,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".complete()",
       "id": "v1_generators_controller_generatorscontroller_complete"
     },
@@ -3009,7 +3659,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".rephrase()",
       "id": "v1_generators_controller_generatorscontroller_rephrase"
     },
@@ -3019,7 +3669,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".stream_response()",
       "id": "v1_generators_controller_generatorscontroller_stream_response"
     },
@@ -3029,7 +3679,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".set_indicator()",
       "id": "v1_generators_controller_generatorscontroller_set_indicator"
     },
@@ -3039,7 +3689,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L83",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".generator_params()",
       "id": "v1_generators_controller_generatorscontroller_generator_params"
     },
@@ -3049,7 +3699,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L87",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".complete_params()",
       "id": "v1_generators_controller_generatorscontroller_complete_params"
     },
@@ -3059,7 +3709,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".rephrase_params()",
       "id": "v1_generators_controller_generatorscontroller_rephrase_params"
     },
@@ -3069,7 +3719,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".indicator_json()",
       "id": "v1_generators_controller_generatorscontroller_indicator_json"
     },
@@ -3299,7 +3949,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": "extract_metadata_job.rb",
       "id": "jobs_extract_metadata_job"
     },
@@ -3309,7 +3959,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": "extractmetadatajob",
       "id": "jobs_extract_metadata_job_extractmetadatajob"
     },
@@ -3319,7 +3969,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".perform()",
       "id": "jobs_extract_metadata_job_extractmetadatajob_perform"
     },
@@ -3499,7 +4149,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 2,
+      "community": 4,
       "norm_label": ".call()",
       "id": "generators_complete_service_completeservice_call"
     },
@@ -3509,7 +4159,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "metadata_service.rb",
       "id": "generators_metadata_service"
     },
@@ -3519,7 +4169,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "metadataservice",
       "id": "generators_metadata_service_metadataservice"
     },
@@ -3609,7 +4259,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": "repair_service.rb",
       "id": "generators_repair_service"
     },
@@ -3619,7 +4269,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": "repairservice",
       "id": "generators_repair_service_repairservice"
     },
@@ -3629,7 +4279,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": ".initialize()",
       "id": "generators_repair_service_repairservice_initialize"
     },
@@ -3639,7 +4289,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": ".call()",
       "id": "generators_repair_service_repairservice_call"
     },
@@ -3649,7 +4299,7 @@
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 9,
+      "community": 4,
       "norm_label": ".validate()",
       "id": "generators_repair_service_repairservice_validate"
     },
@@ -3659,7 +4309,7 @@
       "source_file": "app/services/generators/rephrase_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "rephrase_service.rb",
       "id": "generators_rephrase_service"
     },
@@ -3669,7 +4319,7 @@
       "source_file": "app/services/generators/rephrase_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "rephraseservice",
       "id": "generators_rephrase_service_rephraseservice"
     },
@@ -3689,7 +4339,7 @@
       "source_file": "app/services/generators/rephrase_service.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 4,
+      "community": 8,
       "norm_label": ".call()",
       "id": "generators_rephrase_service_rephraseservice_call"
     },
@@ -3699,7 +4349,7 @@
       "source_file": "app/services/generators/rephrase_service.rb",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": ".strip_wrappers()",
       "id": "generators_rephrase_service_rephraseservice_strip_wrappers"
     },
@@ -6474,16 +7124,6 @@
       "id": "pine_validator_spec"
     },
     {
-      "label": "builder_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/prompts/builder_spec.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 94,
-      "norm_label": "builder_spec.rb",
-      "id": "prompts_builder_spec"
-    },
-    {
       "label": "spec_helper.rb",
       "file_type": "code",
       "source_file": "spec/spec_helper.rb",
@@ -8038,203 +8678,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder",
-      "target": "pine_reference_index_builder_referenceindexbuilder"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_build"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L115",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_default_aliases"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_entry_for"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L95",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_extract_example"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L105",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_flush_section"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_initialize"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_markdown_files"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L111",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_normalize_symbol"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_parse_file"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L77",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_store_symbol"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder",
-      "target": "pine_reference_index_builder_referenceindexbuilder_truncate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_build",
-      "target": "pine_reference_index_builder_referenceindexbuilder_parse_file"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
-      "target": "pine_reference_index_builder_referenceindexbuilder_flush_section"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
-      "target": "pine_reference_index_builder_referenceindexbuilder_normalize_symbol"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
-      "target": "pine_reference_index_builder_referenceindexbuilder_store_symbol"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_store_symbol",
-      "target": "pine_reference_index_builder_referenceindexbuilder_entry_for"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_entry_for",
-      "target": "pine_reference_index_builder_referenceindexbuilder_truncate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/pine/reference_index_builder.rb",
-      "source_location": "L91",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pine_reference_index_builder_referenceindexbuilder_entry_for",
-      "target": "pine_reference_index_builder_referenceindexbuilder_extract_example"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/pine/reference_lookup.rb",
       "source_location": "L17",
       "weight": 1.0,
@@ -8431,6 +8874,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app/services/pine/reference_lookup.rb",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "pine_reference_lookup_referencelookup_script_type_symbols",
+      "target": "pine_reference_lookup_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/pine/reference_lookup.rb",
       "source_location": "L57",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8447,6 +8901,834 @@
       "confidence_score": 1.0,
       "source": "pine_reference_lookup_referencelookup_format_entries",
       "target": "pine_reference_lookup_referencelookup_format_entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify",
+      "target": "dev_graphify_graphify_development_guide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_bootstrap_refresh_graph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_committed_artifacts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_ingest_pine_v6_knowledge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_install"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_live_watch_optional"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_pr_triage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_production_integration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dev/graphify.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dev_graphify_graphify_development_guide",
+      "target": "dev_graphify_query_commands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/SOURCE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_source",
+      "target": "pine_v6_language_source_pine_script_v6_language_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_barstate_guards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_if_return_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_if_side_effects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_strategy_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_switch_with_expression",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/conditional-structures.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "pine_v6_language_conditional_structures_language_conditional_structures",
+      "target": "pine_v6_language_conditional_structures_switch_without_expression",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_codegen_defaults",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_indicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_library",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/declaration-statements.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "pine_v6_language_declaration_statements_language_declaration_statements",
+      "target": "pine_v6_language_declaration_statements_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model",
+      "target": "pine_v6_language_execution_model_language_execution_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model_language_execution_model",
+      "target": "pine_v6_language_execution_model_bar_by_bar_execution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model_language_execution_model",
+      "target": "pine_v6_language_execution_model_codegen_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model_language_execution_model",
+      "target": "pine_v6_language_execution_model_default_vs_persistent_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model_language_execution_model",
+      "target": "pine_v6_language_execution_model_history_referencing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/execution-model.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "pine_v6_language_execution_model_language_execution_model",
+      "target": "pine_v6_language_execution_model_realtime_bars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_identifiers",
+      "target": "pine_v6_language_identifiers_language_identifiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_identifiers_language_identifiers",
+      "target": "pine_v6_language_identifiers_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pine_v6_language_identifiers_language_identifiers",
+      "target": "pine_v6_language_identifiers_style_guide_pineforge_convention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/identifiers.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pine_v6_language_identifiers_language_identifiers",
+      "target": "pine_v6_language_identifiers_valid_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators",
+      "target": "pine_v6_language_operators_language_operators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_arithmetic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_assignment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_comparison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_history_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_logical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_precedence_high_low",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_qualifier_interaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/operators.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "pine_v6_language_operators_language_operators",
+      "target": "pine_v6_language_operators_ternary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure",
+      "target": "pine_v6_language_script_structure_language_script_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_code_organization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_compiler_annotations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_declaration_statement_exactly_one",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_general_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_minimal_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/script-structure.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "pine_v6_language_script_structure_language_script_structure",
+      "target": "pine_v6_language_script_structure_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system",
+      "target": "pine_v6_language_type_system_language_type_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system_language_type_system",
+      "target": "pine_v6_language_type_system_codegen_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system_language_type_system",
+      "target": "pine_v6_language_type_system_common_compilation_trap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system_language_type_system",
+      "target": "pine_v6_language_type_system_declaration_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system_language_type_system",
+      "target": "pine_v6_language_type_system_qualifier_hierarchy_weakest_strongest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/type-system.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "pine_v6_language_type_system_language_type_system",
+      "target": "pine_v6_language_type_system_qualifiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_assignment_operators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_codegen_patterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_declaration_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_forms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_qualified_type_syntax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pine_v6_language/variable-declarations.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "pine_v6_language_variable_declarations_language_variable_declarations",
+      "target": "pine_v6_language_variable_declarations_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder",
+      "target": "pine_reference_index_builder_referenceindexbuilder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_build"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_default_aliases"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_entry_for"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_extract_example"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_flush_section"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_initialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_markdown_files"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_normalize_symbol"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_parse_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_store_symbol"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder",
+      "target": "pine_reference_index_builder_referenceindexbuilder_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_build",
+      "target": "pine_reference_index_builder_referenceindexbuilder_parse_file"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
+      "target": "pine_reference_index_builder_referenceindexbuilder_flush_section"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
+      "target": "pine_reference_index_builder_referenceindexbuilder_normalize_symbol"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_parse_file",
+      "target": "pine_reference_index_builder_referenceindexbuilder_store_symbol"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_store_symbol",
+      "target": "pine_reference_index_builder_referenceindexbuilder_entry_for"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_store_symbol",
+      "target": "pine_reference_index_builder_referenceindexbuilder_flush_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_entry_for",
+      "target": "pine_reference_index_builder_referenceindexbuilder_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pine/reference_index_builder.rb",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pine_reference_index_builder_referenceindexbuilder_entry_for",
+      "target": "pine_reference_index_builder_referenceindexbuilder_extract_example"
     },
     {
       "relation": "contains",
@@ -10809,96 +12091,6 @@
       "confidence_score": 1.0,
       "source": "sources_ta_ta_wpr",
       "target": "sources_ta_returns_1213"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify",
-      "target": "dev_graphify_graphify_development_guide"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_bootstrap_refresh_graph"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L70",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_committed_artifacts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_ingest_pine_v6_knowledge"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_install"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_live_watch_optional"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_pr_triage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_production_integration"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/dev/graphify.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_query_commands"
     },
     {
       "relation": "contains",
@@ -16668,5 +17860,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4cb1924404f0adc079c367471f832fb21fe3cf65"
+  "built_at_commit": "6d0dd9112d03fce6bdc39775e932ca30a8041bc6"
 }

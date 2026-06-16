@@ -28,6 +28,13 @@ Source docs live in:
 - [`docs/pine_v6_rules.md`](../pine_v6_rules.md)
 - [`docs/pine_v6_examples/`](../pine_v6_examples/)
 - [`docs/pine_v6_primer/`](../pine_v6_primer/) — TradingView User Manual primer (first-steps, first-indicator, next-steps)
+- [`docs/pine_v6_reference/symbols.json`](../pine_v6_reference/symbols.json) — symbol lookup index for codegen (`Pine::ReferenceLookup`)
+
+Rebuild symbol index from upstream function docs:
+
+```bash
+bin/pine-reference-build
+```
 
 After adding docs, rebuild:
 
@@ -78,4 +85,4 @@ Do not add watch to the default `bin/dev` stack — it is CPU-intensive.
 
 ## Production Integration
 
-Rails calls `Graphify::ContextService.fetch` before every LLM prompt via [`Prompts::Builder`](../app/services/prompts/builder.rb). If the CLI is missing or the graph is unavailable, generation falls back to static rules only.
+Rails calls `Graphify::ContextService.fetch` and `Pine::ReferenceLookup.call` before every LLM prompt via [`Prompts::Builder`](../app/services/prompts/builder.rb). If the CLI is missing or the graph is unavailable, generation falls back to static rules and symbol lookup only.

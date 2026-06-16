@@ -2,7 +2,7 @@
 
 module Pine
   class ReferenceIndexBuilder
-    HEADING_PATTERN = /^##\s+([a-z][a-z0-9_.]*\(\)?)\s*$/i
+    HEADING_PATTERN = /^(?:##|###)\s+([a-z][a-z0-9_.]*\(\)?)\s*$/i
     SECTION_PATTERN = /^###\s+(.+)$/
 
     def initialize(source_dir:)
@@ -46,7 +46,7 @@ module Pine
 
       path.read.each_line do |line|
         if (match = line.match(HEADING_PATTERN))
-          store_symbol(symbols, current_symbol, sections, preamble) if current_symbol && !current_symbol.empty?
+          store_symbol(symbols, current_symbol, sections, preamble, current_section, buffer) if current_symbol && !current_symbol.empty?
           current_symbol = normalize_symbol(match[1])
           current_section = nil
           buffer = []
@@ -71,10 +71,11 @@ module Pine
         end
       end
 
-      store_symbol(symbols, current_symbol, sections, preamble)
+      store_symbol(symbols, current_symbol, sections, preamble, current_section, buffer)
     end
 
-    def store_symbol(symbols, symbol, sections, preamble)
+    def store_symbol(symbols, symbol, sections, preamble, current_section, buffer)
+      flush_section(sections, current_section, buffer)
       return if symbol.nil? || symbol.empty?
 
       preamble_text = preamble.join.strip

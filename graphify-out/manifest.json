@@ -805,8 +805,8 @@
     "semantic_hash": ""
   },
   "spec/services/prompts/builder_spec.rb": {
-    "mtime": 1781588246.8523998,
-    "ast_hash": "94cee92d339c2f345c80d301c719c649",
+    "mtime": 1781592413.4354942,
+    "ast_hash": "b3461f51abca2532916aed15dee5d1bc",
     "semantic_hash": ""
   },
   ".github/workflows/graphify-impact.yml": {
@@ -825,8 +825,8 @@
     "semantic_hash": ""
   },
   "docs/dev/graphify.md": {
-    "mtime": 1781591651.6636884,
-    "ast_hash": "fab9ae20814c4fd2e43c21bd53e971bf",
+    "mtime": 1781592622.0151637,
+    "ast_hash": "7dc6449c61e62925a29291f325bf53bd",
     "semantic_hash": ""
   },
   "client/src/PineForgeTimeline.test.tsx": {
@@ -935,18 +935,18 @@
     "semantic_hash": ""
   },
   "app/services/pine/reference_lookup.rb": {
-    "mtime": 1781591938.002919,
-    "ast_hash": "2ea2b78ca3c54b8e8336df5c363ccf57",
+    "mtime": 1781592402.131494,
+    "ast_hash": "e428864db63c8b260db2a4fc1db62f5c",
     "semantic_hash": ""
   },
   "bin/pine-reference-build": {
-    "mtime": 1781591962.848288,
-    "ast_hash": "2dcb8617d213cff3041faabcd4a78478",
+    "mtime": 1781592317.1833475,
+    "ast_hash": "a4bcf9ffcf1a4a0f93bf344fb0419e7b",
     "semantic_hash": ""
   },
   "lib/pine/reference_index_builder.rb": {
-    "mtime": 1781592110.2660205,
-    "ast_hash": "de531df3ca27e075aa91a6b86044fa99",
+    "mtime": 1781592469.6420612,
+    "ast_hash": "6aa99579819bb8a393f6c6638ae9f2e8",
     "semantic_hash": ""
   },
   "docs/pine_v6_reference/README.md": {
@@ -985,8 +985,63 @@
     "semantic_hash": ""
   },
   "docs/pine_v6_reference/symbols.json": {
-    "mtime": 1781592122.7760205,
-    "ast_hash": "26c1a2b1e5ec93e9ff89dbfa2d42164c",
+    "mtime": 1781592479.8660612,
+    "ast_hash": "0ec6df70837371b44f4672bb4f66b39f",
+    "semantic_hash": ""
+  },
+  "spec/lib/pine/reference_index_builder_spec.rb": {
+    "mtime": 1781592408.080494,
+    "ast_hash": "49331106b0ed433d42cdad466d96a2e0",
+    "semantic_hash": ""
+  },
+  "spec/services/pine/reference_lookup_spec.rb": {
+    "mtime": 1781592405.164494,
+    "ast_hash": "a7a2c7ea3bc88f2dfa02e04c81ddaabd",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/SOURCE.md": {
+    "mtime": 1781592549.9261148,
+    "ast_hash": "0f5cab87fb71e4d5c5781d2623fbb9a7",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/conditional-structures.md": {
+    "mtime": 1781592604.2401633,
+    "ast_hash": "f127614651fbd818142f7bd485688c10",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/declaration-statements.md": {
+    "mtime": 1781592583.3138247,
+    "ast_hash": "0db6a8cbfbea6b894e71a6f90442341e",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/execution-model.md": {
+    "mtime": 1781592560.9218245,
+    "ast_hash": "8aa05fdb67c3e28cb876df441ad11be6",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/identifiers.md": {
+    "mtime": 1781592578.2828245,
+    "ast_hash": "b18104f0311629601331b23ee0702fb3",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/operators.md": {
+    "mtime": 1781592597.6971633,
+    "ast_hash": "94c164b9044e6a6357d98a6ff3c9dcbd",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/script-structure.md": {
+    "mtime": 1781592575.3668244,
+    "ast_hash": "87bc11eab3364375227529dd2b59e493",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/type-system.md": {
+    "mtime": 1781592569.0578244,
+    "ast_hash": "40a05d4702d1b89f465de52112baf57f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_language/variable-declarations.md": {
+    "mtime": 1781592589.4428246,
+    "ast_hash": "7dc9ac65bf54f334cc649151eab2df39",
     "semantic_hash": ""
   }
 }

@@ -81,14 +81,16 @@ module Pine
     end
 
     def script_type_symbols
-      case @script_type
-      when "strategy"
-        %w[strategy.entry strategy.exit strategy.close ta.crossover]
-      when "library"
-        %w[export]
-      else
-        %w[indicator plot input.int ta.rsi]
-      end
+      candidates = case @script_type
+                   when "strategy"
+                     %w[strategy.entry strategy.exit ta.crossover request.security]
+                   when "library"
+                     %w[export]
+                   else
+                     %w[indicator plot input.int ta.rsi ta.ema]
+                   end
+
+      candidates.select { |symbol| self.class.index.dig("symbols", symbol) }
     end
 
     def format_entries(entries)
