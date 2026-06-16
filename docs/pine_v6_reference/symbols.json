@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-16T06:42:02Z",
+  "source": "docs/pine_v6_reference/sources/*.md",
+  "symbols": {
+    "ta.alma": {
+      "symbol": "ta.alma",
+      "namespace": "ta",
+      "signature": "ta.alma()",
+      "summary": "Arnaud Legoux Moving Average.",
+      "remarks": "na values in the source series are included in calculations and will produce an na result.",
+      "example": ""
+    },
+    "ta.atr": {
+      "symbol": "ta.atr",
+      "namespace": "ta",
+      "signature": "ta.atr()",
+      "summary": "Average true range.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.barssince": {
+      "symbol": "ta.barssince",
+      "namespace": "ta",
+      "signature": "ta.barssince()",
+      "summary": "Number of bars since condition was true.",
+      "remarks": "If the condition has never been met prior to the current bar, the function returns na. Please note that using this variable/function can cause indicator repainting.",
+      "example": ""
+    },
+    "ta.bb": {
+      "symbol": "ta.bb",
+      "namespace": "ta",
+      "signature": "ta.bb()",
+      "summary": "Bollinger Bands.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.bbw": {
+      "symbol": "ta.bbw",
+      "namespace": "ta",
+      "signature": "ta.bbw()",
+      "summary": "Bollinger Bands Width.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.cci": {
+      "symbol": "ta.cci",
+      "namespace": "ta",
+      "signature": "ta.cci()",
+      "summary": "Commodity channel index of source for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.change": {
+      "symbol": "ta.change",
+      "namespace": "ta",
+      "signature": "ta.change()",
+      "summary": "The difference between the values when they are numerical. When a 'bool' source is used, returns true when the current source is different from the previous source.",
+      "remarks": "na values in the source series are included in calculations and will produce an na result.",
+      "example": ""
+    },
+    "ta.cmo": {
+      "symbol": "ta.cmo",
+      "namespace": "ta",
+      "signature": "ta.cmo()",
+      "summary": "Chande Momentum Oscillator.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.cog": {
+      "symbol": "ta.cog",
+      "namespace": "ta",
+      "signature": "ta.cog()",
+      "summary": "Center of Gravity.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.correlation": {
+      "symbol": "ta.correlation",
+      "namespace": "ta",
+      "signature": "ta.correlation()",
+      "summary": "Correlation coefficient.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.cross": {
+      "symbol": "ta.cross",
+      "namespace": "ta",
+      "signature": "ta.cross()",
+      "summary": "",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.crossover": {
+      "symbol": "ta.crossover",
+      "namespace": "ta",
+      "signature": "ta.crossover()",
+      "summary": "The source1-series is defined as having crossed over source2-series if, on the current bar, the value of source1 is greater than the value of source2, and on the previous bar, the value of source1 was less than or equal to the value of source2.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.crossunder": {
+      "symbol": "ta.crossunder",
+      "namespace": "ta",
+      "signature": "ta.crossunder()",
+      "summary": "The source1-series is defined as having crossed under source2-series if, on the current bar, the value of source1 is less than the value of source2, and on the previous bar, the value of source1 was greater than or equal to the value of source2.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.cum": {
+      "symbol": "ta.cum",
+      "namespace": "ta",
+      "signature": "ta.cum()",
+      "summary": "Cumulative (total) sum of source. In other words it's a sum of all elements of source.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.dev": {
+      "symbol": "ta.dev",
+      "namespace": "ta",
+      "signature": "ta.dev()",
+      "summary": "Deviation of source for length bars back.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.dmi": {
+      "symbol": "ta.dmi",
+      "namespace": "ta",
+      "signature": "ta.dmi()",
+      "summary": "Tuple of three DMI series: Positive Directional Movement (+DI), Negative Directional Movement (-DI) and Average Directional Movement Index (ADX).",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.ema": {
+      "symbol": "ta.ema",
+      "namespace": "ta",
+      "signature": "ta.ema()",
+      "summary": "Exponential moving average of source with alpha = 2 / (length + 1).",
+      "remarks": "Please note that using this variable/function can cause indicator repainting. na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.falling": {
+      "symbol": "ta.falling",
+      "namespace": "ta",
+      "signature": "ta.falling()",
+      "summary": "true if current source value is less than any previous source value for length bars back, false otherwise.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.highest": {
+      "symbol": "ta.highest",
+      "namespace": "ta",
+      "signature": "ta.highest()",
+      "summary": "Highest value in the series.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.highestbars": {
+      "symbol": "ta.highestbars",
+      "namespace": "ta",
+      "signature": "ta.highestbars()",
+      "summary": "Offset to the highest bar.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.hma": {
+      "symbol": "ta.hma",
+      "namespace": "ta",
+      "signature": "ta.hma()",
+      "summary": "Hull moving average of 'source' for 'length' bars back.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.kc": {
+      "symbol": "ta.kc",
+      "namespace": "ta",
+      "signature": "ta.kc()",
+      "summary": "Keltner Channels.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.kcw": {
+      "symbol": "ta.kcw",
+      "namespace": "ta",
+      "signature": "ta.kcw()",
+      "summary": "Keltner Channels Width.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.linreg": {
+      "symbol": "ta.linreg",
+      "namespace": "ta",
+      "signature": "ta.linreg()",
+      "summary": "Linear regression curve.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.lowest": {
+      "symbol": "ta.lowest",
+      "namespace": "ta",
+      "signature": "ta.lowest()",
+      "summary": "Lowest value in the series.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.lowestbars": {
+      "symbol": "ta.lowestbars",
+      "namespace": "ta",
+      "signature": "ta.lowestbars()",
+      "summary": "Offset to the lowest bar.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.macd": {
+      "symbol": "ta.macd",
+      "namespace": "ta",
+      "signature": "ta.macd()",
+      "summary": "Tuple of three MACD series: MACD line, signal line and histogram line.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.max": {
+      "symbol": "ta.max",
+      "namespace": "ta",
+      "signature": "ta.max()",
+      "summary": "Returns the all-time high value of source from the beginning of the chart up to the current bar.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.median": {
+      "symbol": "ta.median",
+      "namespace": "ta",
+      "signature": "ta.median()",
+      "summary": "The median of the series.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.mfi": {
+      "symbol": "ta.mfi",
+      "namespace": "ta",
+      "signature": "ta.mfi()",
+      "summary": "Money Flow Index.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.min": {
+      "symbol": "ta.min",
+      "namespace": "ta",
+      "signature": "ta.min()",
+      "summary": "Returns the all-time low value of source from the beginning of the chart up to the current bar.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.mode": {
+      "symbol": "ta.mode",
+      "namespace": "ta",
+      "signature": "ta.mode()",
+      "summary": "The most frequently occurring value from the source. If none exists, returns the smallest value instead.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.mom": {
+      "symbol": "ta.mom",
+      "namespace": "ta",
+      "signature": "ta.mom()",
+      "summary": "Momentum of source price and source price length bars ago.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.percentile_linear_interpolation": {
+      "symbol": "ta.percentile_linear_interpolation",
+      "namespace": "ta",
+      "signature": "ta.percentile_linear_interpolation()",
+      "summary": "P-th percentile of source series for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.percentile_nearest_rank": {
+      "symbol": "ta.percentile_nearest_rank",
+      "namespace": "ta",
+      "signature": "ta.percentile_nearest_rank()",
+      "summary": "P-th percentile of source series for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.percentrank": {
+      "symbol": "ta.percentrank",
+      "namespace": "ta",
+      "signature": "ta.percentrank()",
+      "summary": "Percent rank of source for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.pivot_point_levels": {
+      "symbol": "ta.pivot_point_levels",
+      "namespace": "ta",
+      "signature": "ta.pivot_point_levels()",
+      "summary": "An array<float> with numerical values representing 11 pivot point levels: [P, R1, S1, R2, S2, R3, S3, R4, S4, R5, S5]. Levels absent from the specified type return na values (e.g., \"DM\" only calculates P, R1, and S1).",
+      "remarks": "The developing parameter cannot be true when type is set to \"Woodie\", because the Woodie calculation for a period depends on that period's open, which means that the pivot value is either available or unavailable, but never developing. If used together, the indicator will return a runtime error.",
+      "example": ""
+    },
+    "ta.pivothigh": {
+      "symbol": "ta.pivothigh",
+      "namespace": "ta",
+      "signature": "ta.pivothigh()",
+      "summary": "Price of the point or 'NaN'.",
+      "remarks": "If parameters 'leftbars' or 'rightbars' are series you should use max_bars_back function for the 'source' variable.",
+      "example": ""
+    },
+    "ta.pivotlow": {
+      "symbol": "ta.pivotlow",
+      "namespace": "ta",
+      "signature": "ta.pivotlow()",
+      "summary": "Price of the point or 'NaN'.",
+      "remarks": "If parameters 'leftbars' or 'rightbars' are series you should use max_bars_back function for the 'source' variable.",
+      "example": ""
+    },
+    "ta.range": {
+      "symbol": "ta.range",
+      "namespace": "ta",
+      "signature": "ta.range()",
+      "summary": "The difference between the min and max values in the series.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.rci": {
+      "symbol": "ta.rci",
+      "namespace": "ta",
+      "signature": "ta.rci()",
+      "summary": "Calculates the Rank Correlation Index (RCI), which measures the directional consistency of price movements. It evaluates the monotonic relationship between a source series and the bar index over length bars using Spearman's rank correlation coefficient. The resulting value is scaled to a range of -100 to 100, where 100 indicates the source consistently increased over the period, and -100 indicates it consistently decreased. Values between -100 and 100 reflect varying degrees of upward or downward consistency.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.rising": {
+      "symbol": "ta.rising",
+      "namespace": "ta",
+      "signature": "ta.rising()",
+      "summary": "true if current source is greater than any previous source for length bars back, false otherwise.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.rma": {
+      "symbol": "ta.rma",
+      "namespace": "ta",
+      "signature": "ta.rma()",
+      "summary": "Exponential moving average of source with alpha = 1 / length.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.roc": {
+      "symbol": "ta.roc",
+      "namespace": "ta",
+      "signature": "ta.roc()",
+      "summary": "The rate of change of source for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.rsi": {
+      "symbol": "ta.rsi",
+      "namespace": "ta",
+      "signature": "ta.rsi()",
+      "summary": "Relative strength index.",
+      "remarks": "na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.sar": {
+      "symbol": "ta.sar",
+      "namespace": "ta",
+      "signature": "ta.sar()",
+      "summary": "Parabolic SAR.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.sma": {
+      "symbol": "ta.sma",
+      "namespace": "ta",
+      "signature": "ta.sma()",
+      "summary": "Simple moving average of source for length bars back.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.stdev": {
+      "symbol": "ta.stdev",
+      "namespace": "ta",
+      "signature": "ta.stdev()",
+      "summary": "Standard deviation.",
+      "remarks": "If biased is true, function will calculate using a biased estimate of the entire population, if false - unbiased estimate of a sample. na values in the source series are ignored; the function calculates on the length quantity of non-na values.",
+      "example": ""
+    },
+    "ta.stoch": {
+      "symbol": "ta.stoch",
+      "namespace": "ta",
+      "signature": "ta.stoch()",
+      "summary": "Stochastic.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.supertrend": {
+      "symbol": "ta.supertrend",
+      "namespace": "ta",
+      "signature": "ta.supertrend()",
+      "summary": "Tuple of two supertrend series: supertrend line and direction of trend. Possible values are 1 (down direction) and -1 (up direction).",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.swma": {
+      "symbol": "ta.swma",
+      "namespace": "ta",
+      "signature": "ta.swma()",
+      "summary": "Symmetrically weighted moving average.",
+      "remarks": "na values in the source series are included in calculations and will produce an na result.",
+      "example": ""
+    },
+    "ta.tr": {
+      "symbol": "ta.tr",
+      "namespace": "ta",
+      "signature": "ta.tr()",
+      "summary": "True range. It is math.max(high - low, math.abs(high - close[1]), math.abs(low - close[1])).",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.tsi": {
+      "symbol": "ta.tsi",
+      "namespace": "ta",
+      "signature": "ta.tsi()",
+      "summary": "True strength index. A value in range [-1, 1].",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.valuewhen": {
+      "symbol": "ta.valuewhen",
+      "namespace": "ta",
+      "signature": "ta.valuewhen()",
+      "summary": "Returns the value of the source series on the bar where the condition was true on the nth most recent occurrence.",
+      "remarks": "This function requires execution on every bar. It is not recommended to use it inside a for or while loop structure, where its behavior can be unexpected. Please note that using this function can cause indicator repainting.",
+      "example": ""
+    },
+    "ta.variance": {
+      "symbol": "ta.variance",
+      "namespace": "ta",
+      "signature": "ta.variance()",
+      "summary": "Variance of source for length bars back.",
+      "remarks": "",
+      "example": ""
+    },
+    "ta.vwap": {
+      "symbol": "ta.vwap",
+      "namespace": "ta",
+      "signature": "ta.vwap()",
+      "summary": "A VWAP series, or a tuple [vwap, upper_band, lower_band] if stdev_mult is specified.",
+      "remarks": "Calculations only begin the first time the anchor condition becomes true. Until then, the function returns na.",
+      "example": ""
+    },
+    "ta.vwma": {
+      "symbol": "ta.vwma",
+      "namespace": "ta",
+      "signature": "ta.vwma()",
+      "summary": "Volume-weighted moving average of source for length bars back.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.wma": {
+      "symbol": "ta.wma",
+      "namespace": "ta",
+      "signature": "ta.wma()",
+      "summary": "Weighted moving average of source for length bars back.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    },
+    "ta.wpr": {
+      "symbol": "ta.wpr",
+      "namespace": "ta",
+      "signature": "ta.wpr()",
+      "summary": "Williams %R.",
+      "remarks": "na values in the source series are ignored.",
+      "example": ""
+    }
+  },
+  "aliases": {
+    "alma": "ta.alma",
+    "atr": "ta.atr",
+    "barssince": "ta.barssince",
+    "bb": "ta.bb",
+    "bbw": "ta.bbw",
+    "bollinger": "ta.bb",
+    "cci": "ta.cci",
+    "change": "ta.change",
+    "cmo": "ta.cmo",
+    "cog": "ta.cog",
+    "correlation": "ta.correlation",
+    "cross": "ta.cross",
+    "crossover": "ta.crossover",
+    "crossunder": "ta.crossunder",
+    "cum": "ta.cum",
+    "dev": "ta.dev",
+    "dmi": "ta.dmi",
+    "ema": "ta.ema",
+    "falling": "ta.falling",
+    "highest": "ta.highest",
+    "highestbars": "ta.highestbars",
+    "hma": "ta.hma",
+    "kc": "ta.kc",
+    "kcw": "ta.kcw",
+    "linreg": "ta.linreg",
+    "lowest": "ta.lowest",
+    "lowestbars": "ta.lowestbars",
+    "macd": "ta.macd",
+    "max": "ta.max",
+    "median": "ta.median",
+    "mfi": "ta.mfi",
+    "min": "ta.min",
+    "mode": "ta.mode",
+    "mom": "ta.mom",
+    "multitimeframe": "request.security",
+    "percentile_linear_interpolation": "ta.percentile_linear_interpolation",
+    "percentile_nearest_rank": "ta.percentile_nearest_rank",
+    "percentrank": "ta.percentrank",
+    "pivot_point_levels": "ta.pivot_point_levels",
+    "pivothigh": "ta.pivothigh",
+    "pivotlow": "ta.pivotlow",
+    "range": "ta.range",
+    "rci": "ta.rci",
+    "rising": "ta.rising",
+    "rma": "ta.rma",
+    "roc": "ta.roc",
+    "rsi": "ta.rsi",
+    "sar": "ta.sar",
+    "security": "request.security",
+    "sma": "ta.sma",
+    "stdev": "ta.stdev",
+    "stoch": "ta.stoch",
+    "stochastic": "ta.stoch",
+    "supertrend": "ta.supertrend",
+    "swma": "ta.swma",
+    "tr": "ta.tr",
+    "tsi": "ta.tsi",
+    "valuewhen": "ta.valuewhen",
+    "variance": "ta.variance",
+    "vwap": "ta.vwap",
+    "vwma": "ta.vwma",
+    "wma": "ta.wma",
+    "wpr": "ta.wpr"
+  }
+}

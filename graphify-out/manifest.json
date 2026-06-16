@@ -983,5 +983,10 @@
     "mtime": 1781592121.6600206,
     "ast_hash": "b6adb82934f8d781b0e8648675e17a8f",
     "semantic_hash": ""
+  },
+  "docs/pine_v6_reference/symbols.json": {
+    "mtime": 1781592122.7760205,
+    "ast_hash": "26c1a2b1e5ec93e9ff89dbfa2d42164c",
+    "semantic_hash": ""
   }
 }
