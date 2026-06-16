@@ -825,8 +825,8 @@
     "semantic_hash": ""
   },
   "docs/dev/graphify.md": {
-    "mtime": 1781588484.210573,
-    "ast_hash": "dcd6c67e07291ab3abd7fdc405187650",
+    "mtime": 1781591651.6636884,
+    "ast_hash": "fab9ae20814c4fd2e43c21bd53e971bf",
     "semantic_hash": ""
   },
   "client/src/PineForgeTimeline.test.tsx": {
@@ -912,6 +912,26 @@
   "app/prompts/v1/rephrase_system.txt": {
     "mtime": 1781591363.3863707,
     "ast_hash": "59470f19866c40e64441521400aefe44",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_primer/SOURCE.md": {
+    "mtime": 1781591636.9486883,
+    "ast_hash": "8a331c890a7504614c95af5b03549332",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_primer/first-indicator.md": {
+    "mtime": 1781591644.2296884,
+    "ast_hash": "c1b7186ef60dd76f343806e1dc3e218f",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_primer/first-steps.md": {
+    "mtime": 1781591640.0626884,
+    "ast_hash": "10eb4d43435e326fae843b75d9d38c26",
+    "semantic_hash": ""
+  },
+  "docs/pine_v6_primer/next-steps.md": {
+    "mtime": 1781591649.8996885,
+    "ast_hash": "3835e5a1b573b4210e88184732308bb4",
     "semantic_hash": ""
   }
 }

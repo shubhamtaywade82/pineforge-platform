@@ -27,11 +27,14 @@ Source docs live in:
 
 - [`docs/pine_v6_rules.md`](../pine_v6_rules.md)
 - [`docs/pine_v6_examples/`](../pine_v6_examples/)
+- [`docs/pine_v6_primer/`](../pine_v6_primer/) — TradingView User Manual primer (first-steps, first-indicator, next-steps)
 
 After adding docs, rebuild:
 
 ```bash
 graphify . --update
+# or AST-only refresh:
+bin/graphify-update
 ```
 
 ## Query Commands
