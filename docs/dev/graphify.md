@@ -16,10 +16,36 @@ graphify hook install
 # AST-only update (no LLM cost) — use after code changes
 bin/graphify-update
 
-# Full semantic extraction (requires Ollama)
-OLLAMA_BASE_URL=https://ollama.com OLLAMA_MODEL=qwen2.5-coder:7b \
-  graphify extract . --backend ollama
+# Full semantic extraction (local Ollama)
+OLLAMA_API_KEY=local OLLAMA_MODEL=qwen2.5-coder:7b \
+  graphify extract . --backend ollama --no-cluster
+
+# Or Ollama Cloud (if you have an API key)
+OLLAMA_BASE_URL=https://ollama.com OLLAMA_API_KEY=your-key OLLAMA_MODEL=qwen2.5-coder:7b \
+  graphify extract . --backend ollama --no-cluster
 ```
+
+### Local Ollama troubleshooting
+
+Graphify defaults to `qwen2.5-coder:7b`. If you see `model 'qwen2.5-coder:7b' not found`:
+
+```bash
+# List installed models
+curl -s http://localhost:11434/api/tags | jq -r '.models[].name'
+
+# Pull the expected model (no ollama CLI required)
+curl -N http://localhost:11434/api/pull -d '{"name":"qwen2.5-coder:7b"}'
+
+# Then re-run with explicit model
+OLLAMA_API_KEY=local OLLAMA_MODEL=qwen2.5-coder:7b \
+  graphify extract . --backend ollama --no-cluster
+```
+
+Or point `OLLAMA_MODEL` at any model already on localhost (e.g. `qwen3:8b`, `llama3.1:8b`). Coder-tuned models return valid extraction JSON more reliably.
+
+**Do not** use `bin/graphify-update --force` after adding docs — it can drop semantically extracted doc nodes. Use `graphify extract` for new markdown only.
+
+Run only **one** `graphify extract` at a time; parallel runs contend for Ollama and appear hung.
 
 ## Ingest Pine v6 Knowledge
 
