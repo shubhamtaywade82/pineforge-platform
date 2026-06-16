@@ -4,194 +4,44 @@
   "graph": {},
   "nodes": [
     {
-      "label": "App.tsx",
+      "label": "indicator.rb",
       "file_type": "code",
-      "source_file": "client/src/App.tsx",
+      "source_file": "app/models/indicator.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_app",
-      "community": 0,
-      "norm_label": "app.tsx"
+      "id": "models_indicator",
+      "community": 6,
+      "norm_label": "indicator.rb"
     },
     {
-      "label": "PineEditor",
+      "label": "Indicator",
       "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "src_app_pineeditor",
-      "community": 0,
-      "norm_label": "pineeditor"
-    },
-    {
-      "label": "AppView",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "src_app_appview",
-      "community": 0,
-      "norm_label": "appview"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "src_app_app",
-      "community": 0,
-      "norm_label": "app()"
-    },
-    {
-      "label": "PineForgeTimeline.test.tsx",
-      "file_type": "code",
-      "source_file": "client/src/PineForgeTimeline.test.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_pineforgetimeline_test",
-      "community": 105,
-      "norm_label": "pineforgetimeline.test.tsx"
-    },
-    {
-      "label": "Sidebar.tsx",
-      "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "layout_sidebar",
-      "community": 0,
-      "norm_label": "sidebar.tsx"
-    },
-    {
-      "label": "SidebarProps",
-      "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_file": "app/models/indicator.rb",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "layout_sidebar_sidebarprops",
-      "community": 0,
-      "norm_label": "sidebarprops"
+      "id": "models_indicator_indicator",
+      "community": 6,
+      "norm_label": "indicator"
     },
     {
-      "label": "Sidebar()",
+      "label": ".create_version!()",
       "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L10",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L16",
       "_origin": "ast",
-      "id": "layout_sidebar_sidebar",
-      "community": 0,
-      "norm_label": "sidebar()"
+      "id": "models_indicator_indicator_create_version",
+      "community": 6,
+      "norm_label": ".create_version!()"
     },
     {
-      "label": "PineForgeTimeline.tsx",
+      "label": ".set_default_name()",
       "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L1",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L30",
       "_origin": "ast",
-      "id": "timeline_pineforgetimeline",
-      "community": 105,
-      "norm_label": "pineforgetimeline.tsx"
-    },
-    {
-      "label": "STATUS_LABEL",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_status_label",
-      "community": 105,
-      "norm_label": "status_label"
-    },
-    {
-      "label": "VolumeBarProps",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_volumebarprops",
-      "community": 105,
-      "norm_label": "volumebarprops"
-    },
-    {
-      "label": "VolumeBar()",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_volumebar",
-      "community": 105,
-      "norm_label": "volumebar()"
-    },
-    {
-      "label": "MilestoneCardProps",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_milestonecardprops",
-      "community": 105,
-      "norm_label": "milestonecardprops"
-    },
-    {
-      "label": "MilestoneCard()",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_milestonecard",
-      "community": 105,
-      "norm_label": "milestonecard()"
-    },
-    {
-      "label": "ConnectorLine()",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L197",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_connectorline",
-      "community": 105,
-      "norm_label": "connectorline()"
-    },
-    {
-      "label": "WeekTick()",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L210",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_weektick",
-      "community": 105,
-      "norm_label": "weektick()"
-    },
-    {
-      "label": "PineForgeTimelineProps",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L219",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_pineforgetimelineprops",
-      "community": 105,
-      "norm_label": "pineforgetimelineprops"
-    },
-    {
-      "label": "PineForgeTimeline()",
-      "file_type": "code",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L223",
-      "_origin": "ast",
-      "id": "timeline_pineforgetimeline_pineforgetimeline",
-      "community": 105,
-      "norm_label": "pineforgetimeline()"
-    },
-    {
-      "label": "timelinePhases.test.ts",
-      "file_type": "code",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "data_timelinephases_test",
-      "community": 105,
-      "norm_label": "timelinephases.test.ts"
+      "id": "models_indicator_indicator_set_default_name",
+      "community": 6,
+      "norm_label": ".set_default_name()"
     },
     {
       "label": "timelinePhases.ts",
@@ -274,14 +124,434 @@
       "norm_label": "timelinetotals()"
     },
     {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 0,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "getWorker()",
+      "file_type": "code",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_getworker",
+      "community": 0,
+      "norm_label": "getworker()"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "client_tsconfig",
+      "community": 4,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions",
+      "community": 4,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_target",
+      "community": 4,
+      "norm_label": "target"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_usedefineforclassfields",
+      "community": 4,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_lib",
+      "community": 4,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_module",
+      "community": 4,
+      "norm_label": "module"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_skiplibcheck",
+      "community": 4,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_moduleresolution",
+      "community": 4,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 4,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_isolatedmodules",
+      "community": 4,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_moduledetection",
+      "community": 4,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_noemit",
+      "community": 4,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_jsx",
+      "community": 4,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_strict",
+      "community": 4,
+      "norm_label": "strict"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_nounusedlocals",
+      "community": 4,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_nounusedparameters",
+      "community": 4,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 4,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "client_tsconfig_compileroptions_types",
+      "community": 4,
+      "norm_label": "types"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "client_tsconfig_include",
+      "community": 4,
+      "norm_label": "include"
+    },
+    {
+      "label": "indicator_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/models/indicator_spec.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "models_indicator_spec",
+      "community": 83,
+      "norm_label": "indicator_spec.rb"
+    },
+    {
+      "label": "indicators_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/requests/api/v1/indicators_spec.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "v1_indicators_spec",
+      "community": 101,
+      "norm_label": "indicators_spec.rb"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app.tsx",
+      "id": "src_app"
+    },
+    {
+      "label": "PineEditor",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "pineeditor",
+      "id": "src_app_pineeditor"
+    },
+    {
+      "label": "AppView",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "appview",
+      "id": "src_app_appview"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app()",
+      "id": "src_app_app"
+    },
+    {
+      "label": "PineForgeTimeline.test.tsx",
+      "file_type": "code",
+      "source_file": "client/src/PineForgeTimeline.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "pineforgetimeline.test.tsx",
+      "id": "src_pineforgetimeline_test"
+    },
+    {
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "sidebar.tsx",
+      "id": "layout_sidebar"
+    },
+    {
+      "label": "SidebarProps",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "sidebarprops",
+      "id": "layout_sidebar_sidebarprops"
+    },
+    {
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "sidebar()",
+      "id": "layout_sidebar_sidebar"
+    },
+    {
+      "label": "PineForgeTimeline.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "pineforgetimeline.tsx",
+      "id": "timeline_pineforgetimeline"
+    },
+    {
+      "label": "STATUS_LABEL",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "status_label",
+      "id": "timeline_pineforgetimeline_status_label"
+    },
+    {
+      "label": "VolumeBarProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "volumebarprops",
+      "id": "timeline_pineforgetimeline_volumebarprops"
+    },
+    {
+      "label": "VolumeBar()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "volumebar()",
+      "id": "timeline_pineforgetimeline_volumebar"
+    },
+    {
+      "label": "MilestoneCardProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "milestonecardprops",
+      "id": "timeline_pineforgetimeline_milestonecardprops"
+    },
+    {
+      "label": "MilestoneCard()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L48",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "milestonecard()",
+      "id": "timeline_pineforgetimeline_milestonecard"
+    },
+    {
+      "label": "ConnectorLine()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L197",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "connectorline()",
+      "id": "timeline_pineforgetimeline_connectorline"
+    },
+    {
+      "label": "WeekTick()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L210",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "weektick()",
+      "id": "timeline_pineforgetimeline_weektick"
+    },
+    {
+      "label": "PineForgeTimelineProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L219",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "pineforgetimelineprops",
+      "id": "timeline_pineforgetimeline_pineforgetimelineprops"
+    },
+    {
+      "label": "PineForgeTimeline()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L223",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "pineforgetimeline()",
+      "id": "timeline_pineforgetimeline_pineforgetimeline"
+    },
+    {
+      "label": "timelinePhases.test.ts",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 105,
+      "norm_label": "timelinephases.test.ts",
+      "id": "data_timelinephases_test"
+    },
+    {
       "label": "roadmap.md",
       "file_type": "document",
       "source_file": "docs/roadmap.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_roadmap",
       "community": 13,
-      "norm_label": "roadmap.md"
+      "norm_label": "roadmap.md",
+      "id": "docs_roadmap"
     },
     {
       "label": "PineForge Platform v1.0 Roadmap",
@@ -289,9 +559,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_roadmap_pineforge_platform_v1_0_roadmap",
       "community": 13,
-      "norm_label": "pineforge platform v1.0 roadmap"
+      "norm_label": "pineforge platform v1.0 roadmap",
+      "id": "docs_roadmap_pineforge_platform_v1_0_roadmap"
     },
     {
       "label": "Phase 1 \u2014 MVP (m1\u2013m12)",
@@ -299,9 +569,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_roadmap_phase_1_mvp_m1_m12",
       "community": 13,
-      "norm_label": "phase 1 \u2014 mvp (m1\u2013m12)"
+      "norm_label": "phase 1 \u2014 mvp (m1\u2013m12)",
+      "id": "docs_roadmap_phase_1_mvp_m1_m12"
     },
     {
       "label": "Phase 2 \u2014 Intelligence (m13\u2013m24)",
@@ -309,9 +579,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "docs_roadmap_phase_2_intelligence_m13_m24",
       "community": 13,
-      "norm_label": "phase 2 \u2014 intelligence (m13\u2013m24)"
+      "norm_label": "phase 2 \u2014 intelligence (m13\u2013m24)",
+      "id": "docs_roadmap_phase_2_intelligence_m13_m24"
     },
     {
       "label": "Phase 3 \u2014 Engineering Platform (m25\u2013m36)",
@@ -319,9 +589,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "docs_roadmap_phase_3_engineering_platform_m25_m36",
       "community": 13,
-      "norm_label": "phase 3 \u2014 engineering platform (m25\u2013m36)"
+      "norm_label": "phase 3 \u2014 engineering platform (m25\u2013m36)",
+      "id": "docs_roadmap_phase_3_engineering_platform_m25_m36"
     },
     {
       "label": "Phase 4 \u2014 Product Launch (m37\u2013m48)",
@@ -329,9 +599,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "docs_roadmap_phase_4_product_launch_m37_m48",
       "community": 13,
-      "norm_label": "phase 4 \u2014 product launch (m37\u2013m48)"
+      "norm_label": "phase 4 \u2014 product launch (m37\u2013m48)",
+      "id": "docs_roadmap_phase_4_product_launch_m37_m48"
     },
     {
       "label": "Definition of Done",
@@ -339,9 +609,9 @@
       "source_file": "docs/roadmap.md",
       "source_location": "L85",
       "_origin": "ast",
-      "id": "docs_roadmap_definition_of_done",
       "community": 13,
-      "norm_label": "definition of done"
+      "norm_label": "definition of done",
+      "id": "docs_roadmap_definition_of_done"
     },
     {
       "label": "endpoint_resolver.rb",
@@ -1272,46 +1542,6 @@
       "community": 48,
       "norm_label": "generationsession",
       "id": "models_generation_session_generationsession"
-    },
-    {
-      "label": "indicator.rb",
-      "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "indicator.rb",
-      "id": "models_indicator"
-    },
-    {
-      "label": "Indicator",
-      "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "indicator",
-      "id": "models_indicator_indicator"
-    },
-    {
-      "label": ".create_version!()",
-      "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".create_version!()",
-      "id": "models_indicator_indicator_create_version"
-    },
-    {
-      "label": ".set_default_name()",
-      "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".set_default_name()",
-      "id": "models_indicator_indicator_set_default_name"
     },
     {
       "label": "indicator_version.rb",
@@ -2914,16 +3144,6 @@
       "id": "hooks_useversiondiff_useversiondiff"
     },
     {
-      "label": "main.tsx",
-      "file_type": "code",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "main.tsx",
-      "id": "src_main"
-    },
-    {
       "label": "setup.ts",
       "file_type": "code",
       "source_file": "client/src/test/setup.ts",
@@ -3012,196 +3232,6 @@
       "community": 52,
       "norm_label": "tailwind.config.js",
       "id": "client_tailwind_config"
-    },
-    {
-      "label": "tsconfig.json",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "tsconfig.json",
-      "id": "client_tsconfig"
-    },
-    {
-      "label": "compilerOptions",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "compileroptions",
-      "id": "client_tsconfig_compileroptions"
-    },
-    {
-      "label": "target",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "target",
-      "id": "client_tsconfig_compileroptions_target"
-    },
-    {
-      "label": "useDefineForClassFields",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "usedefineforclassfields",
-      "id": "client_tsconfig_compileroptions_usedefineforclassfields"
-    },
-    {
-      "label": "lib",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "lib",
-      "id": "client_tsconfig_compileroptions_lib"
-    },
-    {
-      "label": "module",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "module",
-      "id": "client_tsconfig_compileroptions_module"
-    },
-    {
-      "label": "skipLibCheck",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "skiplibcheck",
-      "id": "client_tsconfig_compileroptions_skiplibcheck"
-    },
-    {
-      "label": "moduleResolution",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "moduleresolution",
-      "id": "client_tsconfig_compileroptions_moduleresolution"
-    },
-    {
-      "label": "allowImportingTsExtensions",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "allowimportingtsextensions",
-      "id": "client_tsconfig_compileroptions_allowimportingtsextensions"
-    },
-    {
-      "label": "isolatedModules",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "isolatedmodules",
-      "id": "client_tsconfig_compileroptions_isolatedmodules"
-    },
-    {
-      "label": "moduleDetection",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "moduledetection",
-      "id": "client_tsconfig_compileroptions_moduledetection"
-    },
-    {
-      "label": "noEmit",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "noemit",
-      "id": "client_tsconfig_compileroptions_noemit"
-    },
-    {
-      "label": "jsx",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "jsx",
-      "id": "client_tsconfig_compileroptions_jsx"
-    },
-    {
-      "label": "strict",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "strict",
-      "id": "client_tsconfig_compileroptions_strict"
-    },
-    {
-      "label": "noUnusedLocals",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "nounusedlocals",
-      "id": "client_tsconfig_compileroptions_nounusedlocals"
-    },
-    {
-      "label": "noUnusedParameters",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "nounusedparameters",
-      "id": "client_tsconfig_compileroptions_nounusedparameters"
-    },
-    {
-      "label": "noFallthroughCasesInSwitch",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "nofallthroughcasesinswitch",
-      "id": "client_tsconfig_compileroptions_nofallthroughcasesinswitch"
-    },
-    {
-      "label": "types",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "types",
-      "id": "client_tsconfig_compileroptions_types"
-    },
-    {
-      "label": "include",
-      "file_type": "code",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "include",
-      "id": "client_tsconfig_include"
     },
     {
       "label": "vite.config.ts",
@@ -3624,16 +3654,6 @@
       "id": "models_generation_session_spec"
     },
     {
-      "label": "indicator_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/indicator_spec.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 83,
-      "norm_label": "indicator_spec.rb",
-      "id": "models_indicator_spec"
-    },
-    {
       "label": "indicator_version_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/indicator_version_spec.rb",
@@ -3682,16 +3702,6 @@
       "community": 100,
       "norm_label": "generators_spec.rb",
       "id": "v1_generators_spec"
-    },
-    {
-      "label": "indicators_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/api/v1/indicators_spec.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 101,
-      "norm_label": "indicators_spec.rb",
-      "id": "v1_indicators_spec"
     },
     {
       "label": "health_spec.rb",
@@ -4946,6 +4956,450 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator",
+      "target": "models_indicator_indicator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator_indicator",
+      "target": "models_indicator_indicator_create_version"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator_indicator",
+      "target": "models_indicator_indicator_set_default_name"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "generators_refine_service_refineservice_call",
+      "target": "models_indicator_indicator_create_version"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "models_indicator_indicator_create_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_phasestatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_progressfrommilestones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinemilestone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinephase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_withprogress"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_phasestatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinephase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_withprogress",
+      "target": "data_timelinephases_progressfrommilestones"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timeline_phases"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_getworker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig",
+      "target": "client_tsconfig_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig",
+      "target": "client_tsconfig_include"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_allowimportingtsextensions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_jsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_lib"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_moduledetection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_noemit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_nofallthroughcasesinswitch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_nounusedlocals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_nounusedparameters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_strict"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_target"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "client_tsconfig_compileroptions",
+      "target": "client_tsconfig_compileroptions_usedefineforclassfields"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5181,9 +5635,9 @@
       "source_file": "client/src/App.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_appview",
-      "confidence_score": 1.0
+      "target": "src_app_appview"
     },
     {
       "relation": "contains",
@@ -5202,9 +5656,9 @@
       "source_file": "client/src/App.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "timeline_pineforgetimeline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline"
     },
     {
       "relation": "imports",
@@ -5213,9 +5667,9 @@
       "source_file": "client/src/App.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "timeline_pineforgetimeline_pineforgetimeline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_pineforgetimeline"
     },
     {
       "relation": "imports_from",
@@ -5226,17 +5680,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_app_test",
-      "target": "src_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
       "target": "src_app"
     },
     {
@@ -5284,26 +5727,15 @@
       "target": "src_app_app"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_app_app"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "client/src/PineForgeTimeline.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_pineforgetimeline_test",
-      "target": "timeline_pineforgetimeline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline"
     },
     {
       "relation": "imports",
@@ -5312,9 +5744,9 @@
       "source_file": "client/src/PineForgeTimeline.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_pineforgetimeline_test",
-      "target": "timeline_pineforgetimeline_pineforgetimeline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_pineforgetimeline"
     },
     {
       "relation": "contains",
@@ -5359,69 +5791,14 @@
       "target": "src_types_indicatorsummary"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_phasestatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timeline_phases",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinephase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinetotals",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_connectorline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_connectorline"
     },
     {
       "relation": "contains",
@@ -5429,9 +5806,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_milestonecard",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_milestonecard"
     },
     {
       "relation": "contains",
@@ -5439,9 +5816,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_milestonecardprops",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_milestonecardprops"
     },
     {
       "relation": "contains",
@@ -5449,9 +5826,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L223",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_pineforgetimeline",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_pineforgetimeline"
     },
     {
       "relation": "contains",
@@ -5459,9 +5836,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_pineforgetimelineprops",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_pineforgetimelineprops"
     },
     {
       "relation": "contains",
@@ -5469,9 +5846,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_status_label",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_status_label"
     },
     {
       "relation": "contains",
@@ -5479,9 +5856,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_volumebar",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_volumebar"
     },
     {
       "relation": "contains",
@@ -5489,9 +5866,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_volumebarprops",
-      "confidence_score": 1.0
+      "target": "timeline_pineforgetimeline_volumebarprops"
     },
     {
       "relation": "contains",
@@ -5499,134 +5876,9 @@
       "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
       "source_location": "L210",
       "weight": 1.0,
-      "source": "timeline_pineforgetimeline",
-      "target": "timeline_pineforgetimeline_weektick",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
-      "source_location": "L224",
-      "weight": 1.0,
-      "source": "timeline_pineforgetimeline_pineforgetimeline",
-      "target": "data_timelinephases_timelinetotals"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases_timeline_phases",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.test.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "data_timelinephases_test",
-      "target": "data_timelinephases_timelinetotals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_phasestatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_progressfrommilestones",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timeline_phases",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinemilestone",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinephase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L144",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_timelinetotals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "data_timelinephases",
-      "target": "data_timelinephases_withprogress",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/data/timelinePhases.ts",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "data_timelinephases_withprogress",
-      "target": "data_timelinephases_progressfrommilestones",
-      "confidence_score": 1.0
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_weektick"
     },
     {
       "relation": "contains",
@@ -6690,58 +6942,6 @@
       "confidence_score": 1.0,
       "source": "models_generation_session",
       "target": "models_generation_session_generationsession"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "models_indicator",
-      "target": "models_indicator_indicator"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "models_indicator_indicator",
-      "target": "models_indicator_indicator_create_version"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "models_indicator_indicator",
-      "target": "models_indicator_indicator_set_default_name"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "generators_refine_service_refineservice_call",
-      "target": "models_indicator_indicator_create_version"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "models_indicator_indicator_create_version"
     },
     {
       "relation": "contains",
@@ -8804,186 +9004,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig",
-      "target": "client_tsconfig_compileroptions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig",
-      "target": "client_tsconfig_include"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_allowimportingtsextensions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_isolatedmodules"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_jsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_lib"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_module"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_moduledetection"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_moduleresolution"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_noemit"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_nofallthroughcasesinswitch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_nounusedlocals"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_nounusedparameters"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_skiplibcheck"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_strict"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_target"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_types"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/tsconfig.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "client_tsconfig_compileroptions",
-      "target": "client_tsconfig_compileroptions_usedefineforclassfields"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "client/vite.config.ts",
       "source_location": "L16",
       "weight": 1.0,
@@ -10023,5 +10043,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ccecdc57cb363b071d66bd730a4e9ea679c7804e"
+  "built_at_commit": "122dad8c00c766efe1eafd7659806e10f4b619d3"
 }

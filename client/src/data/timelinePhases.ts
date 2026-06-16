@@ -53,7 +53,7 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
       { id: "m05", task: "Pine validation — Pine::Validator + inline squiggles", done: true },
       { id: "m06", task: "Repair loops — auto-fix on validation failure", done: true },
       { id: "m07", task: "Persistence — Indicator + GenerationSession models", done: true },
-      { id: "m08", task: "Version snapshots — IndicatorVersion, create_version!, prompt_delta, row lock", done: true },
+      { id: "m08", task: "Version snapshots — IndicatorVersion, IndicatorVersionCreator, prompt_delta, row lock", done: true },
       { id: "m09", task: "Diffs — GET versions/diff API + Monaco DiffEditor + restore_version", done: true },
       { id: "m10", task: "Metadata extraction — ExtractMetadataJob", done: true },
       { id: "m11", task: "Export support — download .pine file", done: true },

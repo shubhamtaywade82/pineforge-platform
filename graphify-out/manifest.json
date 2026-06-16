@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "app/models/indicator.rb": {
-    "mtime": 1781585188.382075,
-    "ast_hash": "500917eeb4d15f75462c9db70448393b",
+    "mtime": 1781589217.0684953,
+    "ast_hash": "808f17b665d87b67f91de43fb3d19245",
     "semantic_hash": ""
   },
   "app/models/indicator_version.rb": {
@@ -300,8 +300,8 @@
     "semantic_hash": ""
   },
   "client/src/main.tsx": {
-    "mtime": 1781587803.6334774,
-    "ast_hash": "5e165bbdb1104ed9a4ae941900737dcb",
+    "mtime": 1781589277.566949,
+    "ast_hash": "d3572d9110f2e3e53c5c45189085599f",
     "semantic_hash": ""
   },
   "client/src/test/setup.ts": {
@@ -320,8 +320,8 @@
     "semantic_hash": ""
   },
   "client/tsconfig.json": {
-    "mtime": 1781585515.6990197,
-    "ast_hash": "626b51d6c993fbd2c99dcf5d4aafa422",
+    "mtime": 1781589295.6708572,
+    "ast_hash": "35b5984ac178b5f6cf70fb49aecd1ce1",
     "semantic_hash": ""
   },
   "client/vite.config.ts": {
@@ -480,8 +480,8 @@
     "semantic_hash": ""
   },
   "spec/models/indicator_spec.rb": {
-    "mtime": 1781586531.4779773,
-    "ast_hash": "db35a1813cf33998cb9f2d29d8ec60fa",
+    "mtime": 1781589220.3318293,
+    "ast_hash": "32b590edabf664be8890b6f7db804992",
     "semantic_hash": ""
   },
   "spec/models/indicator_version_spec.rb": {
@@ -510,8 +510,8 @@
     "semantic_hash": ""
   },
   "spec/requests/api/v1/indicators_spec.rb": {
-    "mtime": 1781586924.949508,
-    "ast_hash": "9d2427b96f222144a2b852b6b1f41f2b",
+    "mtime": 1781589222.2568297,
+    "ast_hash": "c43e50b3ef81aedfab9819159aea92cb",
     "semantic_hash": ""
   },
   "spec/requests/health_spec.rb": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "client/src/data/timelinePhases.ts": {
-    "mtime": 1781588867.0480585,
-    "ast_hash": "b1bb800b740db8777787a6856cf4cf1a",
+    "mtime": 1781589225.6301637,
+    "ast_hash": "613716a1fadfb5acfa834af7895e9a69",
     "semantic_hash": ""
   }
 }

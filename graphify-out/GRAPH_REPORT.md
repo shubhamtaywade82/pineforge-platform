@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 151 files · ~20,653 words
+- 151 files · ~20,807 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 494 nodes · 494 edges · 106 communities (83 shown, 23 thin omitted)
+- 495 nodes · 495 edges · 106 communities (83 shown, 23 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ccecdc57`
+- Built from commit: `122dad8c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,14 +81,14 @@
 10. `App()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
+  client/src/components/timeline/PineForgeTimeline.tsx → client/src/data/timelinePhases.ts
 - `App()` --calls--> `useGenerator()`  [EXTRACTED]
   client/src/App.tsx → client/src/hooks/useGenerator.ts
 - `App()` --calls--> `useIndicators()`  [EXTRACTED]
   client/src/App.tsx → client/src/hooks/useIndicators.ts
 - `App()` --calls--> `useVersionDiff()`  [EXTRACTED]
   client/src/App.tsx → client/src/hooks/useVersionDiff.ts
-- `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
-  client/src/components/timeline/PineForgeTimeline.tsx → client/src/data/timelinePhases.ts
 - `useGenerator()` --calls--> `useSSEStream()`  [EXTRACTED]
   client/src/hooks/useGenerator.ts → client/src/hooks/useSSEStream.ts
 
@@ -214,7 +214,7 @@ Cohesion: 0.15
 Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMilestone, TimelinePhase, timelineTotals(), withProgress(), MilestoneCardProps (+4 more)
 
 ## Knowledge Gaps
-- **180 isolated node(s):** `PineEditor`, `AppView`, `SidebarProps`, `STATUS_LABEL`, `VolumeBarProps` (+175 more)
+- **180 isolated node(s):** `TimelineMilestone`, `target`, `useDefineForClassFields`, `lib`, `module` (+175 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -223,10 +223,10 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Builder` connect `Community 7` to `Community 3`, `Community 6`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `PineEditor`, `AppView`, `SidebarProps` to the rest of the system?**
+- **What connects `TimelineMilestone`, `target`, `useDefineForClassFields` to the rest of the system?**
   _180 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08181818181818182 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07922705314009662 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**

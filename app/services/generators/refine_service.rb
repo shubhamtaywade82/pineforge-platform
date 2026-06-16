@@ -41,7 +41,11 @@ module Generators
         emit: method(:emit)
       )
 
-      version = @indicator.create_version!(full_code, prompt_delta: @prompt)
+      version = IndicatorVersionCreator.call(
+        indicator: @indicator,
+        code: full_code,
+        prompt_delta: @prompt
+      )
       @indicator.update!(
         generated_code: full_code,
         status: validation[:passed] ? :complete : :failed,

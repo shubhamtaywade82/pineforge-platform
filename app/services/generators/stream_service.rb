@@ -44,7 +44,7 @@ module Generators
         ),
         validation: validation
       )
-      version = indicator.create_version!(full_code)
+      version = IndicatorVersionCreator.call(indicator: indicator, code: full_code)
       ExtractMetadataJob.perform_later(indicator.id)
 
       emit(
