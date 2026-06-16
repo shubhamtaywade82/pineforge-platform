@@ -30,6 +30,8 @@ Source docs live in:
 - [`docs/pine_v6_primer/`](../pine_v6_primer/) — TradingView User Manual primer (first-steps, first-indicator, next-steps)
 - [`docs/pine_v6_language/`](../pine_v6_language/) — TradingView Language section (execution model, type system, structure, identifiers, declarations, variables, operators, conditionals, loops, built-ins, UDFs, objects, enums, methods, arrays, matrices, maps)
 - [`docs/pine_v6_visuals/`](../pine_v6_visuals/) — TradingView Visuals section (overview, backgrounds, bar coloring/plotting, colors, fills, levels, lines/boxes, plots, tables, text/shapes)
+- [`docs/pine_v6_writing/`](../pine_v6_writing/) — TradingView Writing section (style guide, debugging, profiling/optimization, publishing, limitations)
+- [`docs/pine_v6_errors/`](../pine_v6_errors/) — TradingView Errors section (overview, CE10101, CW10003, RE10139, RE10143)
 - [`docs/pine_v6_reference/symbols.json`](../pine_v6_reference/symbols.json) — symbol lookup index for codegen (`Pine::ReferenceLookup`)
 
 Rebuild symbol index from upstream function docs:

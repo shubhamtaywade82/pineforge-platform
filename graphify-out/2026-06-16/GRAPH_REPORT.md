@@ -1,18 +1,12 @@
-# Graph Report - pineforge-platform  (2026-06-16)
+# Graph Report - .  (2026-06-16)
 
 ## Corpus Check
-- 215 files · ~41,359 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Corpus is ~38,386 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 616 nodes · 619 edges · 149 communities (93 shown, 56 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 40 edges (avg confidence: 0.8)
+- 510 nodes · 527 edges · 135 communities (83 shown, 52 thin omitted)
+- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 40 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `3ac04048`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Validation Panel Module|Validation Panel Module]]
@@ -88,32 +82,18 @@
 - [[_COMMUNITY_Rails A P I Skill|Rails A P I Skill]]
 - [[_COMMUNITY_React  U I  Skill Component|React  U I  Skill Component]]
 - [[_COMMUNITY_Testing  Skill Component|Testing  Skill Component]]
-- [[_COMMUNITY_Community 135|Community 135]]
-- [[_COMMUNITY_Community 136|Community 136]]
-- [[_COMMUNITY_Community 137|Community 137]]
-- [[_COMMUNITY_Community 138|Community 138]]
-- [[_COMMUNITY_Community 139|Community 139]]
-- [[_COMMUNITY_Community 140|Community 140]]
-- [[_COMMUNITY_Community 141|Community 141]]
-- [[_COMMUNITY_Community 142|Community 142]]
-- [[_COMMUNITY_Community 143|Community 143]]
-- [[_COMMUNITY_Community 144|Community 144]]
-- [[_COMMUNITY_Community 145|Community 145]]
-- [[_COMMUNITY_Community 146|Community 146]]
-- [[_COMMUNITY_Community 147|Community 147]]
-- [[_COMMUNITY_Community 148|Community 148]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `IndicatorsController` - 14 edges
 3. `GeneratorsController` - 13 edges
 4. `Builder` - 13 edges
-5. `Writing: Limitations` - 12 edges
-6. `ReferenceIndexBuilder` - 12 edges
-7. `Writing: Style Guide` - 10 edges
-8. `Graphify Development Guide` - 9 edges
-9. `ReferenceLookup` - 9 edges
-10. `Pine Script v6 Visuals Overview` - 9 edges
+5. `ReferenceIndexBuilder` - 12 edges
+6. `ReferenceLookup` - 9 edges
+7. `Pine Script v6 Visuals Overview` - 9 edges
+8. `resolve()` - 8 edges
+9. `fetch()` - 7 edges
+10. `IndicatorVersion` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `build_ollama_client()` --calls--> `fetch()`  [INFERRED]
@@ -130,7 +110,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (149 total, 56 thin omitted)
+## Communities (135 total, 52 thin omitted)
 
 ### Community 0 - "Validation Panel Module"
 Cohesion: 0.07
@@ -145,12 +125,16 @@ Cohesion: 0.07
 Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencies, autoprefixer, jsdom, postcss (+19 more)
 
 ### Community 3 - "Application Module"
-Cohesion: 0.08
-Nodes (12): Application, CompleteService, MetadataService, RephraseService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver (+4 more)
+Cohesion: 0.10
+Nodes (11): Application, CompleteService, MetadataService, build_cloud_client(), cloud_configured?(), cloud_reachable?(), EndpointResolver, first_working_key_or_unauthenticated() (+3 more)
 
 ### Community 4 - "Pine Diagnostics Module"
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
+
+### Community 5 - "Repair Service Module"
+Cohesion: 0.11
+Nodes (3): RepairService, RephraseService, Builder
 
 ### Community 6 - "Timeline Phases Module"
 Cohesion: 0.15
@@ -181,8 +165,8 @@ Cohesion: 0.33
 Nodes (4): .github/ISSUE_TEMPLATE/bug.md, .github/ISSUE_TEMPLATE/feature.md, .github/pull_request_template.md, PineForge Vision
 
 ### Community 17 - "Pine Forge  Platform V1 Module"
-Cohesion: 0.67
-Nodes (3): Graphify RAG Layer, ADR-0003: Graphify as RAG Layer, PineForge Platform v1.0 Roadmap
+Cohesion: 0.40
+Nodes (5): Graphify RAG Layer, ADR-0003: Graphify as RAG Layer, Graphify Development Guide, Graphify MCP Server Guide, PineForge Platform v1.0 Roadmap
 
 ### Community 18 - "Pine Script V6 Arrays Guide"
 Cohesion: 0.40
@@ -212,64 +196,20 @@ Nodes (3): Language: Execution Model, Bar-by-Bar Execution Model, Variable Persi
 Cohesion: 0.67
 Nodes (3): Visuals: Backgrounds, bgcolor Function, Pine Script v6 Visuals — Source
 
-### Community 135 - "Community 135"
-Cohesion: 0.15
-Nodes (12): Bar positioning (drawings), Chart bars by plan, Codegen rules, Drawing limits, Historical buffer, Memory and size, Plot limits, request.*() limits (+4 more)
-
-### Community 136 - "Community 136"
-Cohesion: 0.15
-Nodes (12): 1. Use built-ins, 2. Reduce repetition, 3. Minimize request.*() calls, 4. Avoid redrawing, 5. Reduce drawing updates, 6. Avoid unnecessary loops, Codegen rules, Interpreting results (+4 more)
-
-### Community 137 - "Community 137"
-Cohesion: 0.17
-Nodes (11): Chart, Codegen rules, House rules summary, Pre-publish checklist, Publication types, Source code, Strategy report, Title and description (+3 more)
-
-### Community 138 - "Community 138"
-Cohesion: 0.18
-Nodes (10): Constants, Explicit typing, Functions, Inputs, Line wrapping, Naming, PineForge codegen defaults, Script organization (recommended order) (+2 more)
-
-### Community 139 - "Community 139"
-Cohesion: 0.20
-Nodes (9): Bootstrap / Refresh Graph, Committed Artifacts, Graphify Development Guide, Ingest Pine v6 Knowledge, Install, Live Watch (Optional), PR Triage, Production Integration (+1 more)
-
-### Community 140 - "Community 140"
-Cohesion: 0.22
-Nodes (8): Codegen rules, Common causes, Other fixes, Primary fix: optimize request.*(), RE10139 — Memory limits exceeded, Return calculated results (best), Return IDs on some bars, Return last state only
-
-### Community 141 - "Community 141"
-Cohesion: 0.22
-Nodes (8): 1. max_bars_back() — preferred for one series, 2. max_bars_back parameter — all series, 3. Larger offset on early bars, Cause, Codegen rules, Drawings and time series, Fixes, RE10143 — Historical offset beyond buffer limit
-
-### Community 142 - "Community 142"
-Cohesion: 0.25
-Nodes (7): Codegen rules, Debug output options, Labels for debugging, Limitations, Pine Logs (preferred), Plots for debugging, Writing: Debugging
-
-### Community 143 - "Community 143"
-Cohesion: 0.29
-Nodes (6): Cause, CE10101 — Condition must evaluate to bool, Codegen rules, Fixes, Numeric conditions, Testing for na
-
-### Community 144 - "Community 144"
-Cohesion: 0.33
-Nodes (5): Bad vs good, Cause, Codegen rules, CW10003 — Extract history-dependent call from scope, Why not auto-fix?
-
-### Community 145 - "Community 145"
-Cohesion: 0.40
-Nodes (4): Codegen rules, Documented codes (this KB), Error categories, Errors: Overview
-
 ## Knowledge Gaps
-- **226 isolated node(s):** `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge`, `Query Commands`, `PR Triage` (+221 more)
+- **148 isolated node(s):** `ApplicationController`, `ApplicationJob`, `ApplicationMailer`, `ApplicationRecord`, `GenerationSession` (+143 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **52 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Repair Service Module` to `Refine Service Module`, `Application Module`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `Builder` connect `Repair Service Module` to `Refine Service Module`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Why does `fetch()` connect `Context Service Module` to `Application Module`, `Repair Service Module`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **What connects `Install`, `Bootstrap / Refresh Graph`, `Ingest Pine v6 Knowledge` to the rest of the system?**
-  _231 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **What connects `ApplicationController`, `ApplicationJob`, `ApplicationMailer` to the rest of the system?**
+  _153 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Validation Panel Module` be split into smaller, more focused modules?**
   _Cohesion score 0.06654567453115548 - nodes in this community are weakly interconnected._
 - **Should `Refine Service Module` be split into smaller, more focused modules?**
@@ -277,4 +217,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Package Module` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Application Module` be split into smaller, more focused modules?**
-  _Cohesion score 0.08064516129032258 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
