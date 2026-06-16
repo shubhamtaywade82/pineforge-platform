@@ -85,6 +85,7 @@ export function registerPineInlineCompletions(
           }
         }, DEBOUNCE_MS);
       }),
+    disposeInlineCompletions: () => {},
   });
 }
 
