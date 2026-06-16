@@ -4,14 +4,354 @@
   "graph": {},
   "nodes": [
     {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "PineEditor",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_app_pineeditor",
+      "community": 0,
+      "norm_label": "pineeditor"
+    },
+    {
+      "label": "AppView",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_app_appview",
+      "community": 0,
+      "norm_label": "appview"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "PineForgeTimeline.test.tsx",
+      "file_type": "code",
+      "source_file": "client/src/PineForgeTimeline.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_pineforgetimeline_test",
+      "community": 105,
+      "norm_label": "pineforgetimeline.test.tsx"
+    },
+    {
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "layout_sidebar",
+      "community": 0,
+      "norm_label": "sidebar.tsx"
+    },
+    {
+      "label": "SidebarProps",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "layout_sidebar_sidebarprops",
+      "community": 0,
+      "norm_label": "sidebarprops"
+    },
+    {
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "layout_sidebar_sidebar",
+      "community": 0,
+      "norm_label": "sidebar()"
+    },
+    {
+      "label": "PineForgeTimeline.tsx",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline",
+      "community": 105,
+      "norm_label": "pineforgetimeline.tsx"
+    },
+    {
+      "label": "STATUS_LABEL",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_status_label",
+      "community": 105,
+      "norm_label": "status_label"
+    },
+    {
+      "label": "VolumeBarProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_volumebarprops",
+      "community": 105,
+      "norm_label": "volumebarprops"
+    },
+    {
+      "label": "VolumeBar()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_volumebar",
+      "community": 105,
+      "norm_label": "volumebar()"
+    },
+    {
+      "label": "MilestoneCardProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_milestonecardprops",
+      "community": 105,
+      "norm_label": "milestonecardprops"
+    },
+    {
+      "label": "MilestoneCard()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_milestonecard",
+      "community": 105,
+      "norm_label": "milestonecard()"
+    },
+    {
+      "label": "ConnectorLine()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L197",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_connectorline",
+      "community": 105,
+      "norm_label": "connectorline()"
+    },
+    {
+      "label": "WeekTick()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L210",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_weektick",
+      "community": 105,
+      "norm_label": "weektick()"
+    },
+    {
+      "label": "PineForgeTimelineProps",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L219",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_pineforgetimelineprops",
+      "community": 105,
+      "norm_label": "pineforgetimelineprops"
+    },
+    {
+      "label": "PineForgeTimeline()",
+      "file_type": "code",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L223",
+      "_origin": "ast",
+      "id": "timeline_pineforgetimeline_pineforgetimeline",
+      "community": 105,
+      "norm_label": "pineforgetimeline()"
+    },
+    {
+      "label": "timelinePhases.test.ts",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_timelinephases_test",
+      "community": 105,
+      "norm_label": "timelinephases.test.ts"
+    },
+    {
+      "label": "timelinePhases.ts",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_timelinephases",
+      "community": 105,
+      "norm_label": "timelinephases.ts"
+    },
+    {
+      "label": "PhaseStatus",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_timelinephases_phasestatus",
+      "community": 105,
+      "norm_label": "phasestatus"
+    },
+    {
+      "label": "TimelineMilestone",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "data_timelinephases_timelinemilestone",
+      "community": 105,
+      "norm_label": "timelinemilestone"
+    },
+    {
+      "label": "TimelinePhase",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "data_timelinephases_timelinephase",
+      "community": 105,
+      "norm_label": "timelinephase"
+    },
+    {
+      "label": "progressFromMilestones()",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "data_timelinephases_progressfrommilestones",
+      "community": 105,
+      "norm_label": "progressfrommilestones()"
+    },
+    {
+      "label": "withProgress()",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "data_timelinephases_withprogress",
+      "community": 105,
+      "norm_label": "withprogress()"
+    },
+    {
+      "label": "TIMELINE_PHASES",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "data_timelinephases_timeline_phases",
+      "community": 105,
+      "norm_label": "timeline_phases"
+    },
+    {
+      "label": "timelineTotals()",
+      "file_type": "code",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "data_timelinephases_timelinetotals",
+      "community": 105,
+      "norm_label": "timelinetotals()"
+    },
+    {
+      "label": "roadmap.md",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_roadmap",
+      "community": 13,
+      "norm_label": "roadmap.md"
+    },
+    {
+      "label": "PineForge Platform v1.0 Roadmap",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_roadmap_pineforge_platform_v1_0_roadmap",
+      "community": 13,
+      "norm_label": "pineforge platform v1.0 roadmap"
+    },
+    {
+      "label": "Phase 1 \u2014 MVP (m1\u2013m12)",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_roadmap_phase_1_mvp_m1_m12",
+      "community": 13,
+      "norm_label": "phase 1 \u2014 mvp (m1\u2013m12)"
+    },
+    {
+      "label": "Phase 2 \u2014 Intelligence (m13\u2013m24)",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_roadmap_phase_2_intelligence_m13_m24",
+      "community": 13,
+      "norm_label": "phase 2 \u2014 intelligence (m13\u2013m24)"
+    },
+    {
+      "label": "Phase 3 \u2014 Engineering Platform (m25\u2013m36)",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "docs_roadmap_phase_3_engineering_platform_m25_m36",
+      "community": 13,
+      "norm_label": "phase 3 \u2014 engineering platform (m25\u2013m36)"
+    },
+    {
+      "label": "Phase 4 \u2014 Product Launch (m37\u2013m48)",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_roadmap_phase_4_product_launch_m37_m48",
+      "community": 13,
+      "norm_label": "phase 4 \u2014 product launch (m37\u2013m48)"
+    },
+    {
+      "label": "Definition of Done",
+      "file_type": "document",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "docs_roadmap_definition_of_done",
+      "community": 13,
+      "norm_label": "definition of done"
+    },
+    {
       "label": "endpoint_resolver.rb",
       "file_type": "code",
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver",
       "community": 102,
-      "norm_label": "endpoint_resolver.rb"
+      "norm_label": "endpoint_resolver.rb",
+      "id": "llm_endpoint_resolver"
     },
     {
       "label": "EndpointResolver",
@@ -19,9 +359,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_endpointresolver",
       "community": 102,
-      "norm_label": "endpointresolver"
+      "norm_label": "endpointresolver",
+      "id": "llm_endpoint_resolver_endpointresolver"
     },
     {
       "label": "resolve()",
@@ -29,9 +369,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_resolve",
       "community": 102,
-      "norm_label": "resolve()"
+      "norm_label": "resolve()",
+      "id": "llm_endpoint_resolver_resolve"
     },
     {
       "label": "reset_cache!()",
@@ -39,9 +379,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_reset_cache",
       "community": 102,
-      "norm_label": "reset_cache!()"
+      "norm_label": "reset_cache!()",
+      "id": "llm_endpoint_resolver_reset_cache"
     },
     {
       "label": "cloud_configured?()",
@@ -49,9 +389,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_cloud_configured",
       "community": 102,
-      "norm_label": "cloud_configured?()"
+      "norm_label": "cloud_configured?()",
+      "id": "llm_endpoint_resolver_cloud_configured"
     },
     {
       "label": "cloud_base_url()",
@@ -59,9 +399,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_cloud_base_url",
       "community": 102,
-      "norm_label": "cloud_base_url()"
+      "norm_label": "cloud_base_url()",
+      "id": "llm_endpoint_resolver_cloud_base_url"
     },
     {
       "label": "cloud_api_keys()",
@@ -69,9 +409,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_cloud_api_keys",
       "community": 102,
-      "norm_label": "cloud_api_keys()"
+      "norm_label": "cloud_api_keys()",
+      "id": "llm_endpoint_resolver_cloud_api_keys"
     },
     {
       "label": "first_working_key_or_unauthenticated()",
@@ -79,9 +419,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_first_working_key_or_unauthenticated",
       "community": 102,
-      "norm_label": "first_working_key_or_unauthenticated()"
+      "norm_label": "first_working_key_or_unauthenticated()",
+      "id": "llm_endpoint_resolver_first_working_key_or_unauthenticated"
     },
     {
       "label": "cloud_reachable?()",
@@ -89,9 +429,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L84",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_cloud_reachable",
       "community": 102,
-      "norm_label": "cloud_reachable?()"
+      "norm_label": "cloud_reachable?()",
+      "id": "llm_endpoint_resolver_cloud_reachable"
     },
     {
       "label": "build_cloud_client()",
@@ -99,9 +439,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_build_cloud_client",
       "community": 102,
-      "norm_label": "build_cloud_client()"
+      "norm_label": "build_cloud_client()",
+      "id": "llm_endpoint_resolver_build_cloud_client"
     },
     {
       "label": "local_client()",
@@ -109,9 +449,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L109",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_local_client",
       "community": 102,
-      "norm_label": "local_client()"
+      "norm_label": "local_client()",
+      "id": "llm_endpoint_resolver_local_client"
     },
     {
       "label": "ollama.rb",
@@ -119,9 +459,9 @@
       "source_file": "config/initializers/ollama.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initializers_ollama",
       "community": 77,
-      "norm_label": "ollama.rb"
+      "norm_label": "ollama.rb",
+      "id": "initializers_ollama"
     },
     {
       "label": "build_ollama_client()",
@@ -129,9 +469,9 @@
       "source_file": "config/initializers/ollama.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "initializers_ollama_build_ollama_client",
       "community": 77,
-      "norm_label": "build_ollama_client()"
+      "norm_label": "build_ollama_client()",
+      "id": "initializers_ollama_build_ollama_client"
     },
     {
       "label": "0003-graphify-rag-layer.md",
@@ -139,9 +479,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer",
       "community": 104,
-      "norm_label": "0003-graphify-rag-layer.md"
+      "norm_label": "0003-graphify-rag-layer.md",
+      "id": "adr_0003_graphify_rag_layer"
     },
     {
       "label": "ADR-0003: Graphify as RAG Layer",
@@ -149,9 +489,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
       "community": 104,
-      "norm_label": "adr-0003: graphify as rag layer"
+      "norm_label": "adr-0003: graphify as rag layer",
+      "id": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer"
     },
     {
       "label": "Status",
@@ -159,9 +499,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_status",
       "community": 104,
-      "norm_label": "status"
+      "norm_label": "status",
+      "id": "adr_0003_graphify_rag_layer_status"
     },
     {
       "label": "Context",
@@ -169,9 +509,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_context",
       "community": 104,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "adr_0003_graphify_rag_layer_context"
     },
     {
       "label": "Decision",
@@ -179,9 +519,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_decision",
       "community": 104,
-      "norm_label": "decision"
+      "norm_label": "decision",
+      "id": "adr_0003_graphify_rag_layer_decision"
     },
     {
       "label": "Alternatives Considered",
@@ -189,9 +529,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_alternatives_considered",
       "community": 104,
-      "norm_label": "alternatives considered"
+      "norm_label": "alternatives considered",
+      "id": "adr_0003_graphify_rag_layer_alternatives_considered"
     },
     {
       "label": "Consequences",
@@ -199,9 +539,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_consequences",
       "community": 104,
-      "norm_label": "consequences"
+      "norm_label": "consequences",
+      "id": "adr_0003_graphify_rag_layer_consequences"
     },
     {
       "label": "Ollama Endpoint Policy",
@@ -209,9 +549,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "adr_0003_graphify_rag_layer_ollama_endpoint_policy",
       "community": 104,
-      "norm_label": "ollama endpoint policy"
+      "norm_label": "ollama endpoint policy",
+      "id": "adr_0003_graphify_rag_layer_ollama_endpoint_policy"
     },
     {
       "label": "graphify.md",
@@ -219,9 +559,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "dev_graphify",
       "community": 103,
-      "norm_label": "graphify.md"
+      "norm_label": "graphify.md",
+      "id": "dev_graphify"
     },
     {
       "label": "Graphify Development Guide",
@@ -229,9 +569,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "dev_graphify_graphify_development_guide",
       "community": 103,
-      "norm_label": "graphify development guide"
+      "norm_label": "graphify development guide",
+      "id": "dev_graphify_graphify_development_guide"
     },
     {
       "label": "Install",
@@ -239,9 +579,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "dev_graphify_install",
       "community": 103,
-      "norm_label": "install"
+      "norm_label": "install",
+      "id": "dev_graphify_install"
     },
     {
       "label": "Bootstrap / Refresh Graph",
@@ -249,9 +589,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "dev_graphify_bootstrap_refresh_graph",
       "community": 103,
-      "norm_label": "bootstrap / refresh graph"
+      "norm_label": "bootstrap / refresh graph",
+      "id": "dev_graphify_bootstrap_refresh_graph"
     },
     {
       "label": "Ingest Pine v6 Knowledge",
@@ -259,9 +599,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "dev_graphify_ingest_pine_v6_knowledge",
       "community": 103,
-      "norm_label": "ingest pine v6 knowledge"
+      "norm_label": "ingest pine v6 knowledge",
+      "id": "dev_graphify_ingest_pine_v6_knowledge"
     },
     {
       "label": "Query Commands",
@@ -269,9 +609,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "dev_graphify_query_commands",
       "community": 103,
-      "norm_label": "query commands"
+      "norm_label": "query commands",
+      "id": "dev_graphify_query_commands"
     },
     {
       "label": "PR Triage",
@@ -279,9 +619,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L50",
       "_origin": "ast",
-      "id": "dev_graphify_pr_triage",
       "community": 103,
-      "norm_label": "pr triage"
+      "norm_label": "pr triage",
+      "id": "dev_graphify_pr_triage"
     },
     {
       "label": "Live Watch (Optional)",
@@ -289,9 +629,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "dev_graphify_live_watch_optional",
       "community": 103,
-      "norm_label": "live watch (optional)"
+      "norm_label": "live watch (optional)",
+      "id": "dev_graphify_live_watch_optional"
     },
     {
       "label": "Committed Artifacts",
@@ -299,9 +639,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L67",
       "_origin": "ast",
-      "id": "dev_graphify_committed_artifacts",
       "community": 103,
-      "norm_label": "committed artifacts"
+      "norm_label": "committed artifacts",
+      "id": "dev_graphify_committed_artifacts"
     },
     {
       "label": "Production Integration",
@@ -309,9 +649,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L76",
       "_origin": "ast",
-      "id": "dev_graphify_production_integration",
       "community": 103,
-      "norm_label": "production integration"
+      "norm_label": "production integration",
+      "id": "dev_graphify_production_integration"
     },
     {
       "label": "llm-routing.md",
@@ -319,9 +659,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "skills_llm_routing",
       "community": 20,
-      "norm_label": "llm-routing.md"
+      "norm_label": "llm-routing.md",
+      "id": "skills_llm_routing"
     },
     {
       "label": "LLM Routing Skill",
@@ -329,9 +669,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "skills_llm_routing_llm_routing_skill",
       "community": 20,
-      "norm_label": "llm routing skill"
+      "norm_label": "llm routing skill",
+      "id": "skills_llm_routing_llm_routing_skill"
     },
     {
       "label": "Rules",
@@ -339,9 +679,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "skills_llm_routing_rules",
       "community": 20,
-      "norm_label": "rules"
+      "norm_label": "rules",
+      "id": "skills_llm_routing_rules"
     },
     {
       "label": "Models (v1.0)",
@@ -349,9 +689,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "skills_llm_routing_models_v1_0",
       "community": 20,
-      "norm_label": "models (v1.0)"
+      "norm_label": "models (v1.0)",
+      "id": "skills_llm_routing_models_v1_0"
     },
     {
       "label": "Graphify RAG",
@@ -359,9 +699,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "skills_llm_routing_graphify_rag",
       "community": 20,
-      "norm_label": "graphify rag"
+      "norm_label": "graphify rag",
+      "id": "skills_llm_routing_graphify_rag"
     },
     {
       "label": "Integrations",
@@ -369,9 +709,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "skills_llm_routing_integrations",
       "community": 20,
-      "norm_label": "integrations"
+      "norm_label": "integrations",
+      "id": "skills_llm_routing_integrations"
     },
     {
       "label": "Source of Truth",
@@ -379,9 +719,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "skills_llm_routing_source_of_truth",
       "community": 20,
-      "norm_label": "source of truth"
+      "norm_label": "source of truth",
+      "id": "skills_llm_routing_source_of_truth"
     },
     {
       "label": "endpoint_resolver_spec.rb",
@@ -389,9 +729,9 @@
       "source_file": "spec/services/llm/endpoint_resolver_spec.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_spec",
       "community": 32,
-      "norm_label": "endpoint_resolver_spec.rb"
+      "norm_label": "endpoint_resolver_spec.rb",
+      "id": "llm_endpoint_resolver_spec"
     },
     {
       "label": "stub_env()",
@@ -399,9 +739,9 @@
       "source_file": "spec/services/llm/endpoint_resolver_spec.rb",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_spec_stub_env",
       "community": 32,
-      "norm_label": "stub_env()"
+      "norm_label": "stub_env()",
+      "id": "llm_endpoint_resolver_spec_stub_env"
     },
     {
       "label": "mock_http_request()",
@@ -409,9 +749,9 @@
       "source_file": "spec/services/llm/endpoint_resolver_spec.rb",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "llm_endpoint_resolver_spec_mock_http_request",
       "community": 32,
-      "norm_label": "mock_http_request()"
+      "norm_label": "mock_http_request()",
+      "id": "llm_endpoint_resolver_spec_mock_http_request"
     },
     {
       "label": "context_service_spec.rb",
@@ -559,7 +899,7 @@
       "source_file": "app/controllers/api/v1/generators_controller.rb",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": ".metadata()",
       "id": "v1_generators_controller_generatorscontroller_metadata"
     },
@@ -849,7 +1189,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "extract_metadata_job.rb",
       "id": "jobs_extract_metadata_job"
     },
@@ -859,7 +1199,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "extractmetadatajob",
       "id": "jobs_extract_metadata_job_extractmetadatajob"
     },
@@ -869,7 +1209,7 @@
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": ".perform()",
       "id": "jobs_extract_metadata_job_extractmetadatajob_perform"
     },
@@ -1019,7 +1359,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "complete_service.rb",
       "id": "generators_complete_service"
     },
@@ -1029,7 +1369,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "completeservice",
       "id": "generators_complete_service_completeservice"
     },
@@ -1039,7 +1379,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".initialize()",
       "id": "generators_complete_service_completeservice_initialize"
     },
@@ -1049,7 +1389,7 @@
       "source_file": "app/services/generators/complete_service.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".call()",
       "id": "generators_complete_service_completeservice_call"
     },
@@ -1059,7 +1399,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "metadata_service.rb",
       "id": "generators_metadata_service"
     },
@@ -1069,7 +1409,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "metadataservice",
       "id": "generators_metadata_service_metadataservice"
     },
@@ -1079,7 +1419,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": ".initialize()",
       "id": "generators_metadata_service_metadataservice_initialize"
     },
@@ -1089,7 +1429,7 @@
       "source_file": "app/services/generators/metadata_service.rb",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": ".call()",
       "id": "generators_metadata_service_metadataservice_call"
     },
@@ -1649,7 +1989,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "builder.rb",
       "id": "prompts_builder"
     },
@@ -1659,7 +1999,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "builder",
       "id": "prompts_builder_builder"
     },
@@ -1669,7 +2009,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".initialize()",
       "id": "prompts_builder_builder_initialize"
     },
@@ -1679,7 +2019,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".system_prompt()",
       "id": "prompts_builder_builder_system_prompt"
     },
@@ -1709,7 +2049,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": ".structured_extraction_prompt()",
       "id": "prompts_builder_builder_structured_extraction_prompt"
     },
@@ -1719,7 +2059,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".completion_messages()",
       "id": "prompts_builder_builder_completion_messages"
     },
@@ -1729,7 +2069,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".completion_system_prompt()",
       "id": "prompts_builder_builder_completion_system_prompt"
     },
@@ -1739,7 +2079,7 @@
       "source_file": "app/services/prompts/builder.rb",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": ".normalized_context()",
       "id": "prompts_builder_builder_normalized_context"
     },
@@ -2044,36 +2384,6 @@
       "id": "src_app_test"
     },
     {
-      "label": "App.tsx",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app.tsx",
-      "id": "src_app"
-    },
-    {
-      "label": "PineEditor",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "pineeditor",
-      "id": "src_app_pineeditor"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app()",
-      "id": "src_app_app"
-    },
-    {
       "label": "PineEditor.test.tsx",
       "file_type": "code",
       "source_file": "client/src/PineEditor.test.tsx",
@@ -2292,36 +2602,6 @@
       "community": 0,
       "norm_label": "appshell()",
       "id": "layout_appshell_appshell"
-    },
-    {
-      "label": "Sidebar.tsx",
-      "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "sidebar.tsx",
-      "id": "layout_sidebar"
-    },
-    {
-      "label": "SidebarProps",
-      "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "sidebarprops",
-      "id": "layout_sidebar_sidebarprops"
-    },
-    {
-      "label": "Sidebar()",
-      "file_type": "code",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "sidebar()",
-      "id": "layout_sidebar_sidebar"
     },
     {
       "label": "StreamStatus.tsx",
@@ -4314,76 +4594,6 @@
       "id": "docs_pine_v6_rules_common_builtins"
     },
     {
-      "label": "roadmap.md",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "roadmap.md",
-      "id": "docs_roadmap"
-    },
-    {
-      "label": "PineForge Platform v1.0 Roadmap",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "pineforge platform v1.0 roadmap",
-      "id": "docs_roadmap_pineforge_platform_v1_0_roadmap"
-    },
-    {
-      "label": "Phase 1 \u2014 MVP (m1\u2013m12)",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "phase 1 \u2014 mvp (m1\u2013m12)",
-      "id": "docs_roadmap_phase_1_mvp_m1_m12"
-    },
-    {
-      "label": "Phase 2 \u2014 Intelligence (m13\u2013m24)",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "phase 2 \u2014 intelligence (m13\u2013m24)",
-      "id": "docs_roadmap_phase_2_intelligence_m13_m24"
-    },
-    {
-      "label": "Phase 3 \u2014 Engineering Platform (m25\u2013m36)",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L43",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "phase 3 \u2014 engineering platform (m25\u2013m36)",
-      "id": "docs_roadmap_phase_3_engineering_platform_m25_m36"
-    },
-    {
-      "label": "Phase 4 \u2014 Product Launch (m37\u2013m48)",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L63",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "phase 4 \u2014 product launch (m37\u2013m48)",
-      "id": "docs_roadmap_phase_4_product_launch_m37_m48"
-    },
-    {
-      "label": "Definition of Done",
-      "file_type": "document",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L83",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "definition of done",
-      "id": "docs_roadmap_definition_of_done"
-    },
-    {
       "label": "vision.md",
       "file_type": "document",
       "source_file": "docs/vision.md",
@@ -4736,14 +4946,757 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "editor_validationpanel_validationpanel"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_contexthistory_contexthistory"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_promptpanel_promptpanel"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "generator_scripttypetabs_scripttypetabs"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_usegenerator_usegenerator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicators"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useindicators_useindicators"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useversiondiff"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "hooks_useversiondiff_useversiondiff"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_appshell_appshell"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "layout_sidebar_sidebar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "shared_streamstatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "shared_streamstatus_streamstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_appview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_pineeditor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "timeline_pineforgetimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "timeline_pineforgetimeline_pineforgetimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_usegenerator_usegenerator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_useindicators_useindicators"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/App.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_useversiondiff_useversiondiff"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineForgeTimeline.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_pineforgetimeline_test",
+      "target": "timeline_pineforgetimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/PineForgeTimeline.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_pineforgetimeline_test",
+      "target": "timeline_pineforgetimeline_pineforgetimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "layout_sidebar_sidebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "layout_sidebar_sidebarprops"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "src_types"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "layout_sidebar",
+      "target": "src_types_indicatorsummary"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_phasestatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timeline_phases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinephase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_connectorline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_milestonecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_milestonecardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_pineforgetimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_pineforgetimelineprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_status_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_volumebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_volumebarprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline",
+      "target": "timeline_pineforgetimeline_weektick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "client/src/components/timeline/PineForgeTimeline.tsx",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "timeline_pineforgetimeline_pineforgetimeline",
+      "target": "data_timelinephases_timelinetotals"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timeline_phases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_timelinephases_test",
+      "target": "data_timelinephases_timelinetotals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_phasestatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_progressfrommilestones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timeline_phases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinemilestone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinephase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_timelinetotals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "data_timelinephases",
+      "target": "data_timelinephases_withprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/data/timelinePhases.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "data_timelinephases_withprogress",
+      "target": "data_timelinephases_progressfrommilestones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap",
+      "target": "docs_roadmap_definition_of_done"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap",
+      "target": "docs_roadmap_pineforge_platform_v1_0_roadmap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
+      "target": "docs_roadmap_phase_1_mvp_m1_m12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
+      "target": "docs_roadmap_phase_2_intelligence_m13_m24"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
+      "target": "docs_roadmap_phase_3_engineering_platform_m25_m36"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/roadmap.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
+      "target": "docs_roadmap_phase_4_product_launch_m37_m48"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_build_cloud_client",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_build_cloud_client"
     },
     {
       "relation": "contains",
@@ -4751,9 +5704,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_cloud_api_keys",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_api_keys"
     },
     {
       "relation": "contains",
@@ -4761,9 +5714,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_cloud_base_url",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_base_url"
     },
     {
       "relation": "contains",
@@ -4771,9 +5724,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_cloud_configured",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_configured"
     },
     {
       "relation": "contains",
@@ -4781,9 +5734,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_cloud_reachable",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_reachable"
     },
     {
       "relation": "contains",
@@ -4791,9 +5744,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_endpointresolver",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_endpointresolver"
     },
     {
       "relation": "contains",
@@ -4801,9 +5754,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_first_working_key_or_unauthenticated",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_first_working_key_or_unauthenticated"
     },
     {
       "relation": "contains",
@@ -4811,9 +5764,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_local_client",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_local_client"
     },
     {
       "relation": "contains",
@@ -4821,9 +5774,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_reset_cache",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_reset_cache"
     },
     {
       "relation": "contains",
@@ -4831,9 +5784,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver",
-      "target": "llm_endpoint_resolver_resolve",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_resolve"
     },
     {
       "relation": "calls",
@@ -4842,9 +5795,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver_resolve",
-      "target": "llm_endpoint_resolver_build_cloud_client",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_build_cloud_client"
     },
     {
       "relation": "calls",
@@ -4853,9 +5806,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver_resolve",
-      "target": "llm_endpoint_resolver_cloud_configured",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_configured"
     },
     {
       "relation": "calls",
@@ -4864,9 +5817,9 @@
       "source_file": "app/services/llm/endpoint_resolver.rb",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_endpoint_resolver_first_working_key_or_unauthenticated",
-      "target": "llm_endpoint_resolver_cloud_reachable",
-      "confidence_score": 1.0
+      "target": "llm_endpoint_resolver_cloud_reachable"
     },
     {
       "relation": "contains",
@@ -4874,9 +5827,9 @@
       "source_file": "config/initializers/ollama.rb",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "initializers_ollama",
-      "target": "initializers_ollama_build_ollama_client",
-      "confidence_score": 1.0
+      "target": "initializers_ollama_build_ollama_client"
     },
     {
       "relation": "contains",
@@ -4884,9 +5837,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer"
     },
     {
       "relation": "contains",
@@ -4894,9 +5847,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_alternatives_considered",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_alternatives_considered"
     },
     {
       "relation": "contains",
@@ -4904,9 +5857,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_consequences",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_consequences"
     },
     {
       "relation": "contains",
@@ -4914,9 +5867,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_context",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_context"
     },
     {
       "relation": "contains",
@@ -4924,9 +5877,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_decision",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_decision"
     },
     {
       "relation": "contains",
@@ -4934,9 +5887,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_ollama_endpoint_policy",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_ollama_endpoint_policy"
     },
     {
       "relation": "contains",
@@ -4944,9 +5897,9 @@
       "source_file": "docs/adr/0003-graphify-rag-layer.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0003_graphify_rag_layer_adr_0003_graphify_as_rag_layer",
-      "target": "adr_0003_graphify_rag_layer_status",
-      "confidence_score": 1.0
+      "target": "adr_0003_graphify_rag_layer_status"
     },
     {
       "relation": "contains",
@@ -4954,9 +5907,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify",
-      "target": "dev_graphify_graphify_development_guide",
-      "confidence_score": 1.0
+      "target": "dev_graphify_graphify_development_guide"
     },
     {
       "relation": "contains",
@@ -4964,9 +5917,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_bootstrap_refresh_graph",
-      "confidence_score": 1.0
+      "target": "dev_graphify_bootstrap_refresh_graph"
     },
     {
       "relation": "contains",
@@ -4974,9 +5927,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_committed_artifacts",
-      "confidence_score": 1.0
+      "target": "dev_graphify_committed_artifacts"
     },
     {
       "relation": "contains",
@@ -4984,9 +5937,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_ingest_pine_v6_knowledge",
-      "confidence_score": 1.0
+      "target": "dev_graphify_ingest_pine_v6_knowledge"
     },
     {
       "relation": "contains",
@@ -4994,9 +5947,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_install",
-      "confidence_score": 1.0
+      "target": "dev_graphify_install"
     },
     {
       "relation": "contains",
@@ -5004,9 +5957,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_live_watch_optional",
-      "confidence_score": 1.0
+      "target": "dev_graphify_live_watch_optional"
     },
     {
       "relation": "contains",
@@ -5014,9 +5967,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_pr_triage",
-      "confidence_score": 1.0
+      "target": "dev_graphify_pr_triage"
     },
     {
       "relation": "contains",
@@ -5024,9 +5977,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_production_integration",
-      "confidence_score": 1.0
+      "target": "dev_graphify_production_integration"
     },
     {
       "relation": "contains",
@@ -5034,9 +5987,9 @@
       "source_file": "docs/dev/graphify.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dev_graphify_graphify_development_guide",
-      "target": "dev_graphify_query_commands",
-      "confidence_score": 1.0
+      "target": "dev_graphify_query_commands"
     },
     {
       "relation": "contains",
@@ -5054,9 +6007,9 @@
       "source_file": "skills/llm-routing.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "skills_llm_routing_llm_routing_skill",
-      "target": "skills_llm_routing_graphify_rag",
-      "confidence_score": 1.0
+      "target": "skills_llm_routing_graphify_rag"
     },
     {
       "relation": "contains",
@@ -6937,323 +7890,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "client/src/App.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_test",
-      "target": "src_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.test.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_test",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "editor_validationpanel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "editor_validationpanel_validationpanel"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_contexthistory"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_contexthistory_contexthistory"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_promptpanel"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_promptpanel_promptpanel"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_scripttypetabs"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "generator_scripttypetabs_scripttypetabs"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_usegenerator"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_usegenerator_usegenerator"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useindicators"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useindicators_useindicators"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useversiondiff"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "hooks_useversiondiff_useversiondiff"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_appshell"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_appshell_appshell"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_sidebar"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "layout_sidebar_sidebar"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "shared_streamstatus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "shared_streamstatus_streamstatus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_pineeditor"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_app"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_usegenerator_usegenerator"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_useindicators_useindicators"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/src/App.tsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "src_app_app",
-      "target": "hooks_useversiondiff_useversiondiff"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "client/src/PineEditor.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
@@ -7608,48 +8244,6 @@
       "confidence_score": 1.0,
       "source": "layout_appshell",
       "target": "layout_appshell_appshellprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "layout_sidebar_sidebar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "layout_sidebar_sidebarprops"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "src_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/components/layout/Sidebar.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "layout_sidebar",
-      "target": "src_types_indicatorsummary"
     },
     {
       "relation": "contains",
@@ -9140,66 +9734,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L83",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap",
-      "target": "docs_roadmap_definition_of_done"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap",
-      "target": "docs_roadmap_pineforge_platform_v1_0_roadmap"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
-      "target": "docs_roadmap_phase_1_mvp_m1_m12"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
-      "target": "docs_roadmap_phase_2_intelligence_m13_m24"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
-      "target": "docs_roadmap_phase_3_engineering_platform_m25_m36"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/roadmap.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_roadmap_pineforge_platform_v1_0_roadmap",
-      "target": "docs_roadmap_phase_4_product_launch_m37_m48"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/vision.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -9489,5 +10023,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a9731f94fa1a525f0d1a3d2325fe1d7cf1073f48"
+  "built_at_commit": "ccecdc57cb363b071d66bd730a4e9ea679c7804e"
 }

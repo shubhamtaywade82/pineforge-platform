@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "client/src/App.tsx": {
-    "mtime": 1781587055.484596,
-    "ast_hash": "a1978e3d3702916d4e1163a2c5828f42",
+    "mtime": 1781588908.7338588,
+    "ast_hash": "6ffe43fa2693a397409377bfbb54ddbf",
     "semantic_hash": ""
   },
   "client/src/PineEditor.test.tsx": {
@@ -245,8 +245,8 @@
     "semantic_hash": ""
   },
   "client/src/components/layout/Sidebar.tsx": {
-    "mtime": 1781585552.794507,
-    "ast_hash": "47c0a75c23485cde6e5656adf6f985a9",
+    "mtime": 1781588901.5838575,
+    "ast_hash": "7859add569532270ad24d5e1e469ee29",
     "semantic_hash": ""
   },
   "client/src/components/shared/StreamStatus.tsx": {
@@ -745,8 +745,8 @@
     "semantic_hash": ""
   },
   "docs/roadmap.md": {
-    "mtime": 1781588171.0084822,
-    "ast_hash": "f6ea94aa7db5dd0d9c687839c823c048",
+    "mtime": 1781588902.8305244,
+    "ast_hash": "33cd70f27712917ecff312bb7af1bc99",
     "semantic_hash": ""
   },
   "docs/vision.md": {
@@ -832,6 +832,26 @@
   "docs/dev/graphify.md": {
     "mtime": 1781588484.210573,
     "ast_hash": "dcd6c67e07291ab3abd7fdc405187650",
+    "semantic_hash": ""
+  },
+  "client/src/PineForgeTimeline.test.tsx": {
+    "mtime": 1781588892.1738963,
+    "ast_hash": "fcf3c7c1eceb7906d510282b2c0f25de",
+    "semantic_hash": ""
+  },
+  "client/src/components/timeline/PineForgeTimeline.tsx": {
+    "mtime": 1781588887.8563957,
+    "ast_hash": "28f79faa3c41f1e48aa90651ff934ae0",
+    "semantic_hash": ""
+  },
+  "client/src/data/timelinePhases.test.ts": {
+    "mtime": 1781588890.0930626,
+    "ast_hash": "1d4ffd1e3d9706cdc2388ba5fa53a7a3",
+    "semantic_hash": ""
+  },
+  "client/src/data/timelinePhases.ts": {
+    "mtime": 1781588867.0480585,
+    "ast_hash": "b1bb800b740db8777787a6856cf4cf1a",
     "semantic_hash": ""
   }
 }

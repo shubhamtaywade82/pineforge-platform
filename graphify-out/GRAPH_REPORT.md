@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 147 files · ~18,451 words
+- 151 files · ~20,653 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 473 nodes · 463 edges · 105 communities (80 shown, 25 thin omitted)
+- 494 nodes · 494 edges · 106 communities (83 shown, 23 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a9731f94`
+- Built from commit: `ccecdc57`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -66,6 +66,7 @@
 - [[_COMMUNITY_Community 102|Community 102]]
 - [[_COMMUNITY_Community 103|Community 103]]
 - [[_COMMUNITY_Community 104|Community 104]]
+- [[_COMMUNITY_Community 105|Community 105]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -77,7 +78,7 @@
 7. `ADR-0003: Graphify as RAG Layer` - 7 edges
 8. `PineForge Platform` - 7 edges
 9. `Testing Skill` - 7 edges
-10. `LLM Routing Skill` - 6 edges
+10. `App()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `App()` --calls--> `useGenerator()`  [EXTRACTED]
@@ -86,17 +87,19 @@
   client/src/App.tsx → client/src/hooks/useIndicators.ts
 - `App()` --calls--> `useVersionDiff()`  [EXTRACTED]
   client/src/App.tsx → client/src/hooks/useVersionDiff.ts
+- `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
+  client/src/components/timeline/PineForgeTimeline.tsx → client/src/data/timelinePhases.ts
 - `useGenerator()` --calls--> `useSSEStream()`  [EXTRACTED]
   client/src/hooks/useGenerator.ts → client/src/hooks/useSSEStream.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (105 total, 25 thin omitted)
+## Communities (106 total, 23 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
-Nodes (29): ValidationPanel(), ValidationPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel(), PromptPanelProps, OPTIONS, ScriptTypeTabs() (+21 more)
+Nodes (30): ValidationPanel(), ValidationPanelProps, ContextHistory(), ContextHistoryProps, PromptPanel(), PromptPanelProps, OPTIONS, ScriptTypeTabs() (+22 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
@@ -106,13 +109,21 @@ Nodes (27): dependencies, @monaco-editor/react, react, react-dom, devDependencie
 Cohesion: 0.12
 Nodes (16): applyValidationDecorations(), buildValidationMarkers(), parseLineNumber(), ValidationMarker, registerPineInlineCompletions(), resetInlineCompletionsRegistration(), CompletionSpec, PINE_DECLARATIONS (+8 more)
 
+### Community 3 - "Community 3"
+Cohesion: 0.12
+Nodes (3): MetadataService, ExtractMetadataJob, GeneratorsController
+
 ### Community 4 - "Community 4"
 Cohesion: 0.11
 Nodes (18): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.07
-Nodes (7): CompleteService, MetadataService, RefineService, StreamService, ExtractMetadataJob, Indicator, Builder
+Cohesion: 0.16
+Nodes (3): RefineService, StreamService, Indicator
+
+### Community 7 - "Community 7"
+Cohesion: 0.12
+Nodes (3): CompleteService, RepairService, Builder
 
 ### Community 8 - "Community 8"
 Cohesion: 0.14
@@ -198,25 +209,29 @@ Nodes (9): Bootstrap / Refresh Graph, Committed Artifacts, Graphify Development 
 Cohesion: 0.25
 Nodes (7): ADR-0003: Graphify as RAG Layer, Alternatives Considered, Consequences, Context, Decision, Ollama Endpoint Policy, Status
 
+### Community 105 - "Community 105"
+Cohesion: 0.15
+Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMilestone, TimelinePhase, timelineTotals(), withProgress(), MilestoneCardProps (+4 more)
+
 ## Knowledge Gaps
-- **174 isolated node(s):** `EndpointResolver`, `Status`, `Context`, `Decision`, `Alternatives Considered` (+169 more)
+- **180 isolated node(s):** `PineEditor`, `AppView`, `SidebarProps`, `STATUS_LABEL`, `VolumeBarProps` (+175 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **25 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Builder` connect `Community 6` to `Community 7`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **Why does `GeneratorsController` connect `Community 3` to `Community 6`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **What connects `EndpointResolver`, `Status`, `Context` to the rest of the system?**
-  _174 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Builder` connect `Community 7` to `Community 3`, `Community 6`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **What connects `PineEditor`, `AppView`, `SidebarProps` to the rest of the system?**
+  _180 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08456659619450317 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08181818181818182 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11956521739130435 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.12105263157894737 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
