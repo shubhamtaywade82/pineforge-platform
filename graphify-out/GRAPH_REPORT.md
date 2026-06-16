@@ -1,16 +1,16 @@
 # Graph Report - pineforge-platform  (2026-06-16)
 
 ## Corpus Check
-- 151 files · ~20,807 words
+- 153 files · ~20,908 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 495 nodes · 495 edges · 106 communities (83 shown, 23 thin omitted)
+- 500 nodes · 498 edges · 108 communities (84 shown, 24 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `122dad8c`
+- Built from commit: `10dc4891`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -67,6 +67,7 @@
 - [[_COMMUNITY_Community 103|Community 103]]
 - [[_COMMUNITY_Community 104|Community 104]]
 - [[_COMMUNITY_Community 105|Community 105]]
+- [[_COMMUNITY_Community 106|Community 106]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -78,7 +79,7 @@
 7. `ADR-0003: Graphify as RAG Layer` - 7 edges
 8. `PineForge Platform` - 7 edges
 9. `Testing Skill` - 7 edges
-10. `App()` - 6 edges
+10. `StreamService` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `PineForgeTimeline()` --calls--> `timelineTotals()`  [EXTRACTED]
@@ -95,7 +96,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (106 total, 23 thin omitted)
+## Communities (108 total, 24 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -216,7 +217,7 @@ Nodes (12): PhaseStatus, progressFromMilestones(), TIMELINE_PHASES, TimelineMile
 ## Knowledge Gaps
 - **180 isolated node(s):** `TimelineMilestone`, `target`, `useDefineForClassFields`, `lib`, `module` (+175 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

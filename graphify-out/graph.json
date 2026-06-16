@@ -4,44 +4,174 @@
   "graph": {},
   "nodes": [
     {
-      "label": "indicator.rb",
+      "label": "refine_service.rb",
       "file_type": "code",
-      "source_file": "app/models/indicator.rb",
+      "source_file": "app/services/generators/refine_service.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_indicator",
+      "id": "generators_refine_service",
       "community": 6,
-      "norm_label": "indicator.rb"
+      "norm_label": "refine_service.rb"
     },
     {
-      "label": "Indicator",
+      "label": "RefineService",
       "file_type": "code",
-      "source_file": "app/models/indicator.rb",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "generators_refine_service_refineservice",
+      "community": 6,
+      "norm_label": "refineservice"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "generators_refine_service_refineservice_initialize",
+      "community": 6,
+      "norm_label": ".initialize()"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "generators_refine_service_refineservice_call",
+      "community": 6,
+      "norm_label": ".call()"
+    },
+    {
+      "label": ".generate_code()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "generators_refine_service_refineservice_generate_code",
+      "community": 6,
+      "norm_label": ".generate_code()"
+    },
+    {
+      "label": ".emit()",
+      "file_type": "code",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "generators_refine_service_refineservice_emit",
+      "community": 6,
+      "norm_label": ".emit()"
+    },
+    {
+      "label": "stream_service.rb",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "generators_stream_service",
+      "community": 6,
+      "norm_label": "stream_service.rb"
+    },
+    {
+      "label": "StreamService",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice",
+      "community": 6,
+      "norm_label": "streamservice"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice_initialize",
+      "community": 6,
+      "norm_label": ".initialize()"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice_call",
+      "community": 6,
+      "norm_label": ".call()"
+    },
+    {
+      "label": ".create_indicator!()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice_create_indicator",
+      "community": 6,
+      "norm_label": ".create_indicator!()"
+    },
+    {
+      "label": ".generate_code()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice_generate_code",
+      "community": 6,
+      "norm_label": ".generate_code()"
+    },
+    {
+      "label": ".emit()",
+      "file_type": "code",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "generators_stream_service_streamservice_emit",
+      "community": 6,
+      "norm_label": ".emit()"
+    },
+    {
+      "label": "indicator_version_creator.rb",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_indicator_version_creator",
+      "community": 106,
+      "norm_label": "indicator_version_creator.rb"
+    },
+    {
+      "label": "IndicatorVersionCreator",
+      "file_type": "code",
+      "source_file": "app/services/indicator_version_creator.rb",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "models_indicator_indicator",
-      "community": 6,
-      "norm_label": "indicator"
+      "id": "services_indicator_version_creator_indicatorversioncreator",
+      "community": 106,
+      "norm_label": "indicatorversioncreator"
     },
     {
-      "label": ".create_version!()",
+      "label": ".call()",
       "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L16",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L4",
       "_origin": "ast",
-      "id": "models_indicator_indicator_create_version",
-      "community": 6,
-      "norm_label": ".create_version!()"
+      "id": "services_indicator_version_creator_indicatorversioncreator_call",
+      "community": 106,
+      "norm_label": ".call()"
     },
     {
-      "label": ".set_default_name()",
+      "label": ".initialize()",
       "file_type": "code",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L30",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L8",
       "_origin": "ast",
-      "id": "models_indicator_indicator_set_default_name",
-      "community": 6,
-      "norm_label": ".set_default_name()"
+      "id": "services_indicator_version_creator_indicatorversioncreator_initialize",
+      "community": 106,
+      "norm_label": ".initialize()"
     },
     {
       "label": "timelinePhases.ts",
@@ -124,14 +254,64 @@
       "norm_label": "timelinetotals()"
     },
     {
+      "label": "indicator_version_creator_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/services/indicator_version_creator_spec.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_indicator_version_creator_spec",
+      "community": 107,
+      "norm_label": "indicator_version_creator_spec.rb"
+    },
+    {
+      "label": "indicator.rb",
+      "file_type": "code",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "indicator.rb",
+      "id": "models_indicator"
+    },
+    {
+      "label": "Indicator",
+      "file_type": "code",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "indicator",
+      "id": "models_indicator_indicator"
+    },
+    {
+      "label": ".create_version!()",
+      "file_type": "code",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".create_version!()",
+      "id": "models_indicator_indicator_create_version"
+    },
+    {
+      "label": ".set_default_name()",
+      "file_type": "code",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": ".set_default_name()",
+      "id": "models_indicator_indicator_set_default_name"
+    },
+    {
       "label": "main.tsx",
       "file_type": "code",
       "source_file": "client/src/main.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main",
       "community": 0,
-      "norm_label": "main.tsx"
+      "norm_label": "main.tsx",
+      "id": "src_main"
     },
     {
       "label": "getWorker()",
@@ -139,9 +319,9 @@
       "source_file": "client/src/main.tsx",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "src_main_getworker",
       "community": 0,
-      "norm_label": "getworker()"
+      "norm_label": "getworker()",
+      "id": "src_main_getworker"
     },
     {
       "label": "tsconfig.json",
@@ -149,9 +329,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "client_tsconfig",
       "community": 4,
-      "norm_label": "tsconfig.json"
+      "norm_label": "tsconfig.json",
+      "id": "client_tsconfig"
     },
     {
       "label": "compilerOptions",
@@ -159,9 +339,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions",
       "community": 4,
-      "norm_label": "compileroptions"
+      "norm_label": "compileroptions",
+      "id": "client_tsconfig_compileroptions"
     },
     {
       "label": "target",
@@ -169,9 +349,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_target",
       "community": 4,
-      "norm_label": "target"
+      "norm_label": "target",
+      "id": "client_tsconfig_compileroptions_target"
     },
     {
       "label": "useDefineForClassFields",
@@ -179,9 +359,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_usedefineforclassfields",
       "community": 4,
-      "norm_label": "usedefineforclassfields"
+      "norm_label": "usedefineforclassfields",
+      "id": "client_tsconfig_compileroptions_usedefineforclassfields"
     },
     {
       "label": "lib",
@@ -189,9 +369,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_lib",
       "community": 4,
-      "norm_label": "lib"
+      "norm_label": "lib",
+      "id": "client_tsconfig_compileroptions_lib"
     },
     {
       "label": "module",
@@ -199,9 +379,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_module",
       "community": 4,
-      "norm_label": "module"
+      "norm_label": "module",
+      "id": "client_tsconfig_compileroptions_module"
     },
     {
       "label": "skipLibCheck",
@@ -209,9 +389,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_skiplibcheck",
       "community": 4,
-      "norm_label": "skiplibcheck"
+      "norm_label": "skiplibcheck",
+      "id": "client_tsconfig_compileroptions_skiplibcheck"
     },
     {
       "label": "moduleResolution",
@@ -219,9 +399,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_moduleresolution",
       "community": 4,
-      "norm_label": "moduleresolution"
+      "norm_label": "moduleresolution",
+      "id": "client_tsconfig_compileroptions_moduleresolution"
     },
     {
       "label": "allowImportingTsExtensions",
@@ -229,9 +409,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_allowimportingtsextensions",
       "community": 4,
-      "norm_label": "allowimportingtsextensions"
+      "norm_label": "allowimportingtsextensions",
+      "id": "client_tsconfig_compileroptions_allowimportingtsextensions"
     },
     {
       "label": "isolatedModules",
@@ -239,9 +419,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_isolatedmodules",
       "community": 4,
-      "norm_label": "isolatedmodules"
+      "norm_label": "isolatedmodules",
+      "id": "client_tsconfig_compileroptions_isolatedmodules"
     },
     {
       "label": "moduleDetection",
@@ -249,9 +429,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_moduledetection",
       "community": 4,
-      "norm_label": "moduledetection"
+      "norm_label": "moduledetection",
+      "id": "client_tsconfig_compileroptions_moduledetection"
     },
     {
       "label": "noEmit",
@@ -259,9 +439,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_noemit",
       "community": 4,
-      "norm_label": "noemit"
+      "norm_label": "noemit",
+      "id": "client_tsconfig_compileroptions_noemit"
     },
     {
       "label": "jsx",
@@ -269,9 +449,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_jsx",
       "community": 4,
-      "norm_label": "jsx"
+      "norm_label": "jsx",
+      "id": "client_tsconfig_compileroptions_jsx"
     },
     {
       "label": "strict",
@@ -279,9 +459,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_strict",
       "community": 4,
-      "norm_label": "strict"
+      "norm_label": "strict",
+      "id": "client_tsconfig_compileroptions_strict"
     },
     {
       "label": "noUnusedLocals",
@@ -289,9 +469,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_nounusedlocals",
       "community": 4,
-      "norm_label": "nounusedlocals"
+      "norm_label": "nounusedlocals",
+      "id": "client_tsconfig_compileroptions_nounusedlocals"
     },
     {
       "label": "noUnusedParameters",
@@ -299,9 +479,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_nounusedparameters",
       "community": 4,
-      "norm_label": "nounusedparameters"
+      "norm_label": "nounusedparameters",
+      "id": "client_tsconfig_compileroptions_nounusedparameters"
     },
     {
       "label": "noFallthroughCasesInSwitch",
@@ -309,9 +489,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_nofallthroughcasesinswitch",
       "community": 4,
-      "norm_label": "nofallthroughcasesinswitch"
+      "norm_label": "nofallthroughcasesinswitch",
+      "id": "client_tsconfig_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "label": "types",
@@ -319,9 +499,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "client_tsconfig_compileroptions_types",
       "community": 4,
-      "norm_label": "types"
+      "norm_label": "types",
+      "id": "client_tsconfig_compileroptions_types"
     },
     {
       "label": "include",
@@ -329,9 +509,9 @@
       "source_file": "client/tsconfig.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "client_tsconfig_include",
       "community": 4,
-      "norm_label": "include"
+      "norm_label": "include",
+      "id": "client_tsconfig_include"
     },
     {
       "label": "indicator_spec.rb",
@@ -339,9 +519,9 @@
       "source_file": "spec/models/indicator_spec.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_indicator_spec",
       "community": 83,
-      "norm_label": "indicator_spec.rb"
+      "norm_label": "indicator_spec.rb",
+      "id": "models_indicator_spec"
     },
     {
       "label": "indicators_spec.rb",
@@ -349,9 +529,9 @@
       "source_file": "spec/requests/api/v1/indicators_spec.rb",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "v1_indicators_spec",
       "community": 101,
-      "norm_label": "indicators_spec.rb"
+      "norm_label": "indicators_spec.rb",
+      "id": "v1_indicators_spec"
     },
     {
       "label": "App.tsx",
@@ -1664,66 +1844,6 @@
       "id": "generators_metadata_service_metadataservice_call"
     },
     {
-      "label": "refine_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "refine_service.rb",
-      "id": "generators_refine_service"
-    },
-    {
-      "label": "RefineService",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "refineservice",
-      "id": "generators_refine_service_refineservice"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".initialize()",
-      "id": "generators_refine_service_refineservice_initialize"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".call()",
-      "id": "generators_refine_service_refineservice_call"
-    },
-    {
-      "label": ".generate_code()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".generate_code()",
-      "id": "generators_refine_service_refineservice_generate_code"
-    },
-    {
-      "label": ".emit()",
-      "file_type": "code",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L71",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".emit()",
-      "id": "generators_refine_service_refineservice_emit"
-    },
-    {
       "label": "repair_service.rb",
       "file_type": "code",
       "source_file": "app/services/generators/repair_service.rb",
@@ -1772,76 +1892,6 @@
       "community": 7,
       "norm_label": ".validate()",
       "id": "generators_repair_service_repairservice_validate"
-    },
-    {
-      "label": "stream_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "stream_service.rb",
-      "id": "generators_stream_service"
-    },
-    {
-      "label": "StreamService",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "streamservice",
-      "id": "generators_stream_service_streamservice"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".initialize()",
-      "id": "generators_stream_service_streamservice_initialize"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".call()",
-      "id": "generators_stream_service_streamservice_call"
-    },
-    {
-      "label": ".create_indicator!()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L65",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".create_indicator!()",
-      "id": "generators_stream_service_streamservice_create_indicator"
-    },
-    {
-      "label": ".generate_code()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L75",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".generate_code()",
-      "id": "generators_stream_service_streamservice_generate_code"
-    },
-    {
-      "label": ".emit()",
-      "file_type": "code",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L84",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": ".emit()",
-      "id": "generators_stream_service_streamservice_emit"
     },
     {
       "label": "context_service.rb",
@@ -4958,32 +5008,74 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L3",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "models_indicator",
-      "target": "models_indicator_indicator"
+      "source": "generators_refine_service",
+      "target": "generators_refine_service_refineservice"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L16",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "models_indicator_indicator",
-      "target": "models_indicator_indicator_create_version"
+      "source": "generators_refine_service_refineservice",
+      "target": "generators_refine_service_refineservice_call"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/indicator.rb",
-      "source_location": "L28",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L71",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "models_indicator_indicator",
-      "target": "models_indicator_indicator_set_default_name"
+      "source": "generators_refine_service_refineservice",
+      "target": "generators_refine_service_refineservice_emit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_refine_service_refineservice",
+      "target": "generators_refine_service_refineservice_generate_code"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_refine_service_refineservice",
+      "target": "generators_refine_service_refineservice_initialize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_refine_service_refineservice_call",
+      "target": "generators_refine_service_refineservice_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_refine_service_refineservice_call",
+      "target": "generators_refine_service_refineservice_generate_code"
     },
     {
       "relation": "calls",
@@ -5001,11 +5093,200 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "generators_refine_service_refineservice_call",
+      "target": "prompts_builder_builder_messages"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "generators_refine_service_refineservice_call",
+      "target": "v1_generators_controller_generatorscontroller_metadata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/refine_service.rb",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_refine_service_refineservice_generate_code",
+      "target": "generators_refine_service_refineservice_emit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service",
+      "target": "generators_stream_service_streamservice"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice",
+      "target": "generators_stream_service_streamservice_call"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice",
+      "target": "generators_stream_service_streamservice_create_indicator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice",
+      "target": "generators_stream_service_streamservice_emit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice",
+      "target": "generators_stream_service_streamservice_generate_code"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice",
+      "target": "generators_stream_service_streamservice_initialize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "generators_stream_service_streamservice_create_indicator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "generators_stream_service_streamservice_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "generators_stream_service_streamservice_generate_code"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
       "source_file": "app/services/generators/stream_service.rb",
       "source_location": "L46",
       "weight": 1.0,
       "source": "generators_stream_service_streamservice_call",
       "target": "models_indicator_indicator_create_version"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "prompts_builder_builder_messages"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "generators_stream_service_streamservice_call",
+      "target": "v1_generators_controller_generatorscontroller_metadata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/generators/stream_service.rb",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "generators_stream_service_streamservice_generate_code",
+      "target": "generators_stream_service_streamservice_emit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_indicator_version_creator",
+      "target": "services_indicator_version_creator_indicatorversioncreator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "services_indicator_version_creator_indicatorversioncreator",
+      "target": "services_indicator_version_creator_indicatorversioncreator_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/indicator_version_creator.rb",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_indicator_version_creator_indicatorversioncreator",
+      "target": "services_indicator_version_creator_indicatorversioncreator_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5188,6 +5469,36 @@
       "target": "data_timelinephases_timelinetotals"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator",
+      "target": "models_indicator_indicator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator_indicator",
+      "target": "models_indicator_indicator_create_version"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/indicator.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_indicator_indicator",
+      "target": "models_indicator_indicator_set_default_name"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5215,9 +5526,9 @@
       "source_file": "client/src/main.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_getworker",
-      "confidence_score": 1.0
+      "target": "src_main_getworker"
     },
     {
       "relation": "contains",
@@ -6564,28 +6875,6 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "generators_refine_service_refineservice_call",
-      "target": "v1_generators_controller_generatorscontroller_metadata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "v1_generators_controller_generatorscontroller_metadata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
       "source_file": "app/jobs/extract_metadata_job.rb",
       "source_location": "L8",
       "weight": 1.0,
@@ -7048,100 +7337,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service",
-      "target": "generators_refine_service_refineservice"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice",
-      "target": "generators_refine_service_refineservice_call"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice",
-      "target": "generators_refine_service_refineservice_emit"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice",
-      "target": "generators_refine_service_refineservice_generate_code"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice",
-      "target": "generators_refine_service_refineservice_initialize"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice_call",
-      "target": "generators_refine_service_refineservice_emit"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice_call",
-      "target": "generators_refine_service_refineservice_generate_code"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "generators_refine_service_refineservice_call",
-      "target": "prompts_builder_builder_messages"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/refine_service.rb",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_refine_service_refineservice_generate_code",
-      "target": "generators_refine_service_refineservice_emit"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/generators/repair_service.rb",
       "source_location": "L4",
       "weight": 1.0,
@@ -7200,121 +7395,6 @@
       "weight": 1.0,
       "source": "generators_repair_service_repairservice_call",
       "target": "prompts_builder_builder_repair_messages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service",
-      "target": "generators_stream_service_streamservice"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice",
-      "target": "generators_stream_service_streamservice_call"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice",
-      "target": "generators_stream_service_streamservice_create_indicator"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice",
-      "target": "generators_stream_service_streamservice_emit"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice",
-      "target": "generators_stream_service_streamservice_generate_code"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice",
-      "target": "generators_stream_service_streamservice_initialize"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "generators_stream_service_streamservice_create_indicator"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "generators_stream_service_streamservice_emit"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "generators_stream_service_streamservice_generate_code"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "generators_stream_service_streamservice_call",
-      "target": "prompts_builder_builder_messages"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/generators/stream_service.rb",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "generators_stream_service_streamservice_generate_code",
-      "target": "generators_stream_service_streamservice_emit"
     },
     {
       "relation": "contains",
@@ -10043,5 +10123,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "122dad8c00c766efe1eafd7659806e10f4b619d3"
+  "built_at_commit": "10dc4891caf9288b0db281559406e08451089b0d"
 }
