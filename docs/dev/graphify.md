@@ -28,6 +28,7 @@ Source docs live in:
 - [`docs/pine_v6_rules.md`](../pine_v6_rules.md)
 - [`docs/pine_v6_examples/`](../pine_v6_examples/)
 - [`docs/pine_v6_primer/`](../pine_v6_primer/) — TradingView User Manual primer (first-steps, first-indicator, next-steps)
+- [`docs/pine_v6_language/`](../pine_v6_language/) — TradingView Language section (execution model, type system, script structure, identifiers, declarations, variables, operators, conditionals)
 - [`docs/pine_v6_reference/symbols.json`](../pine_v6_reference/symbols.json) — symbol lookup index for codegen (`Pine::ReferenceLookup`)
 
 Rebuild symbol index from upstream function docs:
