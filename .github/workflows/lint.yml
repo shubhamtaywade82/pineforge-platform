@@ -11,7 +11,7 @@ jobs:
     name: Lint placeholder
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Lint placeholder
         run: echo "Lint workflows begin at m01 project setup."
